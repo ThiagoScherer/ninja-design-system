@@ -1,0 +1,52 @@
+[
+  {
+    "arquivo": "recursos/66ab38a6dbfa2635.jpg",
+    "bytes": 4410339,
+    "sha256": "66ab38a6dbfa2635aefd5b4146a912ef6b1c5b48f0025de0d42eb5f695fbe55b"
+  },
+  {
+    "arquivo": "recursos/88d3f8ef004b5348.ttf",
+    "bytes": 96904,
+    "sha256": "88d3f8ef004b53483a202772d09acaab17ca99dd41905d9b4ab07ac635632378"
+  },
+  {
+    "arquivo": "recursos/8996d43638e8f7b6.bin",
+    "bytes": 46282,
+    "sha256": "8996d43638e8f7b6fc47e6f385a6251464b163afbbe0c30b0aa826c4fdde091d"
+  },
+  {
+    "arquivo": "recursos/9b5b8060dcc2eeaa.png",
+    "bytes": 5116,
+    "sha256": "9b5b8060dcc2eeaaf919875499d27b4e1fd4e2ab22a04a81b565d353ea3f604d"
+  },
+  {
+    "arquivo": "recursos/TipoNinja-Regular.otf",
+    "bytes": 21484,
+    "sha256": "f1ccaf163da75dea30b0ac86c006c0a938fb4a86e20158b2fea6e4cb2179519f"
+  },
+  {
+    "arquivo": "recursos/comunicacao.jpg",
+    "bytes": 176099,
+    "sha256": "54a92e9c7409663b73c776366330e3f83f92353cb3fe6925775c71108cd6a82b"
+  },
+  {
+    "arquivo": "recursos/comunidades.jpg",
+    "bytes": 196490,
+    "sha256": "536e51bdc4487a4a88c6722b24b01149d4218297b26d299ba74acd15b9fcbdc6"
+  },
+  {
+    "arquivo": "recursos/f1ccaf163da75dea.otf",
+    "bytes": 21484,
+    "sha256": "f1ccaf163da75dea30b0ac86c006c0a938fb4a86e20158b2fea6e4cb2179519f"
+  },
+  {
+    "arquivo": "recursos/ninja-letreiro-branco.png",
+    "bytes": 5116,
+    "sha256": "9b5b8060dcc2eeaaf919875499d27b4e1fd4e2ab22a04a81b565d353ea3f604d"
+  },
+  {
+    "arquivo": "recursos/territorio.jpg",
+    "bytes": 46282,
+    "sha256": "8996d43638e8f7b6fc47e6f385a6251464b163afbbe0c30b0aa826c4fdde091d"
+  }
+]

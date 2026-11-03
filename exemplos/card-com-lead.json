@@ -1,0 +1,33 @@
+{
+  "marca": "ninja",
+  "tipo": "noticia",
+  "template": "noticia_ninja_card",
+  "midia": "card",
+  "dimensao": {
+    "largura": 1080,
+    "altura": 1440
+  },
+  "versao_biblioteca": "1.0.0",
+  "conteudo": {
+    "chapeu": "CULTURA VIVA",
+    "chamada": "HAVANA RECEBE FESTIVAL GRATUITO DE ARTE E MEMÓRIA",
+    "credito": "FOTO: CLIVE KIM / PEXELS",
+    "lead": "Programação reúne música, cinema e oficinas em espaços públicos da cidade"
+  },
+  "composicao_referencia": {
+    "linhas_chamada": [
+      "HAVANA RECEBE",
+      "FESTIVAL GRATUITO",
+      "DE ARTE E MEMÓRIA"
+    ],
+    "tamanho_chamada": 90,
+    "linhas_lead": [
+      "Programação reúne música, cinema e oficinas",
+      "em espaços públicos da cidade"
+    ]
+  },
+  "recursos": {
+    "imagem": "recursos/66ab38a6dbfa2635.jpg"
+  },
+  "rotulo_teste": "NOTÍCIA FICTÍCIA · TESTE DE LAYOUT"
+}

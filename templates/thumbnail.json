@@ -1,0 +1,152 @@
+{
+  "versao_contrato": "0.1.0",
+  "documento": "template",
+  "id": "noticia_ninja_thumbnail",
+  "marca": "ninja",
+  "tipo": "noticia",
+  "status": "aprovado",
+  "midia": "thumbnail_youtube",
+  "dimensao": {
+    "largura": 1920,
+    "altura": 1080
+  },
+  "composicao": {
+    "margens": {
+      "topo": 60,
+      "direita": 60,
+      "base": 60,
+      "esquerda": 60
+    },
+    "bloco_editorial": {
+      "alinhamento": "esquerda",
+      "largura_util": 1800,
+      "base": {
+        "referencia": "quadro",
+        "distancia_acima": 60
+      }
+    },
+    "assinatura": {
+      "logo": "letreiro_branco",
+      "topo": {
+        "referencia": "quadro",
+        "distancia": 60
+      },
+      "direita": {
+        "referencia": "quadro",
+        "distancia": 60
+      },
+      "largura_proposta": 132,
+      "altura": "proporcional"
+    }
+  },
+  "elementos": {
+    "chamada": {
+      "fonte": "tiponinja_regular",
+      "cor": "branco",
+      "caixa": "alta",
+      "alternativos_opentype": false,
+      "ligaturas": false,
+      "ajuste": {
+        "politica": "variavel",
+        "equilibrar_linhas": true,
+        "preservar_grupos_sentido": true,
+        "tamanho_inicial_teste": 170
+      },
+      "nota": "Limites de fonte, quantidade de linhas e entrelinha serão consolidados no teste visual",
+      "entrelinha": 1,
+      "espacamento_letras": 0
+    },
+    "chapeu": {
+      "habilitado": false
+    },
+    "lead": {
+      "habilitado": false
+    },
+    "credito": {
+      "habilitado": false
+    }
+  },
+  "variacoes": {
+    "quantidade_imagens": [
+      1,
+      2,
+      3
+    ],
+    "layouts_propostos": {
+      "1": [
+        {
+          "x": 0,
+          "y": 0,
+          "largura": 1920,
+          "altura": 1080
+        }
+      ],
+      "2": [
+        {
+          "x": 0,
+          "y": 0,
+          "largura": 960,
+          "altura": 1080
+        },
+        {
+          "x": 960,
+          "y": 0,
+          "largura": 960,
+          "altura": 1080
+        }
+      ],
+      "3": [
+        {
+          "x": 0,
+          "y": 0,
+          "largura": 640,
+          "altura": 1080
+        },
+        {
+          "x": 640,
+          "y": 0,
+          "largura": 640,
+          "altura": 1080
+        },
+        {
+          "x": 1280,
+          "y": 0,
+          "largura": 640,
+          "altura": 1080
+        }
+      ]
+    },
+    "enquadramento": "Independente por imagem, preservando elementos relevantes e rostos",
+    "nota": "Variações de um mesmo template; divisões iguais propostas para o primeiro teste, sem espaçamento entre fotos"
+  },
+  "tratamentos": {
+    "degrade": {
+      "ativo": true,
+      "cor": "preto",
+      "opacidade_base": 1,
+      "base": {
+        "referencia": "fotografia_visivel",
+        "borda": "inferior"
+      },
+      "adaptar_ao_bloco_editorial": true,
+      "nota": "Âncora do ponto transparente em relação à chamada deve ser especificada no teste; não há chapéu neste modelo",
+      "topo_proposto": {
+        "referencia": "chamada",
+        "distancia_acima": 80
+      }
+    },
+    "sobreposicao_fotos": {
+      "cor": "#000000",
+      "opacidade": 0.05
+    },
+    "degrade_assinatura": {
+      "cor": "#000000",
+      "angulo_css_graus": 45,
+      "opacidade_canto_superior_direito": 0.3,
+      "alcance_diagonal_px": 340,
+      "nota": "Transparente além do logo; alcance medido perpendicularmente a partir do canto superior direito"
+    }
+  },
+  "referencia": "referencias/thumbnail-3-imagens.png",
+  "data_aprovacao": "2026-11-02"
+}

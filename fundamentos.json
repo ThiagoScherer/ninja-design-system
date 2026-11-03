@@ -1,0 +1,117 @@
+{
+  "documento": "fundamentos_marca",
+  "marca": "ninja",
+  "versao": "0.1.0",
+  "status": "base_inicial_para_v1",
+  "origem": "Valores extraídos dos templates aprovados; uso como padrão de materiais novos ainda sujeito a revisão visual",
+  "precedencia": [
+    "fundamentos_da_marca",
+    "perfil_de_midia",
+    "template_especifico"
+  ],
+  "cores": {
+    "preto": "#000000",
+    "branco": "#FFFFFF",
+    "amarelo": "#FFDE00",
+    "rosa": "#FF00FF",
+    "verde_limao": "#00FF00",
+    "ciano": "#00FFFF"
+  },
+  "tipografia": {
+    "chamada_padrao": {
+      "familia": "TipoNinja Regular",
+      "caixa": "alta",
+      "entrelinha": 1,
+      "espacamento_letras": 0,
+      "alternativos_opentype": false,
+      "ligaturas": false,
+      "tamanho": "variavel_conforme_conteudo_e_area"
+    },
+    "chapeu_padrao": {
+      "familia": "TipoNinja Regular",
+      "caixa": "alta",
+      "espacamento_letras": 0.02,
+      "texto": "#000000",
+      "caixa_fundo": "#FFFFFF",
+      "padding_horizontal": 15,
+      "padding_vertical": 9
+    },
+    "apoio": {
+      "familia": "Manrope Medium",
+      "entrelinha": 1.25
+    },
+    "credito": {
+      "familia": "Manrope Medium"
+    }
+  },
+  "espacamentos": {
+    "chapeu_chamada": 20,
+    "chamada_lead": 20,
+    "natureza": "Distâncias entre caixas; não constituem escala obrigatória para qualquer componente"
+  },
+  "comportamentos": {
+    "pontuacao": "Não usar ponto final no término dos blocos; preservar pontuação interna, interrogação e exclamação",
+    "chamada": "Ajustar tamanho e quebras à área útil; revisar equilíbrio e grupos de sentido",
+    "lead_ausente": "Remover elemento e seu espaço",
+    "elementos": "Não inserir chapéu, lead, assinatura ou crédito automaticamente se a peça não os exigir"
+  },
+  "perfis": {
+    "card": {
+      "dimensao": {
+        "largura": 1080,
+        "altura": 1440
+      },
+      "area_segura": {
+        "x": 0,
+        "y": 0,
+        "largura": 1080,
+        "altura": 1440
+      },
+      "margens_conteudo": {
+        "esquerda": 50,
+        "direita": 50,
+        "topo": 50,
+        "base": 50
+      },
+      "referencia_margens": "area_segura"
+    },
+    "reels": {
+      "dimensao": {
+        "largura": 1080,
+        "altura": 1920
+      },
+      "area_segura": {
+        "x": 0,
+        "y": 240,
+        "largura": 1080,
+        "altura": 1440
+      },
+      "margens_conteudo": {
+        "esquerda": 70,
+        "direita": 70
+      },
+      "referencia_margens": "area_segura",
+      "nota": "Área editorial recomendada, não garantia contra interfaces de plataformas; crédito pode ficar fora conforme template"
+    },
+    "thumbnail_youtube": {
+      "dimensao": {
+        "largura": 1920,
+        "altura": 1080
+      },
+      "area_segura": {
+        "x": 0,
+        "y": 0,
+        "largura": 1920,
+        "altura": 1080
+      },
+      "margens_conteudo": {
+        "esquerda": 60,
+        "direita": 60,
+        "topo": 60,
+        "base": 60
+      },
+      "referencia_margens": "area_segura"
+    }
+  },
+  "limites": "Não inferir motion, tamanhos tipográficos universais, GCs, duração ou áreas de outras dimensões a partir desta base"
+}

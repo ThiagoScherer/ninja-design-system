@@ -1,0 +1,36 @@
+{
+  "copia_independente": true,
+  "caminhos_absolutos_no_codigo_e_dados": [],
+  "comparacao": [
+    {
+      "exemplo": "card-sem-lead",
+      "mesma_dimensao": true,
+      "maior_diferenca_canal": 0
+    },
+    {
+      "exemplo": "card-com-lead",
+      "mesma_dimensao": true,
+      "maior_diferenca_canal": 0
+    },
+    {
+      "exemplo": "reels",
+      "mesma_dimensao": true,
+      "maior_diferenca_canal": 0
+    },
+    {
+      "exemplo": "thumbnail-1",
+      "mesma_dimensao": true,
+      "maior_diferenca_canal": 0
+    },
+    {
+      "exemplo": "thumbnail-2",
+      "mesma_dimensao": true,
+      "maior_diferenca_canal": 1
+    },
+    {
+      "exemplo": "thumbnail-3",
+      "mesma_dimensao": true,
+      "maior_diferenca_canal": 0
+    }
+  ]
+}

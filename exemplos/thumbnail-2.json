@@ -1,0 +1,46 @@
+{
+  "versao_contrato": "0.1.0",
+  "documento": "entrega",
+  "marca": "ninja",
+  "tipo": "noticia",
+  "template": "noticia_ninja_thumbnail",
+  "midia": "thumbnail_youtube",
+  "dimensao": {
+    "largura": 1920,
+    "altura": 1080
+  },
+  "conteudo": {
+    "chamada": "Povos indígenas: território, cultura e comunicação"
+  },
+  "nota": "Texto temático de teste, não notícia factual nova; fotos do acervo já utilizado nas propostas",
+  "recursos": {
+    "imagens": [
+      {
+        "arquivo": "recursos/comunicacao.jpg",
+        "enquadramento": {
+          "x": 34,
+          "y": 45
+        }
+      },
+      {
+        "arquivo": "recursos/comunidades.jpg",
+        "enquadramento": {
+          "x": 50,
+          "y": 50
+        }
+      }
+    ]
+  },
+  "opcoes": {
+    "quantidade_imagens": 2
+  },
+  "versao_biblioteca": "1.0.0",
+  "composicao_referencia": {
+    "tamanho_chamada": 170,
+    "linhas_chamada": [
+      "POVOS INDÍGENAS:",
+      "TERRITÓRIO, CULTURA",
+      "E COMUNICAÇÃO"
+    ]
+  }
+}
