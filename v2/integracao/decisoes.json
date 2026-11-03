@@ -1,0 +1,132 @@
+{
+  "status": "em_discussao",
+  "decisoes": [
+    {
+      "id": "D1",
+      "assunto": "Variantes de cor do chapéu para vídeo",
+      "status": "aprovado_usuario",
+      "padrao_existente": "Texto preto em caixa branca",
+      "nota": "Estados semânticos como ao vivo serão definidos separadamente",
+      "decisao": "Duas variantes de chapéu: caixa branca com texto preto (padrão) e caixa na cor de destaque com texto preto",
+      "variantes": [
+        "branco",
+        "destaque"
+      ],
+      "excluida": "Caixa preta com texto branco"
+    },
+    {
+      "id": "D2",
+      "assunto": "Perfil próprio de vídeo horizontal",
+      "status": "aprovado_usuario",
+      "nota": "Aprovação independente da thumbnail; não herdar seu layout, assinatura ou tratamentos",
+      "decisao": {
+        "dimensao": {
+          "largura": 1920,
+          "altura": 1080
+        },
+        "margens_conteudo": {
+          "topo": 60,
+          "direita": 60,
+          "base": 60,
+          "esquerda": 60
+        }
+      }
+    },
+    {
+      "id": "D3",
+      "assunto": "Convivência entre conteúdo principal e elementos de apoio",
+      "status": "aprovado_usuario",
+      "nota": "Aprovação de comportamento não define coordenadas, tamanhos nem áreas exatas; estes exigem exemplos visuais",
+      "decisao": [
+        "Reservar espaço para legenda apenas quando estiver presente",
+        "Recompor identificação e conteúdo principal para não sobrepor legenda, crédito ou assinatura",
+        "Preservar a relação entre identificação e pessoa; posição escolhida pertence à composição",
+        "Manter crédito associado à mídia correspondente e permitir exceção de borda explicitamente definida",
+        "Assinatura opcional por composição; não embutir automaticamente em cada componente"
+      ]
+    },
+    {
+      "id": "D4",
+      "assunto": "Primeira referência visual de convivência: identificação com e sem legenda",
+      "status": "aprovado_usuario",
+      "referencia": "propostas/convivencia/comparativo.jpg",
+      "nota": "Medidas desta referência aprovadas; não redefinem posições dos templates anteriores. Guia amarela é apenas referência de revisão",
+      "decisao": "Referência de convivência aprovada nas quatro versões, com nome centralizado visualmente no box branco"
+    },
+    {
+      "id": "D5",
+      "assunto": "Referência de chapéu e chamada com contraste adaptável",
+      "status": "aprovado_usuario",
+      "nota": "Altura de foto desta referência permanece específica; não impõe foto a 1580 px em todo vídeo",
+      "decisao": "Conjunto chapéu + chamada + degradê aprovado na referência de duas e quatro linhas, variantes branca e destaque"
+    },
+    {
+      "id": "D6",
+      "assunto": "Contraste para texto central: véu e desfoque",
+      "status": "aprovado_usuario",
+      "nota": "Variantes de contraste aprovadas nos exemplos horizontal e vertical; aplicação depende da composição",
+      "decisao": {
+        "veu": {
+          "opacidade": 0.55
+        },
+        "desfoque_com_veu": {
+          "raio_px": 24,
+          "opacidade": 0.35
+        }
+      }
+    },
+    {
+      "id": "D7",
+      "assunto": "Referência de encaixe da chamada no Reels",
+      "status": "aprovado_usuario",
+      "referencia": "propostas/encaixe-texto/comparativo.jpg",
+      "nota": "Conferência visual da regra existente, sem definir tamanho inicial universal nem piso para outras mídias",
+      "decisao": "Referência de encaixe aprovada: duas, quatro e cinco linhas com conteúdo preservado e redução progressiva"
+    },
+    {
+      "id": "D8",
+      "assunto": "Caixa única e caixa por linha de texto",
+      "status": "aprovado_usuario",
+      "nota": "Modos de um componente reutilizável; variantes de caixa não alteram as duas opções de chapéu aprovadas em D1",
+      "regras_solicitadas": {
+        "centralizacao_visual": "Texto centralizado verticalmente na faixa em todas as aplicações",
+        "padding": "Equilibrar respiro vertical e horizontal",
+        "caixa_unica_acrescimo_px": 20
+      },
+      "interpretacao_acrescimo": "20 px adicionais em cada lado em relação ao padding padrão",
+      "referencia_revisada": {
+        "padding_padrao_px": 18,
+        "padding_caixa_unica_px": 38,
+        "status": "aprovado_usuario"
+      },
+      "decisao": {
+        "centralizacao": "Texto centralizado visualmente na faixa em todas as aplicações",
+        "padding_padrao_px": 18,
+        "padding_caixa_unica_px": 38,
+        "acrescimo_caixa_unica_px": 20,
+        "referencia": "propostas/caixas-texto/comparativo.jpg"
+      }
+    },
+    {
+      "id": "D9",
+      "assunto": "Movimento compartilhado: máscara vertical e varredura lateral",
+      "status": "fora_do_escopo_por_instrucao_usuario",
+      "referencia": "propostas/movimento/comparativo/previa.gif",
+      "proposta": {
+        "entrada_segundos": 0.7,
+        "intervalo_linhas_segundos": 0.12,
+        "saida_segundos": 0.38,
+        "texto_imovel_na_leitura": true
+      },
+      "nota": "Teste A/B é histórico exploratório, não aprovado nem tarefa pendente. Não alterar tempos, easing, escalonamento, entrada ou saída por iniciativa desta v2",
+      "decisao": "Preservar as animações existentes da Máquina; conectar seus alvos aos componentes do NINJA Design System sem redesenhar movimentos"
+    },
+    {
+      "id": "D10",
+      "assunto": "Integração com animações existentes",
+      "status": "definido_usuario",
+      "decisao": "Componentes do Design System fornecem aparência, conteúdo, geometria e comportamento de encaixe; a Máquina conserva sua animação existente e a aplica aos elementos correspondentes",
+      "limite": "Se a estrutura de um componente exigir ajuste técnico de seletor ou wrapper, preservar o movimento e registrar a correspondência; mudanças visuais de animação ficam fora do escopo"
+    }
+  ]
+}

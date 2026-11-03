@@ -1,0 +1,28 @@
+{
+  "marca": "ninja",
+  "tipo": "noticia",
+  "template": "noticia_ninja_reels",
+  "midia": "reels",
+  "dimensao": {
+    "largura": 1080,
+    "altura": 1920
+  },
+  "versao_biblioteca": "1.0.0",
+  "conteudo": {
+    "chapeu": "ABSURDO",
+    "chamada": "GOVERNO FEDERAL CRIA FORÇA-TAREFA PARA APURAR AMEAÇAS CONTRA INDÍGENAS EM MS",
+    "credito": "FOTO: MARCELLO CASAL JR. / AGÊNCIA BRASIL · ARQUIVO"
+  },
+  "composicao_referencia": {
+    "linhas_chamada": [
+      "GOVERNO FEDERAL",
+      "CRIA FORÇA-TAREFA PARA",
+      "APURAR AMEAÇAS CONTRA",
+      "INDÍGENAS EM MS"
+    ],
+    "tamanho_chamada": 75.6
+  },
+  "recursos": {
+    "imagem": "recursos/8996d43638e8f7b6.bin"
+  }
+}

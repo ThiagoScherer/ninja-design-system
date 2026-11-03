@@ -1,0 +1,74 @@
+[
+  {
+    "exemplo": "card-com-lead",
+    "dimensao": [
+      1080,
+      1440
+    ],
+    "identico": true,
+    "pixels_diferentes": 0,
+    "percentual_pixels_diferentes": 0.0,
+    "maior_diferenca_canal_0_255": 0,
+    "erro_medio_canal": 0.0
+  },
+  {
+    "exemplo": "card-sem-lead",
+    "dimensao": [
+      1080,
+      1440
+    ],
+    "identico": true,
+    "pixels_diferentes": 0,
+    "percentual_pixels_diferentes": 0.0,
+    "maior_diferenca_canal_0_255": 0,
+    "erro_medio_canal": 0.0
+  },
+  {
+    "exemplo": "reels",
+    "dimensao": [
+      1080,
+      1920
+    ],
+    "identico": true,
+    "pixels_diferentes": 0,
+    "percentual_pixels_diferentes": 0.0,
+    "maior_diferenca_canal_0_255": 0,
+    "erro_medio_canal": 0.0
+  },
+  {
+    "exemplo": "thumbnail-1",
+    "dimensao": [
+      1920,
+      1080
+    ],
+    "identico": true,
+    "pixels_diferentes": 0,
+    "percentual_pixels_diferentes": 0.0,
+    "maior_diferenca_canal_0_255": 0,
+    "erro_medio_canal": 0.0
+  },
+  {
+    "exemplo": "thumbnail-2",
+    "dimensao": [
+      1920,
+      1080
+    ],
+    "identico": false,
+    "pixels_diferentes": 160,
+    "percentual_pixels_diferentes": 0.007716049382716049,
+    "maior_diferenca_canal_0_255": 1,
+    "erro_medio_canal": 3.681198559670782e-05
+  },
+  {
+    "exemplo": "thumbnail-3",
+    "dimensao": [
+      1920,
+      1080
+    ],
+    "identico": false,
+    "pixels_diferentes": 105,
+    "percentual_pixels_diferentes": 0.005063657407407407,
+    "maior_diferenca_canal_0_255": 1,
+    "erro_medio_canal": 2.2987397119341563e-05
+  }
+]

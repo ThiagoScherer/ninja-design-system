@@ -1,0 +1,7 @@
+{
+  "id": "ninja",
+  "fontes_css": [
+    "@font-face{font-family:TipoNinja;src:url(../recursos/f1ccaf163da75dea.otf)}",
+    "@font-face{font-family:Manrope;src:url(../recursos/88d3f8ef004b5348.ttf);font-weight:500}"
+  ]
+}

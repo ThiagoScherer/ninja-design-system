@@ -1,0 +1,41 @@
+{
+  "id": "noticia_ninja_reels",
+  "midia": "reels",
+  "dimensao": {
+    "largura": 1080,
+    "altura": 1920
+  },
+  "perfil": "reels",
+  "assinatura_recurso": "../recursos/9b5b8060dcc2eeaa.png",
+  "foto": {
+    "altura": 1580,
+    "posicao": "70% 50%"
+  },
+  "editorial": {
+    "base": 370,
+    "centralizado": true
+  },
+  "chapeu": {
+    "tamanho": 44.85,
+    "entrelinha": 1.15
+  },
+  "chamada": {
+    "entrelinha": 1
+  },
+  "lead": {
+    "tamanho": 32,
+    "entrelinha": 1.25
+  },
+  "assinatura": {
+    "largura": 72,
+    "altura": null,
+    "base": 290
+  },
+  "credito": {
+    "tamanho": 16,
+    "base": 170
+  },
+  "degrade": {
+    "distancia_acima_chapeu": 80
+  }
+}

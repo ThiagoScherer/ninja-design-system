@@ -1,0 +1,137 @@
+{
+  "ds": "2.0.0",
+  "commit_maquina": null,
+  "ambiente": null,
+  "casos": [
+    {
+      "id": "T01",
+      "estado": "nao_executado",
+      "composicao": null,
+      "variante": null,
+      "evidencias": [],
+      "observacao": null
+    },
+    {
+      "id": "T02",
+      "estado": "nao_executado",
+      "composicao": null,
+      "variante": null,
+      "evidencias": [],
+      "observacao": null
+    },
+    {
+      "id": "T03",
+      "estado": "nao_executado",
+      "composicao": null,
+      "variante": null,
+      "evidencias": [],
+      "observacao": null
+    },
+    {
+      "id": "T04",
+      "estado": "nao_executado",
+      "composicao": null,
+      "variante": null,
+      "evidencias": [],
+      "observacao": null
+    },
+    {
+      "id": "T05",
+      "estado": "nao_executado",
+      "composicao": null,
+      "variante": null,
+      "evidencias": [],
+      "observacao": null
+    },
+    {
+      "id": "T06",
+      "estado": "nao_executado",
+      "composicao": null,
+      "variante": null,
+      "evidencias": [],
+      "observacao": null
+    },
+    {
+      "id": "T07",
+      "estado": "nao_executado",
+      "composicao": null,
+      "variante": null,
+      "evidencias": [],
+      "observacao": null
+    },
+    {
+      "id": "T08",
+      "estado": "nao_executado",
+      "composicao": null,
+      "variante": null,
+      "evidencias": [],
+      "observacao": null
+    },
+    {
+      "id": "T09",
+      "estado": "nao_executado",
+      "composicao": null,
+      "variante": null,
+      "evidencias": [],
+      "observacao": null
+    },
+    {
+      "id": "T10",
+      "estado": "nao_executado",
+      "composicao": null,
+      "variante": null,
+      "evidencias": [],
+      "observacao": null
+    },
+    {
+      "id": "T11",
+      "estado": "nao_executado",
+      "composicao": null,
+      "variante": null,
+      "evidencias": [],
+      "observacao": null
+    },
+    {
+      "id": "T12",
+      "estado": "nao_executado",
+      "composicao": null,
+      "variante": null,
+      "evidencias": [],
+      "observacao": null
+    },
+    {
+      "id": "T13",
+      "estado": "nao_executado",
+      "composicao": null,
+      "variante": null,
+      "evidencias": [],
+      "observacao": null
+    },
+    {
+      "id": "T14",
+      "estado": "nao_executado",
+      "composicao": null,
+      "variante": null,
+      "evidencias": [],
+      "observacao": null
+    },
+    {
+      "id": "T15",
+      "estado": "nao_executado",
+      "composicao": null,
+      "variante": null,
+      "evidencias": [],
+      "observacao": null
+    },
+    {
+      "id": "T16",
+      "estado": "nao_executado",
+      "composicao": null,
+      "variante": null,
+      "evidencias": [],
+      "observacao": null
+    }
+  ],
+  "divergencias": [],
+  "variantes_legadas": []
+}

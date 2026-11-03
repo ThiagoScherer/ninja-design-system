@@ -1,0 +1,956 @@
+{
+  "status": "mapeamento_proposto_nao_implementado",
+  "fonte_commit": "6b9cf354eb4781afae5040bfa9f4227d1e19cfc4",
+  "aplicacoes": [
+    {
+      "id": "manchete-central-modelo-de-video-do-canva",
+      "nome": "Chamada central (modelo de vídeo do Canva)",
+      "estado": "mapeada_especificacao_parcial",
+      "ficha_origem": "chamada_central",
+      "implementada_no_app_na_auditoria": true,
+      "componentes_propostos": [
+        "chapeu",
+        "texto_editorial",
+        "tratamento_contraste",
+        "midia"
+      ],
+      "campos_observados": [
+        "chapeu",
+        "chamada",
+        "palavra_destaque",
+        "fundo",
+        "foco",
+        "tratamento",
+        "modo",
+        "posicao_bloco",
+        "deslocar_x",
+        "deslocar_y",
+        "deslocar_chapeu_y"
+      ],
+      "layout": "Conjunto editorial sobre mídia; posição e área vêm da composição; contraste calculado após encaixe",
+      "animacao": "Preservar implementação existente; adaptar somente vínculos e medidas dos alvos",
+      "pendencias": [
+        "Gian conferir correspondência das variantes e medidas legadas com a implementação atual; divergência visual sem regra explícita deve ser registrada, não resolvida por invenção"
+      ],
+      "fonte_commit": "6b9cf354eb4781afae5040bfa9f4227d1e19cfc4",
+      "referencias_aprovadas": [
+        "D1",
+        "D5",
+        "D6",
+        "D7",
+        "D8"
+      ],
+      "impacto_esperado": "Aplicar variantes branca/destaque, centralização óptica, modos de caixa aprovados, encaixe progressivo e contraste adaptável. Perfil horizontal próprio substitui vínculo provisório com thumbnail",
+      "politica_medidas_nao_redefinidas": "Preservar valor e layout da variante existente como legado identificado; não promovê-lo a fundamento global nem inventar novo valor"
+    },
+    {
+      "id": "pergunta-gancho-titulo-em-tarja",
+      "nome": "Pergunta-gancho / título em tarja",
+      "estado": "mapeada_especificacao_parcial",
+      "ficha_origem": "pergunta_gancho",
+      "implementada_no_app_na_auditoria": false,
+      "componentes_propostos": [
+        "texto_editorial",
+        "caixa_texto",
+        "grifo",
+        "midia"
+      ],
+      "campos_observados": [
+        "texto",
+        "palavra_destaque",
+        "cor_tarja",
+        "fundo"
+      ],
+      "layout": "Texto em faixa ou caixa, com destaque opcional; posição e extensão da faixa locais",
+      "animacao": "Preservar implementação existente; adaptar somente vínculos e medidas dos alvos",
+      "pendencias": [
+        "Gian conferir correspondência das variantes e medidas legadas com a implementação atual; divergência visual sem regra explícita deve ser registrada, não resolvida por invenção"
+      ],
+      "fonte_commit": "6b9cf354eb4781afae5040bfa9f4227d1e19cfc4",
+      "referencias_aprovadas": [],
+      "impacto_esperado": "Faixas e caixa única recebem centralização e padding da variante escolhida; preservar texto, posição e grifo específicos",
+      "politica_medidas_nao_redefinidas": "Preservar valor e layout da variante existente como legado identificado; não promovê-lo a fundamento global nem inventar novo valor"
+    },
+    {
+      "id": "manchete-de-outro-veiculo",
+      "nome": "Manchete de outro veículo",
+      "estado": "mapeada_especificacao_parcial",
+      "ficha_origem": "manchete_veiculo",
+      "implementada_no_app_na_auditoria": false,
+      "componentes_propostos": [
+        "cartao",
+        "recurso_grafico",
+        "texto_editorial",
+        "grifo",
+        "informacao_auxiliar",
+        "midia"
+      ],
+      "campos_observados": [
+        "aplicacao",
+        "veiculo",
+        "titulo",
+        "grifo",
+        "data",
+        "print",
+        "itens_cascata"
+      ],
+      "layout": "Documento ou cartão de veículo externo; preservar identidade e autoria da fonte; não converter seu título em chamada NINJA",
+      "animacao": "Preservar implementação existente; adaptar somente vínculos e medidas dos alvos",
+      "pendencias": [
+        "Gian conferir correspondência das variantes e medidas legadas com a implementação atual; divergência visual sem regra explícita deve ser registrada, não resolvida por invenção"
+      ],
+      "fonte_commit": "6b9cf354eb4781afae5040bfa9f4227d1e19cfc4",
+      "referencias_aprovadas": [],
+      "impacto_esperado": "Compartilhar contêiner, recursos e grifo; conservar identidade, título e metadados do veículo externo",
+      "politica_medidas_nao_redefinidas": "Preservar valor e layout da variante existente como legado identificado; não promovê-lo a fundamento global nem inventar novo valor"
+    },
+    {
+      "id": "marcador-de-capitulo",
+      "nome": "Marcador de capítulo",
+      "estado": "mapeada_especificacao_parcial",
+      "ficha_origem": "capitulo",
+      "implementada_no_app_na_auditoria": false,
+      "componentes_propostos": [
+        "texto_editorial",
+        "etiqueta",
+        "tratamento_contraste",
+        "midia"
+      ],
+      "campos_observados": [
+        "versao_peca",
+        "numero",
+        "titulo",
+        "fundo"
+      ],
+      "layout": "Número e título de capítulo em conjunto; hierarquia e posição locais",
+      "animacao": "Preservar implementação existente; adaptar somente vínculos e medidas dos alvos",
+      "pendencias": [
+        "Gian conferir correspondência das variantes e medidas legadas com a implementação atual; divergência visual sem regra explícita deve ser registrada, não resolvida por invenção"
+      ],
+      "fonte_commit": "6b9cf354eb4781afae5040bfa9f4227d1e19cfc4",
+      "referencias_aprovadas": [],
+      "impacto_esperado": "Conectar título e etiqueta aos papéis tipográficos; conservar número, hierarquia e distribuição atuais",
+      "politica_medidas_nao_redefinidas": "Preservar valor e layout da variante existente como legado identificado; não promovê-lo a fundamento global nem inventar novo valor"
+    },
+    {
+      "id": "etiqueta-de-tema-serie",
+      "nome": "Etiqueta de tema / série",
+      "estado": "mapeada_especificacao_parcial",
+      "ficha_origem": "etiqueta_tema",
+      "implementada_no_app_na_auditoria": false,
+      "componentes_propostos": [
+        "etiqueta",
+        "tratamento_contraste"
+      ],
+      "campos_observados": [
+        "tema",
+        "estilo",
+        "ano"
+      ],
+      "layout": "Etiqueta persistente de tema ou série; posição e intervalo locais",
+      "animacao": "Preservar implementação existente; adaptar somente vínculos e medidas dos alvos",
+      "pendencias": [
+        "Gian conferir correspondência das variantes e medidas legadas com a implementação atual; divergência visual sem regra explícita deve ser registrada, não resolvida por invenção"
+      ],
+      "fonte_commit": "6b9cf354eb4781afae5040bfa9f4227d1e19cfc4",
+      "referencias_aprovadas": [],
+      "impacto_esperado": "Compartilhar construção de etiqueta e centralização; conservar estilos de série que não correspondam ao chapéu de notícia",
+      "politica_medidas_nao_redefinidas": "Preservar valor e layout da variante existente como legado identificado; não promovê-lo a fundamento global nem inventar novo valor"
+    },
+    {
+      "id": "palavra-conceito",
+      "nome": "Palavra-conceito",
+      "estado": "mapeada_especificacao_parcial",
+      "ficha_origem": "palavra_conceito",
+      "implementada_no_app_na_auditoria": false,
+      "componentes_propostos": [
+        "texto_editorial",
+        "grifo",
+        "midia"
+      ],
+      "campos_observados": [
+        "palavra",
+        "estilo",
+        "apoio",
+        "fundo"
+      ],
+      "layout": "Palavra dominante com apoio opcional; escala e posição locais",
+      "animacao": "Preservar implementação existente; adaptar somente vínculos e medidas dos alvos",
+      "pendencias": [
+        "Gian conferir correspondência das variantes e medidas legadas com a implementação atual; divergência visual sem regra explícita deve ser registrada, não resolvida por invenção"
+      ],
+      "fonte_commit": "6b9cf354eb4781afae5040bfa9f4227d1e19cfc4",
+      "referencias_aprovadas": [],
+      "impacto_esperado": "Compartilhar tipografia e grifo; preservar escala expressiva, apoio e composição existentes",
+      "politica_medidas_nao_redefinidas": "Preservar valor e layout da variante existente como legado identificado; não promovê-lo a fundamento global nem inventar novo valor"
+    },
+    {
+      "id": "tarja-de-nome-e-cargo",
+      "nome": "Tarja de nome e cargo",
+      "estado": "mapeada_especificacao_parcial",
+      "ficha_origem": "tarja_nome",
+      "implementada_no_app_na_auditoria": true,
+      "componentes_propostos": [
+        "identificacao",
+        "caixa_texto"
+      ],
+      "campos_observados": [
+        "nome",
+        "cargo",
+        "arroba",
+        "variacao",
+        "lado"
+      ],
+      "layout": "Nome com função opcional; vínculo com a pessoa e convivência com legenda definidos pela composição",
+      "animacao": "Preservar implementação existente; adaptar somente vínculos e medidas dos alvos",
+      "pendencias": [
+        "Gian conferir correspondência das variantes e medidas legadas com a implementação atual; divergência visual sem regra explícita deve ser registrada, não resolvida por invenção"
+      ],
+      "fonte_commit": "6b9cf354eb4781afae5040bfa9f4227d1e19cfc4",
+      "referencias_aprovadas": [
+        "D3",
+        "D4"
+      ],
+      "impacto_esperado": "Nome centralizado visualmente; aplicar referência D4 nas variantes correspondentes e convivência com legenda",
+      "politica_medidas_nao_redefinidas": "Preservar valor e layout da variante existente como legado identificado; não promovê-lo a fundamento global nem inventar novo valor"
+    },
+    {
+      "id": "localizacao",
+      "nome": "Localização",
+      "estado": "mapeada_especificacao_parcial",
+      "ficha_origem": "localizacao",
+      "implementada_no_app_na_auditoria": false,
+      "componentes_propostos": [
+        "identificacao",
+        "recurso_grafico",
+        "informacao_auxiliar",
+        "caixa_texto"
+      ],
+      "campos_observados": [
+        "local",
+        "data"
+      ],
+      "layout": "Local e data opcional com recurso gráfico; não herdar a aparência da identificação de pessoa",
+      "animacao": "Preservar implementação existente; adaptar somente vínculos e medidas dos alvos",
+      "pendencias": [
+        "Gian conferir correspondência das variantes e medidas legadas com a implementação atual; divergência visual sem regra explícita deve ser registrada, não resolvida por invenção"
+      ],
+      "fonte_commit": "6b9cf354eb4781afae5040bfa9f4227d1e19cfc4",
+      "referencias_aprovadas": [],
+      "impacto_esperado": "Conectar fontes, caixa e ícone; preservar posição e variante de localização, sem copiar a tarja de pessoa",
+      "politica_medidas_nao_redefinidas": "Preservar valor e layout da variante existente como legado identificado; não promovê-lo a fundamento global nem inventar novo valor"
+    },
+    {
+      "id": "linha-do-tempo",
+      "nome": "Linha do tempo",
+      "estado": "mapeada_especificacao_parcial",
+      "ficha_origem": "linha_tempo",
+      "implementada_no_app_na_auditoria": false,
+      "componentes_propostos": [
+        "sequencia_temporal",
+        "cartao",
+        "texto_editorial",
+        "midia"
+      ],
+      "campos_observados": [
+        "versao_peca",
+        "marcos",
+        "destaque"
+      ],
+      "layout": "Marcos ordenados com destaque; orientação e distribuição próprias por dimensão",
+      "animacao": "Preservar implementação existente; adaptar somente vínculos e medidas dos alvos",
+      "pendencias": [
+        "Gian conferir correspondência das variantes e medidas legadas com a implementação atual; divergência visual sem regra explícita deve ser registrada, não resolvida por invenção"
+      ],
+      "fonte_commit": "6b9cf354eb4781afae5040bfa9f4227d1e19cfc4",
+      "referencias_aprovadas": [],
+      "impacto_esperado": "Compartilhar cartões e texto; conservar sequência, marcos, orientação e movimento existentes",
+      "politica_medidas_nao_redefinidas": "Preservar valor e layout da variante existente como legado identificado; não promovê-lo a fundamento global nem inventar novo valor"
+    },
+    {
+      "id": "documento-com-grifo",
+      "nome": "Documento com grifo",
+      "estado": "mapeada_especificacao_parcial",
+      "ficha_origem": "documento",
+      "implementada_no_app_na_auditoria": false,
+      "componentes_propostos": [
+        "cartao",
+        "midia",
+        "grifo",
+        "informacao_auxiliar"
+      ],
+      "campos_observados": [
+        "aplicacao",
+        "imagem",
+        "area_grifo",
+        "frase_chave",
+        "fonte",
+        "datas_pilha"
+      ],
+      "layout": "Documento como recurso visual, com grifo associado à sua área; crop não pode deslocar o grifo",
+      "animacao": "Preservar implementação existente; adaptar somente vínculos e medidas dos alvos",
+      "pendencias": [
+        "Gian conferir correspondência das variantes e medidas legadas com a implementação atual; divergência visual sem regra explícita deve ser registrada, não resolvida por invenção"
+      ],
+      "fonte_commit": "6b9cf354eb4781afae5040bfa9f4227d1e19cfc4",
+      "referencias_aprovadas": [],
+      "impacto_esperado": "Compartilhar moldura e grifo associado ao recurso; conservar apresentação e proporções do documento",
+      "politica_medidas_nao_redefinidas": "Preservar valor e layout da variante existente como legado identificado; não promovê-lo a fundamento global nem inventar novo valor"
+    },
+    {
+      "id": "post-de-rede-social",
+      "nome": "Post de rede social",
+      "estado": "mapeada_especificacao_parcial",
+      "ficha_origem": "post_rede",
+      "implementada_no_app_na_auditoria": false,
+      "componentes_propostos": [
+        "cartao",
+        "identificacao",
+        "texto_editorial",
+        "midia",
+        "informacao_auxiliar",
+        "grifo"
+      ],
+      "campos_observados": [
+        "rede",
+        "foto_perfil",
+        "nome",
+        "arroba",
+        "verificado",
+        "texto",
+        "grifo",
+        "imagem",
+        "data",
+        "numeros",
+        "videos"
+      ],
+      "layout": "Cartão de publicação com autoria, texto e mídia; identidade da plataforma permanece variante específica",
+      "animacao": "Preservar implementação existente; adaptar somente vínculos e medidas dos alvos",
+      "pendencias": [
+        "Gian conferir correspondência das variantes e medidas legadas com a implementação atual; divergência visual sem regra explícita deve ser registrada, não resolvida por invenção"
+      ],
+      "fonte_commit": "6b9cf354eb4781afae5040bfa9f4227d1e19cfc4",
+      "referencias_aprovadas": [],
+      "impacto_esperado": "Compartilhar cartão e papéis de texto; preservar estrutura, identidade da rede e autoria",
+      "politica_medidas_nao_redefinidas": "Preservar valor e layout da variante existente como legado identificado; não promovê-lo a fundamento global nem inventar novo valor"
+    },
+    {
+      "id": "audio-obtido",
+      "nome": "Áudio obtido",
+      "estado": "mapeada_especificacao_parcial",
+      "ficha_origem": "audio_obtido",
+      "implementada_no_app_na_auditoria": false,
+      "componentes_propostos": [
+        "etiqueta",
+        "onda_audio",
+        "transcricao",
+        "identificacao",
+        "midia",
+        "tratamento_contraste"
+      ],
+      "campos_observados": [
+        "encaixe",
+        "imagem",
+        "audio",
+        "transcricao",
+        "quem",
+        "origem"
+      ],
+      "layout": "Mídia, identificação de origem, onda e transcrição; sincronização existente preservada",
+      "animacao": "Preservar implementação existente; adaptar somente vínculos e medidas dos alvos",
+      "pendencias": [
+        "Gian conferir correspondência das variantes e medidas legadas com a implementação atual; divergência visual sem regra explícita deve ser registrada, não resolvida por invenção"
+      ],
+      "fonte_commit": "6b9cf354eb4781afae5040bfa9f4227d1e19cfc4",
+      "referencias_aprovadas": [],
+      "impacto_esperado": "Compartilhar etiqueta, identificação e contraste; preservar onda, segmentos e sincronização",
+      "politica_medidas_nao_redefinidas": "Preservar valor e layout da variante existente como legado identificado; não promovê-lo a fundamento global nem inventar novo valor"
+    },
+    {
+      "id": "print-gravacao-de-tela",
+      "nome": "Print / gravação de tela",
+      "estado": "mapeada_especificacao_parcial",
+      "ficha_origem": "print_tela",
+      "implementada_no_app_na_auditoria": false,
+      "componentes_propostos": [
+        "cartao",
+        "midia",
+        "grifo",
+        "credito",
+        "tratamento_contraste"
+      ],
+      "campos_observados": [
+        "moldura",
+        "midia",
+        "endereco",
+        "area_grifo",
+        "credito"
+      ],
+      "layout": "Captura dentro de moldura opcional, com endereço e crédito; coordenadas de grifo relativas à captura",
+      "animacao": "Preservar implementação existente; adaptar somente vínculos e medidas dos alvos",
+      "pendencias": [
+        "Gian conferir correspondência das variantes e medidas legadas com a implementação atual; divergência visual sem regra explícita deve ser registrada, não resolvida por invenção"
+      ],
+      "fonte_commit": "6b9cf354eb4781afae5040bfa9f4227d1e19cfc4",
+      "referencias_aprovadas": [],
+      "impacto_esperado": "Compartilhar moldura, mídia, crédito e grifo; preservar leitura da captura e sua relação de coordenadas",
+      "politica_medidas_nao_redefinidas": "Preservar valor e layout da variante existente como legado identificado; não promovê-lo a fundamento global nem inventar novo valor"
+    },
+    {
+      "id": "tela-dividida-2-3-4",
+      "nome": "Tela dividida (2, 3, 4)",
+      "estado": "mapeada_especificacao_parcial",
+      "ficha_origem": "tela_dividida",
+      "implementada_no_app_na_auditoria": false,
+      "componentes_propostos": [
+        "grade_midia",
+        "midia",
+        "credito"
+      ],
+      "campos_observados": [
+        "quantidade",
+        "divisao",
+        "midias",
+        "fio"
+      ],
+      "layout": "Grade com recursos independentes; quantidade, divisões e crop por célula pertencem ao layout",
+      "animacao": "Preservar implementação existente; adaptar somente vínculos e medidas dos alvos",
+      "pendencias": [
+        "Gian conferir correspondência das variantes e medidas legadas com a implementação atual; divergência visual sem regra explícita deve ser registrada, não resolvida por invenção"
+      ],
+      "fonte_commit": "6b9cf354eb4781afae5040bfa9f4227d1e19cfc4",
+      "referencias_aprovadas": [],
+      "impacto_esperado": "Uma grade compartilhada com variantes de divisão; crop e crédito independentes por recurso",
+      "politica_medidas_nao_redefinidas": "Preservar valor e layout da variante existente como legado identificado; não promovê-lo a fundamento global nem inventar novo valor"
+    },
+    {
+      "id": "numero-em-destaque",
+      "nome": "Número em destaque",
+      "estado": "mapeada_especificacao_parcial",
+      "ficha_origem": "numero",
+      "implementada_no_app_na_auditoria": false,
+      "componentes_propostos": [
+        "dado_numerico",
+        "texto_editorial",
+        "informacao_auxiliar",
+        "midia",
+        "tratamento_contraste"
+      ],
+      "campos_observados": [
+        "aplicacao",
+        "numero",
+        "unidade",
+        "frase",
+        "contagem_de",
+        "comparar_com",
+        "fonte"
+      ],
+      "layout": "Número, unidade e contexto; dado é separado do texto para preservar contagem existente",
+      "animacao": "Preservar implementação existente; adaptar somente vínculos e medidas dos alvos",
+      "pendencias": [
+        "Gian conferir correspondência das variantes e medidas legadas com a implementação atual; divergência visual sem regra explícita deve ser registrada, não resolvida por invenção"
+      ],
+      "fonte_commit": "6b9cf354eb4781afae5040bfa9f4227d1e19cfc4",
+      "referencias_aprovadas": [],
+      "impacto_esperado": "Conectar tipografia e contexto ao DS; preservar dado, unidade, contagem e destaque existentes",
+      "politica_medidas_nao_redefinidas": "Preservar valor e layout da variante existente como legado identificado; não promovê-lo a fundamento global nem inventar novo valor"
+    },
+    {
+      "id": "numero-sobre-o-video",
+      "nome": "Número sobre o vídeo",
+      "estado": "mapeada_especificacao_parcial",
+      "ficha_origem": "numero_video",
+      "implementada_no_app_na_auditoria": false,
+      "componentes_propostos": [
+        "dado_numerico",
+        "identificacao",
+        "recurso_grafico"
+      ],
+      "campos_observados": [
+        "ligacao",
+        "rotulo",
+        "numero",
+        "alvo"
+      ],
+      "layout": "Dado associado a alvo no vídeo; vínculo espacial e intervalo existentes preservados",
+      "animacao": "Preservar implementação existente; adaptar somente vínculos e medidas dos alvos",
+      "pendencias": [
+        "Gian conferir correspondência das variantes e medidas legadas com a implementação atual; divergência visual sem regra explícita deve ser registrada, não resolvida por invenção"
+      ],
+      "fonte_commit": "6b9cf354eb4781afae5040bfa9f4227d1e19cfc4",
+      "referencias_aprovadas": [],
+      "impacto_esperado": "Conectar rótulo e recurso gráfico; preservar relação com o alvo no vídeo e sua animação",
+      "politica_medidas_nao_redefinidas": "Preservar valor e layout da variante existente como legado identificado; não promovê-lo a fundamento global nem inventar novo valor"
+    },
+    {
+      "id": "sistema-de-graficos",
+      "nome": "Sistema de gráficos",
+      "estado": "mapeada_especificacao_parcial",
+      "ficha_origem": "grafico",
+      "implementada_no_app_na_auditoria": false,
+      "componentes_propostos": [
+        "visualizacao_dados",
+        "texto_editorial",
+        "informacao_auxiliar"
+      ],
+      "campos_observados": [
+        "tipo_grafico",
+        "titulo",
+        "unidade",
+        "dados",
+        "destaque",
+        "casas",
+        "fonte",
+        "conferido"
+      ],
+      "layout": "Visualização derivada de dados, com eixos, rótulos e fonte; não tratar barras e setores como texto editorial",
+      "animacao": "Preservar implementação existente; adaptar somente vínculos e medidas dos alvos",
+      "pendencias": [
+        "Gian conferir correspondência das variantes e medidas legadas com a implementação atual; divergência visual sem regra explícita deve ser registrada, não resolvida por invenção"
+      ],
+      "fonte_commit": "6b9cf354eb4781afae5040bfa9f4227d1e19cfc4",
+      "referencias_aprovadas": [],
+      "impacto_esperado": "Conectar tipografia e cores aplicáveis; preservar geometria dos dados, eixos, unidade e animação",
+      "politica_medidas_nao_redefinidas": "Preservar valor e layout da variante existente como legado identificado; não promovê-lo a fundamento global nem inventar novo valor"
+    },
+    {
+      "id": "comparacao",
+      "nome": "Comparação",
+      "estado": "mapeada_especificacao_parcial",
+      "ficha_origem": "comparacao",
+      "implementada_no_app_na_auditoria": false,
+      "componentes_propostos": [
+        "grade_midia",
+        "midia",
+        "identificacao",
+        "texto_editorial",
+        "dado_numerico"
+      ],
+      "campos_observados": [
+        "modo",
+        "lado1",
+        "rotulo1",
+        "lado2",
+        "rotulo2",
+        "troca"
+      ],
+      "layout": "Dois conjuntos lado a lado ou alternados; recursos, rótulos e dados permanecem associados a cada lado",
+      "animacao": "Preservar implementação existente; adaptar somente vínculos e medidas dos alvos",
+      "pendencias": [
+        "Gian conferir correspondência das variantes e medidas legadas com a implementação atual; divergência visual sem regra explícita deve ser registrada, não resolvida por invenção"
+      ],
+      "fonte_commit": "6b9cf354eb4781afae5040bfa9f4227d1e19cfc4",
+      "referencias_aprovadas": [],
+      "impacto_esperado": "Compartilhar grade, mídia e rótulos; preservar modos de comparação e associação entre os lados",
+      "politica_medidas_nao_redefinidas": "Preservar valor e layout da variante existente como legado identificado; não promovê-lo a fundamento global nem inventar novo valor"
+    },
+    {
+      "id": "o-que-se-sabe-o-que-nao-se-sabe",
+      "nome": "O que se sabe / o que não se sabe",
+      "estado": "mapeada_especificacao_parcial",
+      "ficha_origem": "sabe_nao_sabe",
+      "implementada_no_app_na_auditoria": false,
+      "componentes_propostos": [
+        "lista_editorial",
+        "texto_editorial",
+        "cartao"
+      ],
+      "campos_observados": [
+        "sabe",
+        "nao_sabe"
+      ],
+      "layout": "Duas listas editoriais distintas; hierarquia, distribuição e estados semânticos locais",
+      "animacao": "Preservar implementação existente; adaptar somente vínculos e medidas dos alvos",
+      "pendencias": [
+        "Gian conferir correspondência das variantes e medidas legadas com a implementação atual; divergência visual sem regra explícita deve ser registrada, não resolvida por invenção"
+      ],
+      "fonte_commit": "6b9cf354eb4781afae5040bfa9f4227d1e19cfc4",
+      "referencias_aprovadas": [],
+      "impacto_esperado": "Compartilhar texto, lista e contêiner; preservar distinção semântica entre as duas listas",
+      "politica_medidas_nao_redefinidas": "Preservar valor e layout da variante existente como legado identificado; não promovê-lo a fundamento global nem inventar novo valor"
+    },
+    {
+      "id": "selo-de-checagem",
+      "nome": "Selo de checagem",
+      "estado": "mapeada_especificacao_parcial",
+      "ficha_origem": "checagem",
+      "implementada_no_app_na_auditoria": false,
+      "componentes_propostos": [
+        "texto_editorial",
+        "selo",
+        "grifo",
+        "informacao_auxiliar",
+        "midia"
+      ],
+      "campos_observados": [
+        "frase",
+        "veredito",
+        "riscar",
+        "print_original",
+        "fonte"
+      ],
+      "layout": "Afirmação e veredito com fonte; selo é variante semântica, não chapéu genérico",
+      "animacao": "Preservar implementação existente; adaptar somente vínculos e medidas dos alvos",
+      "pendencias": [
+        "Gian conferir correspondência das variantes e medidas legadas com a implementação atual; divergência visual sem regra explícita deve ser registrada, não resolvida por invenção"
+      ],
+      "fonte_commit": "6b9cf354eb4781afae5040bfa9f4227d1e19cfc4",
+      "referencias_aprovadas": [],
+      "impacto_esperado": "Compartilhar tipografia, grifo e fonte; preservar veredito e cores semânticas existentes como variantes legadas",
+      "politica_medidas_nao_redefinidas": "Preservar valor e layout da variante existente como legado identificado; não promovê-lo a fundamento global nem inventar novo valor"
+    },
+    {
+      "id": "grid-de-fotos",
+      "nome": "Grid de fotos",
+      "estado": "mapeada_especificacao_parcial",
+      "ficha_origem": "tela_dividida",
+      "implementada_no_app_na_auditoria": false,
+      "componentes_propostos": [
+        "grade_midia",
+        "midia",
+        "credito"
+      ],
+      "campos_observados": [
+        "quantidade",
+        "divisao",
+        "midias",
+        "fio"
+      ],
+      "layout": "Grade com recursos independentes; quantidade, divisões e crop por célula pertencem ao layout",
+      "animacao": "Preservar implementação existente; adaptar somente vínculos e medidas dos alvos",
+      "pendencias": [
+        "Gian conferir correspondência das variantes e medidas legadas com a implementação atual; divergência visual sem regra explícita deve ser registrada, não resolvida por invenção"
+      ],
+      "fonte_commit": "6b9cf354eb4781afae5040bfa9f4227d1e19cfc4",
+      "referencias_aprovadas": [],
+      "impacto_esperado": "Uma grade compartilhada com variantes de divisão; crop e crédito independentes por recurso",
+      "politica_medidas_nao_redefinidas": "Preservar valor e layout da variante existente como legado identificado; não promovê-lo a fundamento global nem inventar novo valor"
+    },
+    {
+      "id": "citacao",
+      "nome": "Citação",
+      "estado": "mapeada_especificacao_parcial",
+      "ficha_origem": "citacao",
+      "implementada_no_app_na_auditoria": false,
+      "componentes_propostos": [
+        "texto_editorial",
+        "caixa_texto",
+        "identificacao",
+        "cartao",
+        "midia"
+      ],
+      "campos_observados": [
+        "aplicacao",
+        "frase",
+        "autor",
+        "cargo",
+        "foto"
+      ],
+      "layout": "Citação com autoria e apoio opcional; manter aspas e atribuição; não aplicar encaixe de notícia indiscriminadamente",
+      "animacao": "Preservar implementação existente; adaptar somente vínculos e medidas dos alvos",
+      "pendencias": [
+        "Gian conferir correspondência das variantes e medidas legadas com a implementação atual; divergência visual sem regra explícita deve ser registrada, não resolvida por invenção"
+      ],
+      "fonte_commit": "6b9cf354eb4781afae5040bfa9f4227d1e19cfc4",
+      "referencias_aprovadas": [],
+      "impacto_esperado": "Compartilhar caixa e identificação; preservar citação e autoria; não impor política de quatro linhas de notícia",
+      "politica_medidas_nao_redefinidas": "Preservar valor e layout da variante existente como legado identificado; não promovê-lo a fundamento global nem inventar novo valor"
+    },
+    {
+      "id": "credito",
+      "nome": "Crédito",
+      "estado": "mapeada_especificacao_parcial",
+      "ficha_origem": "credito",
+      "implementada_no_app_na_auditoria": true,
+      "componentes_propostos": [
+        "credito"
+      ],
+      "campos_observados": [
+        "texto",
+        "posicao"
+      ],
+      "layout": "Atribuição vinculada ao recurso; posição declarada por composição",
+      "animacao": "Preservar implementação existente; adaptar somente vínculos e medidas dos alvos",
+      "pendencias": [
+        "Gian conferir correspondência das variantes e medidas legadas com a implementação atual; divergência visual sem regra explícita deve ser registrada, não resolvida por invenção"
+      ],
+      "fonte_commit": "6b9cf354eb4781afae5040bfa9f4227d1e19cfc4",
+      "referencias_aprovadas": [],
+      "impacto_esperado": "Compartilhar atribuição e variantes por contexto; usar D4 somente onde corresponder à referência, sem substituir todos os créditos por uma única medida",
+      "politica_medidas_nao_redefinidas": "Preservar valor e layout da variante existente como legado identificado; não promovê-lo a fundamento global nem inventar novo valor"
+    },
+    {
+      "id": "transicoes-fitas-ninja",
+      "nome": "Transições — fitas NINJA",
+      "estado": "em_espera",
+      "ficha_origem": "transicao",
+      "implementada_no_app_na_auditoria": false,
+      "componentes_propostos": [
+        "transicao"
+      ],
+      "campos_observados": [
+        "fita",
+        "direcao"
+      ],
+      "layout": "Preservar em espera; sem redesenho nesta etapa",
+      "animacao": "Preservar implementação existente; adaptar somente vínculos e medidas dos alvos",
+      "pendencias": [],
+      "fonte_commit": "6b9cf354eb4781afae5040bfa9f4227d1e19cfc4",
+      "referencias_aprovadas": [],
+      "impacto_esperado": "Permanece em espera, sem novo desenho",
+      "politica_medidas_nao_redefinidas": "Preservar valor e layout da variante existente como legado identificado; não promovê-lo a fundamento global nem inventar novo valor"
+    },
+    {
+      "id": "fundos",
+      "nome": "Fundos",
+      "estado": "em_espera",
+      "ficha_origem": "fundo",
+      "implementada_no_app_na_auditoria": false,
+      "componentes_propostos": [
+        "fundo_grafico"
+      ],
+      "campos_observados": [
+        "estilo",
+        "velocidade"
+      ],
+      "layout": "Preservar em espera; sem redesenho nesta etapa",
+      "animacao": "Preservar implementação existente; adaptar somente vínculos e medidas dos alvos",
+      "pendencias": [],
+      "fonte_commit": "6b9cf354eb4781afae5040bfa9f4227d1e19cfc4",
+      "referencias_aprovadas": [],
+      "impacto_esperado": "Permanece em espera, sem novo desenho",
+      "politica_medidas_nao_redefinidas": "Preservar valor e layout da variante existente como legado identificado; não promovê-lo a fundamento global nem inventar novo valor"
+    },
+    {
+      "id": "legenda",
+      "nome": "Legenda",
+      "estado": "mapeada_especificacao_parcial",
+      "ficha_origem": "legenda",
+      "implementada_no_app_na_auditoria": false,
+      "componentes_propostos": [
+        "transcricao",
+        "caixa_texto",
+        "grifo"
+      ],
+      "campos_observados": [
+        "srt",
+        "estilo",
+        "falantes"
+      ],
+      "layout": "Transcrição segmentada e sincronizada; conservar temporização, estilos e movimento atuais",
+      "animacao": "Preservar implementação existente; adaptar somente vínculos e medidas dos alvos",
+      "pendencias": [
+        "Gian conferir correspondência das variantes e medidas legadas com a implementação atual; divergência visual sem regra explícita deve ser registrada, não resolvida por invenção"
+      ],
+      "fonte_commit": "6b9cf354eb4781afae5040bfa9f4227d1e19cfc4",
+      "referencias_aprovadas": [],
+      "impacto_esperado": "Conectar aparência às variantes; preservar segmentação, sincronização, falantes e movimentos atuais",
+      "politica_medidas_nao_redefinidas": "Preservar valor e layout da variante existente como legado identificado; não promovê-lo a fundamento global nem inventar novo valor"
+    },
+    {
+      "id": "cartao-final-de-ponte",
+      "nome": "Cartão final de ponte",
+      "estado": "mapeada_especificacao_parcial",
+      "ficha_origem": "cartao_final",
+      "implementada_no_app_na_auditoria": false,
+      "componentes_propostos": [
+        "chapeu",
+        "texto_editorial",
+        "assinatura",
+        "tratamento_contraste"
+      ],
+      "campos_observados": [
+        "destino",
+        "texto",
+        "area_clicaveis"
+      ],
+      "layout": "Texto de encaminhamento e assinatura, respeitando áreas clicáveis quando usadas",
+      "animacao": "Preservar implementação existente; adaptar somente vínculos e medidas dos alvos",
+      "pendencias": [
+        "Gian conferir correspondência das variantes e medidas legadas com a implementação atual; divergência visual sem regra explícita deve ser registrada, não resolvida por invenção"
+      ],
+      "fonte_commit": "6b9cf354eb4781afae5040bfa9f4227d1e19cfc4",
+      "referencias_aprovadas": [],
+      "impacto_esperado": "Compartilhar conjunto editorial e assinatura; preservar destino e reserva de áreas clicáveis",
+      "politica_medidas_nao_redefinidas": "Preservar valor e layout da variante existente como legado identificado; não promovê-lo a fundamento global nem inventar novo valor"
+    },
+    {
+      "id": "pacote-360",
+      "nome": "Pacote 360 nas redes",
+      "estado": "agrupamento_de_entregas",
+      "ficha_origem": null,
+      "implementada_no_app_na_auditoria": false,
+      "componentes_propostos": [
+        "composicao_por_midia",
+        "chapeu",
+        "texto_editorial",
+        "assinatura",
+        "midia",
+        "tratamento_contraste"
+      ],
+      "campos_observados": [],
+      "layout": "Encaminhar cada entrega à composição e ao perfil de mídia correspondentes; não renderizar como componente único",
+      "animacao": "Preservar implementação existente; adaptar somente vínculos e medidas dos alvos",
+      "pendencias": [],
+      "fonte_commit": "6b9cf354eb4781afae5040bfa9f4227d1e19cfc4",
+      "referencias_aprovadas": [],
+      "impacto_esperado": "Orquestrar saídas pelas composições próprias, incluindo templates aprovados de card, Reels e thumbnail; não criar um template único",
+      "politica_medidas_nao_redefinidas": "Preservar valor e layout da variante existente como legado identificado; não promovê-lo a fundamento global nem inventar novo valor"
+    }
+  ],
+  "consumidores_por_componente": {
+    "chapeu": [
+      "manchete-central-modelo-de-video-do-canva",
+      "cartao-final-de-ponte",
+      "pacote-360"
+    ],
+    "texto_editorial": [
+      "manchete-central-modelo-de-video-do-canva",
+      "pergunta-gancho-titulo-em-tarja",
+      "manchete-de-outro-veiculo",
+      "marcador-de-capitulo",
+      "palavra-conceito",
+      "linha-do-tempo",
+      "post-de-rede-social",
+      "numero-em-destaque",
+      "sistema-de-graficos",
+      "comparacao",
+      "o-que-se-sabe-o-que-nao-se-sabe",
+      "selo-de-checagem",
+      "citacao",
+      "cartao-final-de-ponte",
+      "pacote-360"
+    ],
+    "tratamento_contraste": [
+      "manchete-central-modelo-de-video-do-canva",
+      "marcador-de-capitulo",
+      "etiqueta-de-tema-serie",
+      "audio-obtido",
+      "print-gravacao-de-tela",
+      "numero-em-destaque",
+      "cartao-final-de-ponte",
+      "pacote-360"
+    ],
+    "midia": [
+      "manchete-central-modelo-de-video-do-canva",
+      "pergunta-gancho-titulo-em-tarja",
+      "manchete-de-outro-veiculo",
+      "marcador-de-capitulo",
+      "palavra-conceito",
+      "linha-do-tempo",
+      "documento-com-grifo",
+      "post-de-rede-social",
+      "audio-obtido",
+      "print-gravacao-de-tela",
+      "tela-dividida-2-3-4",
+      "numero-em-destaque",
+      "comparacao",
+      "selo-de-checagem",
+      "grid-de-fotos",
+      "citacao",
+      "pacote-360"
+    ],
+    "caixa_texto": [
+      "pergunta-gancho-titulo-em-tarja",
+      "tarja-de-nome-e-cargo",
+      "localizacao",
+      "citacao",
+      "legenda"
+    ],
+    "grifo": [
+      "pergunta-gancho-titulo-em-tarja",
+      "manchete-de-outro-veiculo",
+      "palavra-conceito",
+      "documento-com-grifo",
+      "post-de-rede-social",
+      "print-gravacao-de-tela",
+      "selo-de-checagem",
+      "legenda"
+    ],
+    "cartao": [
+      "manchete-de-outro-veiculo",
+      "linha-do-tempo",
+      "documento-com-grifo",
+      "post-de-rede-social",
+      "print-gravacao-de-tela",
+      "o-que-se-sabe-o-que-nao-se-sabe",
+      "citacao"
+    ],
+    "recurso_grafico": [
+      "manchete-de-outro-veiculo",
+      "localizacao",
+      "numero-sobre-o-video"
+    ],
+    "informacao_auxiliar": [
+      "manchete-de-outro-veiculo",
+      "localizacao",
+      "documento-com-grifo",
+      "post-de-rede-social",
+      "numero-em-destaque",
+      "sistema-de-graficos",
+      "selo-de-checagem"
+    ],
+    "etiqueta": [
+      "marcador-de-capitulo",
+      "etiqueta-de-tema-serie",
+      "audio-obtido"
+    ],
+    "identificacao": [
+      "tarja-de-nome-e-cargo",
+      "localizacao",
+      "post-de-rede-social",
+      "audio-obtido",
+      "numero-sobre-o-video",
+      "comparacao",
+      "citacao"
+    ],
+    "sequencia_temporal": [
+      "linha-do-tempo"
+    ],
+    "onda_audio": [
+      "audio-obtido"
+    ],
+    "transcricao": [
+      "audio-obtido",
+      "legenda"
+    ],
+    "credito": [
+      "print-gravacao-de-tela",
+      "tela-dividida-2-3-4",
+      "grid-de-fotos",
+      "credito"
+    ],
+    "grade_midia": [
+      "tela-dividida-2-3-4",
+      "comparacao",
+      "grid-de-fotos"
+    ],
+    "dado_numerico": [
+      "numero-em-destaque",
+      "numero-sobre-o-video",
+      "comparacao"
+    ],
+    "visualizacao_dados": [
+      "sistema-de-graficos"
+    ],
+    "lista_editorial": [
+      "o-que-se-sabe-o-que-nao-se-sabe"
+    ],
+    "selo": [
+      "selo-de-checagem"
+    ],
+    "transicao": [
+      "transicoes-fitas-ninja"
+    ],
+    "fundo_grafico": [
+      "fundos"
+    ],
+    "assinatura": [
+      "cartao-final-de-ponte",
+      "pacote-360"
+    ],
+    "composicao_por_midia": [
+      "pacote-360"
+    ]
+  }
+}

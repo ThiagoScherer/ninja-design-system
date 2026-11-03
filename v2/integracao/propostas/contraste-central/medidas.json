@@ -1,0 +1,48 @@
+[
+  {
+    "id": "horizontal-veu",
+    "estado": "proposta",
+    "fonte": 112,
+    "larguras": [
+      1270.203125,
+      1650.21875,
+      1483.109375
+    ],
+    "largura_util": 1800
+  },
+  {
+    "id": "horizontal-desfoque",
+    "estado": "proposta",
+    "fonte": 112,
+    "larguras": [
+      1270.203125,
+      1650.21875,
+      1483.109375
+    ],
+    "largura_util": 1800
+  },
+  {
+    "id": "vertical-veu",
+    "estado": "proposta",
+    "fonte": 82.8,
+    "larguras": [
+      939.046875,
+      734.28125,
+      869.078125,
+      692.375
+    ],
+    "largura_util": 940
+  },
+  {
+    "id": "vertical-desfoque",
+    "estado": "proposta",
+    "fonte": 82.8,
+    "larguras": [
+      939.046875,
+      734.28125,
+      869.078125,
+      692.375
+    ],
+    "largura_util": 940
+  }
+]

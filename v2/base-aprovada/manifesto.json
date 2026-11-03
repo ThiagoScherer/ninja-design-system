@@ -1,0 +1,23 @@
+{
+  "nome": "NINJA Design System",
+  "versao": "1.0.0",
+  "contrato": "0.1.0",
+  "status": "conferencia_local_concluida",
+  "marca": "ninja",
+  "templates": [
+    "noticia_ninja_card",
+    "noticia_ninja_reels",
+    "noticia_ninja_thumbnail"
+  ],
+  "exemplos": [
+    "card-sem-lead",
+    "card-com-lead",
+    "reels",
+    "thumbnail-1",
+    "thumbnail-2",
+    "thumbnail-3"
+  ],
+  "data": "2026-11-02",
+  "entrada_agentes": "GUIA-AGENTES.md",
+  "relatorio": "RELATORIO-CONFERENCIA.md"
+}

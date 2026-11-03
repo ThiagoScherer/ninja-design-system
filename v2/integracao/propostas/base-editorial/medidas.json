@@ -1,0 +1,58 @@
+[
+  {
+    "id": "longa-branco",
+    "estado": "proposta",
+    "chamada": 82.8000000000012,
+    "linhas": 4,
+    "larguras": [
+      939.046875,
+      734.28125,
+      869.078125,
+      692.375
+    ],
+    "chapeu_topo": 1129.25,
+    "degrade_topo": 1049.25,
+    "degrade_base": 1580
+  },
+  {
+    "id": "longa-destaque",
+    "estado": "proposta",
+    "chamada": 82.8000000000012,
+    "linhas": 4,
+    "larguras": [
+      939.046875,
+      734.28125,
+      869.078125,
+      692.375
+    ],
+    "chapeu_topo": 1129.25,
+    "degrade_topo": 1049.25,
+    "degrade_base": 1580
+  },
+  {
+    "id": "curta-branco",
+    "estado": "proposta",
+    "chamada": 104,
+    "linhas": 2,
+    "larguras": [
+      481.53125,
+      869.65625
+    ],
+    "chapeu_topo": 1252.4375,
+    "degrade_topo": 1172.4375,
+    "degrade_base": 1580
+  },
+  {
+    "id": "curta-destaque",
+    "estado": "proposta",
+    "chamada": 104,
+    "linhas": 2,
+    "larguras": [
+      481.53125,
+      869.65625
+    ],
+    "chapeu_topo": 1252.4375,
+    "degrade_topo": 1172.4375,
+    "degrade_base": 1580
+  }
+]

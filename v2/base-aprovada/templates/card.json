@@ -1,0 +1,87 @@
+{
+  "id": "noticia_ninja_card",
+  "variacoes": {
+    "sem-lead": {
+      "id": "noticia_ninja_card",
+      "midia": "card",
+      "dimensao": {
+        "largura": 1080,
+        "altura": 1440
+      },
+      "perfil": "card",
+      "assinatura_recurso": "../recursos/9b5b8060dcc2eeaa.png",
+      "foto": {
+        "altura": 1280,
+        "posicao": "70% 50%"
+      },
+      "editorial": {
+        "base": 130,
+        "centralizado": false
+      },
+      "chapeu": {
+        "tamanho": 37.4,
+        "entrelinha": 1.15
+      },
+      "chamada": {
+        "entrelinha": 1
+      },
+      "lead": {
+        "tamanho": 32,
+        "entrelinha": 1.25
+      },
+      "assinatura": {
+        "largura": 67,
+        "altura": 40,
+        "base": 50
+      },
+      "credito": {
+        "tamanho": 16,
+        "base": 50
+      },
+      "degrade": {
+        "distancia_acima_chapeu": 80
+      }
+    },
+    "com-lead": {
+      "id": "noticia_ninja_card",
+      "midia": "card",
+      "dimensao": {
+        "largura": 1080,
+        "altura": 1440
+      },
+      "perfil": "card",
+      "assinatura_recurso": "../recursos/9b5b8060dcc2eeaa.png",
+      "foto": {
+        "altura": 1440,
+        "posicao": "50% 25%"
+      },
+      "editorial": {
+        "base": 130,
+        "centralizado": false
+      },
+      "chapeu": {
+        "tamanho": 37.4,
+        "entrelinha": 1.15
+      },
+      "chamada": {
+        "entrelinha": 1
+      },
+      "lead": {
+        "tamanho": 32,
+        "entrelinha": 1.25
+      },
+      "assinatura": {
+        "largura": 67,
+        "altura": 40,
+        "base": 50
+      },
+      "credito": {
+        "tamanho": 16,
+        "base": 50
+      },
+      "degrade": {
+        "distancia_acima_chapeu": 80
+      }
+    }
+  }
+}

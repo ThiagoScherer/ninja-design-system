@@ -1,0 +1,29 @@
+{
+  "escopo": "Piloto do contrato comum: notícia Reels NINJA",
+  "sequencia_testada": {
+    "linhas_preferidas": 4,
+    "reducao_inicial": 0.15,
+    "restaurar_tamanho_antes_quinta_linha": true,
+    "linhas_alternativas": [
+      5
+    ],
+    "preservar_conteudo": true
+  },
+  "chamadas_curtas": "Permitir menos linhas; quatro é preferência, não obrigação",
+  "quebras": "Conectivos no fim da linha não são motivo automático de rejeição",
+  "casos_extremos": {
+    "status": "aprovado",
+    "fora_do_conjunto_habitual": [
+      "chamada_muito_longa",
+      "palavra_extremamente_longa"
+    ],
+    "fonte_menor": "Admitida excepcionalmente nos testes aprovados; não redefine o piso habitual",
+    "palavra_dominante": {
+      "tamanho": "Determinado pela largura da maior palavra dentro da largura útil",
+      "linhas": "Usar apenas as linhas necessárias, sem forçar quatro ou cinco",
+      "referencia": "teste-palavra-dominante/resultado.json"
+    }
+  },
+  "piso_habitual_registrado_px": 64,
+  "nota": "Arquivo de decisões avaliadas; o motor experimental e o contrato principal ainda precisam consolidar política de exceções e seleção do tamanho inicial antes da integração nas aplicações"
+}

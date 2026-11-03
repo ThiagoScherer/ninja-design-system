@@ -1,0 +1,101 @@
+{
+  "versao": "2.0.0",
+  "casos": [
+    {
+      "id": "T01",
+      "acao": "Alterar padding de uma variante de caixa",
+      "esperado": "Todas as composições que referenciam essa variante atualizam; outras variantes mantêm seus valores",
+      "estado": "nao_executado"
+    },
+    {
+      "id": "T02",
+      "acao": "Mover um conjunto editorial em uma composição",
+      "esperado": "Somente essa composição muda de posição",
+      "estado": "nao_executado"
+    },
+    {
+      "id": "T03",
+      "acao": "Trocar chamada curta por longa",
+      "esperado": "Encaixe segue a política do papel, mede largura e altura e preserva conteúdo",
+      "estado": "nao_executado"
+    },
+    {
+      "id": "T04",
+      "acao": "Exigir quinta linha e redução além de 15%",
+      "esperado": "A redução continua até o limite do contexto; não fica travada no primeiro patamar",
+      "estado": "nao_executado"
+    },
+    {
+      "id": "T05",
+      "acao": "Remover chapéu, apoio e função opcionais",
+      "esperado": "Elementos e espaços correspondentes desaparecem; animação não procura alvo inexistente",
+      "estado": "nao_executado"
+    },
+    {
+      "id": "T06",
+      "acao": "Alterar altura do texto ou fim da fotografia",
+      "esperado": "Degradê usa a geometria final: 100% no fim da foto e 0% acima da âncora declarada",
+      "estado": "nao_executado"
+    },
+    {
+      "id": "T07",
+      "acao": "Renderizar identificação junto de legenda",
+      "esperado": "Áreas respeitam convivência e perfil; não há deslocamento contínuo novo inventado pela integração",
+      "estado": "nao_executado"
+    },
+    {
+      "id": "T08",
+      "acao": "Usar duas instâncias do mesmo componente",
+      "esperado": "IDs e vínculos são distintos; animação atua na instância correta",
+      "estado": "nao_executado"
+    },
+    {
+      "id": "T09",
+      "acao": "Alterar fonte ou caixa em uma composição animada",
+      "esperado": "Máscaras acompanham medidas novas, sem cortar letras; tempos, curvas e movimento permanecem os existentes",
+      "estado": "nao_executado"
+    },
+    {
+      "id": "T10",
+      "acao": "Trocar recurso em célula de grade",
+      "esperado": "Crop e crédito permanecem associados à célula correta",
+      "estado": "nao_executado"
+    },
+    {
+      "id": "T11",
+      "acao": "Aplicar grifo e recortar documento",
+      "esperado": "Marca acompanha a coordenada do recurso, sem migrar para trecho errado",
+      "estado": "nao_executado"
+    },
+    {
+      "id": "T12",
+      "acao": "Atualizar dados numéricos e gráfico",
+      "esperado": "Unidade, rótulos e fonte continuam associados; animação existente é preservada",
+      "estado": "nao_executado"
+    },
+    {
+      "id": "T13",
+      "acao": "Comparar preview e exportação",
+      "esperado": "Mesmas fontes, medidas, linhas, caixas, recursos e alvos de animação",
+      "estado": "nao_executado"
+    },
+    {
+      "id": "T14",
+      "acao": "Abrir projeto anterior à migração",
+      "esperado": "Versão e migração explícitas; sem troca silenciosa da composição arquivada",
+      "estado": "nao_executado"
+    },
+    {
+      "id": "T15",
+      "acao": "Gerar pacote 360",
+      "esperado": "Cada saída usa seu perfil e composição; vídeo horizontal não herda tratamentos exclusivos de thumbnail",
+      "estado": "nao_executado"
+    },
+    {
+      "id": "T16",
+      "acao": "Testar horizontal e vertical",
+      "esperado": "Horizontal 1920×1080 com margens 60; vertical aplica seu perfil e área segura, sem simples escala do horizontal",
+      "estado": "nao_executado"
+    }
+  ]
+}

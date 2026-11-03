@@ -1,0 +1,15 @@
+{
+  "nome": "NINJA Design System",
+  "versao": "2.0.0",
+  "status": "pacote_local_para_implementacao",
+  "data": "2026-11-03",
+  "marca_inicial": "ninja",
+  "base_preservada": "base-aprovada/manifesto.json",
+  "entrada_agentes": "IMPLEMENTAR-COM-AGENTE.md",
+  "contrato_integracao": "contrato-integracao.json",
+  "mapa": "integracao/composicoes/registro.json",
+  "testes": "testes/casos.json",
+  "auditoria_maquina_commit": "6b9cf354eb4781afae5040bfa9f4227d1e19cfc4",
+  "animacoes": "preservar_existentes",
+  "integracao_certificada": false
+}

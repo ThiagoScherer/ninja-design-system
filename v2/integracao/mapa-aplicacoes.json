@@ -1,0 +1,393 @@
+{
+  "status": "proposta_para_revisao_com_thiago",
+  "data": "2026-11-03",
+  "fonte_commit": "6b9cf354eb4781afae5040bfa9f4227d1e19cfc4",
+  "nota": "Dependências propostas a partir da galeria; não representam dependências já implementadas nem aprovação de aparência, medidas ou movimento",
+  "aplicacoes": [
+    {
+      "id_catalogo": "manchete-central-modelo-de-video-do-canva",
+      "nome": "Chamada central (modelo de vídeo do Canva)",
+      "ficha_observada": "chamada_central",
+      "no_app_observado": true,
+      "componentes_propostos": [
+        "chapeu",
+        "texto_editorial",
+        "tratamento_contraste",
+        "midia"
+      ],
+      "estado_especificacao": "proposta_inicial",
+      "observacao": ""
+    },
+    {
+      "id_catalogo": "pergunta-gancho-titulo-em-tarja",
+      "nome": "Pergunta-gancho / título em tarja",
+      "ficha_observada": "pergunta_gancho",
+      "no_app_observado": false,
+      "componentes_propostos": [
+        "texto_editorial",
+        "caixa_texto",
+        "grifo",
+        "midia"
+      ],
+      "estado_especificacao": "proposta_inicial",
+      "observacao": ""
+    },
+    {
+      "id_catalogo": "manchete-de-outro-veiculo",
+      "nome": "Manchete de outro veículo",
+      "ficha_observada": "manchete_veiculo",
+      "no_app_observado": false,
+      "componentes_propostos": [
+        "cartao",
+        "recurso_grafico",
+        "texto_editorial",
+        "grifo",
+        "informacao_auxiliar",
+        "midia"
+      ],
+      "estado_especificacao": "proposta_inicial",
+      "observacao": ""
+    },
+    {
+      "id_catalogo": "marcador-de-capitulo",
+      "nome": "Marcador de capítulo",
+      "ficha_observada": "capitulo",
+      "no_app_observado": false,
+      "componentes_propostos": [
+        "texto_editorial",
+        "etiqueta",
+        "tratamento_contraste",
+        "midia"
+      ],
+      "estado_especificacao": "proposta_inicial",
+      "observacao": ""
+    },
+    {
+      "id_catalogo": "etiqueta-de-tema-serie",
+      "nome": "Etiqueta de tema / série",
+      "ficha_observada": "etiqueta_tema",
+      "no_app_observado": false,
+      "componentes_propostos": [
+        "etiqueta",
+        "tratamento_contraste"
+      ],
+      "estado_especificacao": "proposta_inicial",
+      "observacao": ""
+    },
+    {
+      "id_catalogo": "palavra-conceito",
+      "nome": "Palavra-conceito",
+      "ficha_observada": "palavra_conceito",
+      "no_app_observado": false,
+      "componentes_propostos": [
+        "texto_editorial",
+        "grifo",
+        "midia"
+      ],
+      "estado_especificacao": "proposta_inicial",
+      "observacao": ""
+    },
+    {
+      "id_catalogo": "tarja-de-nome-e-cargo",
+      "nome": "Tarja de nome e cargo",
+      "ficha_observada": "tarja_nome",
+      "no_app_observado": true,
+      "componentes_propostos": [
+        "identificacao",
+        "caixa_texto"
+      ],
+      "estado_especificacao": "proposta_inicial",
+      "observacao": ""
+    },
+    {
+      "id_catalogo": "localizacao",
+      "nome": "Localização",
+      "ficha_observada": "localizacao",
+      "no_app_observado": false,
+      "componentes_propostos": [
+        "identificacao",
+        "recurso_grafico",
+        "informacao_auxiliar",
+        "caixa_texto"
+      ],
+      "estado_especificacao": "proposta_inicial",
+      "observacao": ""
+    },
+    {
+      "id_catalogo": "linha-do-tempo",
+      "nome": "Linha do tempo",
+      "ficha_observada": "linha_tempo",
+      "no_app_observado": false,
+      "componentes_propostos": [
+        "sequencia_temporal",
+        "cartao",
+        "texto_editorial",
+        "midia"
+      ],
+      "estado_especificacao": "proposta_inicial",
+      "observacao": ""
+    },
+    {
+      "id_catalogo": "documento-com-grifo",
+      "nome": "Documento com grifo",
+      "ficha_observada": "documento",
+      "no_app_observado": false,
+      "componentes_propostos": [
+        "cartao",
+        "midia",
+        "grifo",
+        "informacao_auxiliar"
+      ],
+      "estado_especificacao": "proposta_inicial",
+      "observacao": ""
+    },
+    {
+      "id_catalogo": "post-de-rede-social",
+      "nome": "Post de rede social",
+      "ficha_observada": "post_rede",
+      "no_app_observado": false,
+      "componentes_propostos": [
+        "cartao",
+        "identificacao",
+        "texto_editorial",
+        "midia",
+        "informacao_auxiliar",
+        "grifo"
+      ],
+      "estado_especificacao": "proposta_inicial",
+      "observacao": ""
+    },
+    {
+      "id_catalogo": "audio-obtido",
+      "nome": "Áudio obtido",
+      "ficha_observada": "audio_obtido",
+      "no_app_observado": false,
+      "componentes_propostos": [
+        "etiqueta",
+        "onda_audio",
+        "transcricao",
+        "identificacao",
+        "midia",
+        "tratamento_contraste"
+      ],
+      "estado_especificacao": "proposta_inicial",
+      "observacao": ""
+    },
+    {
+      "id_catalogo": "print-gravacao-de-tela",
+      "nome": "Print / gravação de tela",
+      "ficha_observada": "print_tela",
+      "no_app_observado": false,
+      "componentes_propostos": [
+        "cartao",
+        "midia",
+        "grifo",
+        "credito",
+        "tratamento_contraste"
+      ],
+      "estado_especificacao": "proposta_inicial",
+      "observacao": ""
+    },
+    {
+      "id_catalogo": "tela-dividida-2-3-4",
+      "nome": "Tela dividida (2, 3, 4)",
+      "ficha_observada": "tela_dividida",
+      "no_app_observado": false,
+      "componentes_propostos": [
+        "grade_midia",
+        "midia",
+        "credito"
+      ],
+      "estado_especificacao": "proposta_inicial",
+      "observacao": ""
+    },
+    {
+      "id_catalogo": "numero-em-destaque",
+      "nome": "Número em destaque",
+      "ficha_observada": "numero",
+      "no_app_observado": false,
+      "componentes_propostos": [
+        "dado_numerico",
+        "texto_editorial",
+        "informacao_auxiliar",
+        "midia",
+        "tratamento_contraste"
+      ],
+      "estado_especificacao": "proposta_inicial",
+      "observacao": ""
+    },
+    {
+      "id_catalogo": "numero-sobre-o-video",
+      "nome": "Número sobre o vídeo",
+      "ficha_observada": "numero_video",
+      "no_app_observado": false,
+      "componentes_propostos": [
+        "dado_numerico",
+        "identificacao",
+        "recurso_grafico"
+      ],
+      "estado_especificacao": "proposta_inicial",
+      "observacao": ""
+    },
+    {
+      "id_catalogo": "sistema-de-graficos",
+      "nome": "Sistema de gráficos",
+      "ficha_observada": "grafico",
+      "no_app_observado": false,
+      "componentes_propostos": [
+        "visualizacao_dados",
+        "texto_editorial",
+        "informacao_auxiliar"
+      ],
+      "estado_especificacao": "proposta_inicial",
+      "observacao": ""
+    },
+    {
+      "id_catalogo": "comparacao",
+      "nome": "Comparação",
+      "ficha_observada": "comparacao",
+      "no_app_observado": false,
+      "componentes_propostos": [
+        "grade_midia",
+        "midia",
+        "identificacao",
+        "texto_editorial",
+        "dado_numerico"
+      ],
+      "estado_especificacao": "proposta_inicial",
+      "observacao": ""
+    },
+    {
+      "id_catalogo": "o-que-se-sabe-o-que-nao-se-sabe",
+      "nome": "O que se sabe / o que não se sabe",
+      "ficha_observada": "sabe_nao_sabe",
+      "no_app_observado": false,
+      "componentes_propostos": [
+        "lista_editorial",
+        "texto_editorial",
+        "cartao"
+      ],
+      "estado_especificacao": "proposta_inicial",
+      "observacao": ""
+    },
+    {
+      "id_catalogo": "selo-de-checagem",
+      "nome": "Selo de checagem",
+      "ficha_observada": "checagem",
+      "no_app_observado": false,
+      "componentes_propostos": [
+        "texto_editorial",
+        "selo",
+        "grifo",
+        "informacao_auxiliar",
+        "midia"
+      ],
+      "estado_especificacao": "proposta_inicial",
+      "observacao": ""
+    },
+    {
+      "id_catalogo": "grid-de-fotos",
+      "nome": "Grid de fotos",
+      "ficha_observada": "tela_dividida",
+      "no_app_observado": false,
+      "componentes_propostos": [
+        "grade_midia",
+        "midia",
+        "credito"
+      ],
+      "estado_especificacao": "proposta_inicial",
+      "observacao": "Mesma ficha de tela dividida; verificar variantes da grade"
+    },
+    {
+      "id_catalogo": "citacao",
+      "nome": "Citação",
+      "ficha_observada": "citacao",
+      "no_app_observado": false,
+      "componentes_propostos": [
+        "texto_editorial",
+        "caixa_texto",
+        "identificacao",
+        "cartao",
+        "midia"
+      ],
+      "estado_especificacao": "proposta_inicial",
+      "observacao": ""
+    },
+    {
+      "id_catalogo": "credito",
+      "nome": "Crédito",
+      "ficha_observada": "credito",
+      "no_app_observado": true,
+      "componentes_propostos": [
+        "credito"
+      ],
+      "estado_especificacao": "proposta_inicial",
+      "observacao": ""
+    },
+    {
+      "id_catalogo": "transicoes-fitas-ninja",
+      "nome": "Transições — fitas NINJA",
+      "ficha_observada": "transicao",
+      "no_app_observado": false,
+      "componentes_propostos": [
+        "transicao"
+      ],
+      "estado_especificacao": "proposta_inicial",
+      "observacao": "Categoria em espera na galeria; aparência e motion não aprovados"
+    },
+    {
+      "id_catalogo": "fundos",
+      "nome": "Fundos",
+      "ficha_observada": "fundo",
+      "no_app_observado": false,
+      "componentes_propostos": [
+        "fundo_grafico"
+      ],
+      "estado_especificacao": "proposta_inicial",
+      "observacao": "Categoria em espera na galeria; aparência e motion não aprovados"
+    },
+    {
+      "id_catalogo": "legenda",
+      "nome": "Legenda",
+      "ficha_observada": "legenda",
+      "no_app_observado": false,
+      "componentes_propostos": [
+        "transcricao",
+        "caixa_texto",
+        "grifo"
+      ],
+      "estado_especificacao": "proposta_inicial",
+      "observacao": ""
+    },
+    {
+      "id_catalogo": "cartao-final-de-ponte",
+      "nome": "Cartão final de ponte",
+      "ficha_observada": "cartao_final",
+      "no_app_observado": false,
+      "componentes_propostos": [
+        "chapeu",
+        "texto_editorial",
+        "assinatura",
+        "tratamento_contraste"
+      ],
+      "estado_especificacao": "proposta_inicial",
+      "observacao": ""
+    },
+    {
+      "id_catalogo": "pacote-360",
+      "nome": "Pacote 360 nas redes",
+      "ficha_observada": null,
+      "no_app_observado": false,
+      "componentes_propostos": [
+        "composicao_por_midia",
+        "chapeu",
+        "texto_editorial",
+        "assinatura",
+        "midia",
+        "tratamento_contraste"
+      ],
+      "estado_especificacao": "proposta_inicial",
+      "observacao": "Pacote de saídas, não componente único"
+    }
+  ]
+}

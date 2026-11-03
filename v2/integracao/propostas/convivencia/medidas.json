@@ -1,0 +1,202 @@
+[
+  {
+    "id": "horizontal-com-legenda",
+    "status": "proposta_visual_nao_aprovada",
+    "perfil": {
+      "w": 1920,
+      "h": 1080,
+      "m": 60,
+      "top": 0,
+      "safeBottom": 1080,
+      "legendaTop": 880,
+      "semLegendaBase": 960,
+      "nomeSize": 60,
+      "captionSize": 48,
+      "logoW": 100
+    },
+    "caixas": {
+      ".nome": {
+        "x": 60,
+        "y": 708.40625,
+        "largura": 552.34375,
+        "altura": 141.59375,
+        "base": 850
+      },
+      ".legenda": {
+        "x": 60,
+        "y": 880,
+        "largura": 1800,
+        "altura": 139.1875,
+        "base": 1019.1875
+      },
+      ".logo": {
+        "x": 1760,
+        "y": 60,
+        "largura": 100,
+        "altura": 61.109375,
+        "base": 121.109375
+      },
+      ".credito": {
+        "x": 60,
+        "y": 60,
+        "largura": 206.671875,
+        "altura": 24,
+        "base": 84
+      },
+      ".segura": {
+        "x": 60,
+        "y": 60,
+        "largura": 1800,
+        "altura": 960,
+        "base": 1020
+      }
+    }
+  },
+  {
+    "id": "horizontal-sem-legenda",
+    "status": "proposta_visual_nao_aprovada",
+    "perfil": {
+      "w": 1920,
+      "h": 1080,
+      "m": 60,
+      "top": 0,
+      "safeBottom": 1080,
+      "legendaTop": 880,
+      "semLegendaBase": 960,
+      "nomeSize": 60,
+      "captionSize": 48,
+      "logoW": 100
+    },
+    "caixas": {
+      ".nome": {
+        "x": 60,
+        "y": 818.40625,
+        "largura": 552.34375,
+        "altura": 141.59375,
+        "base": 960
+      },
+      ".legenda": null,
+      ".logo": {
+        "x": 1760,
+        "y": 60,
+        "largura": 100,
+        "altura": 61.109375,
+        "base": 121.109375
+      },
+      ".credito": {
+        "x": 60,
+        "y": 60,
+        "largura": 206.671875,
+        "altura": 24,
+        "base": 84
+      },
+      ".segura": {
+        "x": 60,
+        "y": 60,
+        "largura": 1800,
+        "altura": 960,
+        "base": 1020
+      }
+    }
+  },
+  {
+    "id": "vertical-com-legenda",
+    "status": "proposta_visual_nao_aprovada",
+    "perfil": {
+      "w": 1080,
+      "h": 1920,
+      "m": 70,
+      "top": 240,
+      "safeBottom": 1680,
+      "legendaTop": 1450,
+      "semLegendaBase": 1610,
+      "nomeSize": 60,
+      "captionSize": 48,
+      "logoW": 72
+    },
+    "caixas": {
+      ".nome": {
+        "x": 70,
+        "y": 1278.40625,
+        "largura": 552.34375,
+        "altura": 141.59375,
+        "base": 1420
+      },
+      ".legenda": {
+        "x": 70,
+        "y": 1450,
+        "largura": 940,
+        "altura": 139.1875,
+        "base": 1589.1875
+      },
+      ".logo": {
+        "x": 938,
+        "y": 300,
+        "largura": 72,
+        "altura": 44,
+        "base": 344
+      },
+      ".credito": {
+        "x": 70,
+        "y": 300,
+        "largura": 206.671875,
+        "altura": 24,
+        "base": 324
+      },
+      ".segura": {
+        "x": 70,
+        "y": 240,
+        "largura": 940,
+        "altura": 1440,
+        "base": 1680
+      }
+    }
+  },
+  {
+    "id": "vertical-sem-legenda",
+    "status": "proposta_visual_nao_aprovada",
+    "perfil": {
+      "w": 1080,
+      "h": 1920,
+      "m": 70,
+      "top": 240,
+      "safeBottom": 1680,
+      "legendaTop": 1450,
+      "semLegendaBase": 1610,
+      "nomeSize": 60,
+      "captionSize": 48,
+      "logoW": 72
+    },
+    "caixas": {
+      ".nome": {
+        "x": 70,
+        "y": 1468.40625,
+        "largura": 552.34375,
+        "altura": 141.59375,
+        "base": 1610
+      },
+      ".legenda": null,
+      ".logo": {
+        "x": 938,
+        "y": 300,
+        "largura": 72,
+        "altura": 44,
+        "base": 344
+      },
+      ".credito": {
+        "x": 70,
+        "y": 300,
+        "largura": 206.671875,
+        "altura": 24,
+        "base": 324
+      },
+      ".segura": {
+        "x": 70,
+        "y": 240,
+        "largura": 940,
+        "altura": 1440,
+        "base": 1680
+      }
+    }
+  }
+]

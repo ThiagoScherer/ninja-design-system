@@ -1,0 +1,63 @@
+[
+  {
+    "id": "curto",
+    "texto": "AS VOZES DOS TERRITÓRIOS",
+    "custo": 0.24541438191374876,
+    "linhas": [
+      "AS VOZES",
+      "DOS TERRITÓRIOS"
+    ],
+    "fonte": 104,
+    "etapa": "texto_curto",
+    "conteudo_preservado": true,
+    "larguras": [
+      481.53125,
+      869.65625
+    ],
+    "degrade_topo": 1172.4375
+  },
+  {
+    "id": "medio",
+    "texto": "COMUNICAÇÃO POPULAR FORTALECE E AMPLIA AS VOZES DOS TERRITÓRIOS",
+    "custo": 0.5146166721390343,
+    "linhas": [
+      "COMUNICAÇÃO",
+      "POPULAR FORTALECE",
+      "E AMPLIA AS VOZES",
+      "DOS TERRITÓRIOS"
+    ],
+    "fonte": 95.1,
+    "etapa": "quatro_reducao_15",
+    "conteudo_preservado": true,
+    "larguras": [
+      645.640625,
+      939.21875,
+      875.5,
+      795.234375
+    ],
+    "degrade_topo": 1000.0625
+  },
+  {
+    "id": "longo",
+    "texto": "PROJETO DE COMUNICAÇÃO POPULAR CONECTA COMUNIDADES E AMPLIA A CIRCULAÇÃO DE HISTÓRIAS DOS TERRITÓRIOS",
+    "custo": 0.2231816212238542,
+    "linhas": [
+      "PROJETO DE COMUNICAÇÃO",
+      "POPULAR CONECTA",
+      "COMUNIDADES E AMPLIA A",
+      "CIRCULAÇÃO DE HISTÓRIAS",
+      "DOS TERRITÓRIOS"
+    ],
+    "fonte": 73.3,
+    "etapa": "cinco_reducao_ate_piso",
+    "conteudo_preservado": true,
+    "larguras": [
+      938.984375,
+      648.421875,
+      902.328125,
+      889.359375,
+      612.9375
+    ],
+    "degrade_topo": 1013.953125
+  }
+]

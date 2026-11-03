@@ -1,0 +1,226 @@
+[
+  {
+    "id": "horizontal-unica",
+    "estado": "proposta_revisada",
+    "area": {
+      "x": 60,
+      "largura": 1800
+    },
+    "caixa": {
+      "x": 401.421875,
+      "largura": 1117.15625,
+      "altura": 359.703125
+    },
+    "padding_padrao": 18,
+    "acrescimo_caixa_unica": 20,
+    "padding_caixa_unica": 38,
+    "glyphs": [
+      {
+        "texto": "DEMOCRACIA SE FAZ",
+        "largura": 1041.15625,
+        "altura": 80.08000946044922,
+        "padding_visivel": 0
+      },
+      {
+        "texto": "COM PARTICIPAÇÃO",
+        "largura": 973.171875,
+        "altura": 99.55001068115234,
+        "padding_visivel": 0
+      },
+      {
+        "texto": "E VOZES DIVERSAS",
+        "largura": 965.59375,
+        "altura": 80.08000946044922,
+        "padding_visivel": 0
+      }
+    ],
+    "linhas": [
+      {
+        "x": 439.421875,
+        "y": 398.140625,
+        "largura": 1041.15625,
+        "altura": 80.078125
+      },
+      {
+        "x": 473.40625,
+        "y": 490.21875,
+        "largura": 973.171875,
+        "altura": 99.546875
+      },
+      {
+        "x": 477.203125,
+        "y": 601.765625,
+        "largura": 965.59375,
+        "altura": 80.078125
+      }
+    ]
+  },
+  {
+    "id": "horizontal-por-linha",
+    "estado": "proposta_revisada",
+    "area": {
+      "x": 60,
+      "largura": 1800
+    },
+    "caixa": {
+      "x": 421.421875,
+      "largura": 1077.15625,
+      "altura": 367.703125
+    },
+    "padding_padrao": 18,
+    "acrescimo_caixa_unica": 20,
+    "padding_caixa_unica": 38,
+    "glyphs": [
+      {
+        "texto": "DEMOCRACIA SE FAZ",
+        "largura": 1041.15625,
+        "altura": 80.08000946044922,
+        "padding_visivel": 18
+      },
+      {
+        "texto": "COM PARTICIPAÇÃO",
+        "largura": 973.171875,
+        "altura": 99.55001068115234,
+        "padding_visivel": 18
+      },
+      {
+        "texto": "E VOZES DIVERSAS",
+        "largura": 965.59375,
+        "altura": 80.08000946044922,
+        "padding_visivel": 18
+      }
+    ],
+    "linhas": [
+      {
+        "x": 421.421875,
+        "y": 356.140625,
+        "largura": 1077.15625,
+        "altura": 116.078125
+      },
+      {
+        "x": 455.40625,
+        "y": 472.21875,
+        "largura": 1009.171875,
+        "altura": 135.546875
+      },
+      {
+        "x": 459.203125,
+        "y": 607.765625,
+        "largura": 1001.59375,
+        "altura": 116.078125
+      }
+    ]
+  },
+  {
+    "id": "vertical-unica",
+    "estado": "proposta_revisada",
+    "area": {
+      "x": 70,
+      "largura": 940
+    },
+    "caixa": {
+      "x": 123.390625,
+      "largura": 833.203125,
+      "altura": 288.859375
+    },
+    "padding_padrao": 18,
+    "acrescimo_caixa_unica": 20,
+    "padding_caixa_unica": 38,
+    "glyphs": [
+      {
+        "texto": "DEMOCRACIA SE FAZ",
+        "largura": 757.203125,
+        "altura": 58.2400016784668,
+        "padding_visivel": 0
+      },
+      {
+        "texto": "COM PARTICIPAÇÃO",
+        "largura": 707.765625,
+        "altura": 72.40000915527344,
+        "padding_visivel": 0
+      },
+      {
+        "texto": "E VOZES DIVERSAS",
+        "largura": 702.25,
+        "altura": 58.2400016784668,
+        "padding_visivel": 0
+      }
+    ],
+    "linhas": [
+      {
+        "x": 161.390625,
+        "y": 853.5625,
+        "largura": 757.203125,
+        "altura": 58.234375
+      },
+      {
+        "x": 186.109375,
+        "y": 923.796875,
+        "largura": 707.765625,
+        "altura": 72.390625
+      },
+      {
+        "x": 188.859375,
+        "y": 1008.1875,
+        "largura": 702.25,
+        "altura": 58.234375
+      }
+    ]
+  },
+  {
+    "id": "vertical-por-linha",
+    "estado": "proposta_revisada",
+    "area": {
+      "x": 70,
+      "largura": 940
+    },
+    "caixa": {
+      "x": 143.390625,
+      "largura": 793.203125,
+      "altura": 296.859375
+    },
+    "padding_padrao": 18,
+    "acrescimo_caixa_unica": 20,
+    "padding_caixa_unica": 38,
+    "glyphs": [
+      {
+        "texto": "DEMOCRACIA SE FAZ",
+        "largura": 757.203125,
+        "altura": 58.2400016784668,
+        "padding_visivel": 18
+      },
+      {
+        "texto": "COM PARTICIPAÇÃO",
+        "largura": 707.765625,
+        "altura": 72.40000915527344,
+        "padding_visivel": 18
+      },
+      {
+        "texto": "E VOZES DIVERSAS",
+        "largura": 702.25,
+        "altura": 58.2400016784668,
+        "padding_visivel": 18
+      }
+    ],
+    "linhas": [
+      {
+        "x": 143.390625,
+        "y": 811.5625,
+        "largura": 793.203125,
+        "altura": 94.234375
+      },
+      {
+        "x": 168.109375,
+        "y": 905.796875,
+        "largura": 743.765625,
+        "altura": 108.390625
+      },
+      {
+        "x": 170.859375,
+        "y": 1014.1875,
+        "largura": 738.25,
+        "altura": 94.234375
+      }
+    ]
+  }
+]
