@@ -1,4 +1,14 @@
-# NINJA Design System v1
+# NINJA Design System
+
+## Criar cards de notícia
+
+Para produzir cards, comece pelo [guia de produção](v3/cards/README.md). O agente encontra o catálogo das nove marcas, modelos com e sem lead, exemplos e comandos para gerar o PNG. A v3 de cards inclui a diagramação aprovada para notícia NINJA com lead.
+
+## Integrar a Máquina de Vídeos
+
+Comece pelas [instruções de integração da v2](v2/IMPLEMENTAR-COM-AGENTE.md).
+
+## Biblioteca original v1
 
 Entrada para agentes e para a integração da Máquina de Vídeos. Este pacote funciona sem consultar o histórico da conversa. Versão da biblioteca: 1.0.0; estrutura do contrato: 0.1.0
 
