@@ -1,0 +1,284 @@
+{
+  "marca": "Casa NINJA Amazônia",
+  "status": "aprovado",
+  "variante": "com-lead",
+  "formato": {
+    "largura": 1080,
+    "altura": 1440
+  },
+  "margensLateraisPx": 80,
+  "fontes": {
+    "chapeu": "Archivo Expanded ExtraBold",
+    "chamada": "PT Sans Narrow Bold",
+    "lead": "Manrope Medium",
+    "credito": "Manrope Medium"
+  },
+  "coresEstimadasDaReferencia": [
+    "#164462",
+    "#ef2408",
+    "#a10a49",
+    "#178959",
+    "#e7095d",
+    "#710b8a"
+  ],
+  "degrade": {
+    "opacidadeBase": 1,
+    "baseY": 1337,
+    "offsetAcimaChapeuPx": 80,
+    "multiplicadorExtensao": 1.25,
+    "calculo": "Base fixa em y=1337; extensão até 80px acima do chapéu multiplicada por 1.25"
+  },
+  "conteudoFicticio": true,
+  "lead": {
+    "presente": true,
+    "fonte": "Manrope Medium",
+    "tamanhoPx": 32,
+    "entrelinha": 1.25,
+    "distanciaChamadaPx": 20
+  },
+  "logo": {
+    "larguraPx": 290,
+    "esquerdaPx": 80,
+    "centroYPx": 1364.5,
+    "alinhamentoVertical": "Centro da faixa de y=1337 a y=1392",
+    "altura": "Proporcional ao SVG"
+  },
+  "chapeu": {
+    "paddingTopoPx": 11,
+    "paddingInferiorPx": 7,
+    "ajusteOptico": "Texto deslocado 3px para baixo mantendo altura da caixa"
+  },
+  "aprovadoEm": "2026-10-30",
+  "chamada": {
+    "tamanhoPxNestaComposicao": 86,
+    "tamanho": "Variável conforme conteúdo e quebras",
+    "entrelinha": 1,
+    "capitalizacao": "Frase, sem caps lock"
+  },
+  "fichaTecnica": "ficha-tecnica.json",
+  "regrasComuns": "biblioteca-local/regras-comuns.json",
+  "tokensObservados": {
+    "chapeu": {
+      "estiloEfetivo": {
+        "fontFamily": "Archivo",
+        "fontSize": "30px",
+        "fontWeight": "800",
+        "fontStyle": "normal",
+        "lineHeight": "34.5px",
+        "letterSpacing": "normal",
+        "textTransform": "none",
+        "textAlign": "start",
+        "color": "rgb(255, 255, 255)",
+        "backgroundColor": "rgb(239, 36, 8)",
+        "backgroundImage": "none",
+        "borderRadius": "14px",
+        "paddingTop": "11px",
+        "paddingBottom": "7px",
+        "paddingLeft": "14px",
+        "paddingRight": "14px",
+        "gap": "normal",
+        "top": "auto",
+        "bottom": "auto",
+        "left": "auto",
+        "right": "auto",
+        "position": "static",
+        "transform": "none",
+        "fontFeatureSettings": "normal"
+      },
+      "caixaNestaComposicaoPx": {
+        "x": 80,
+        "y": 829.5,
+        "largura": 485.296875,
+        "altura": 52.5
+      }
+    },
+    "chamada": {
+      "estiloEfetivo": {
+        "fontFamily": "PT",
+        "fontSize": "86px",
+        "fontWeight": "700",
+        "fontStyle": "normal",
+        "lineHeight": "86px",
+        "letterSpacing": "normal",
+        "textTransform": "none",
+        "textAlign": "start",
+        "color": "rgb(255, 255, 255)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "backgroundImage": "none",
+        "borderRadius": "0px",
+        "paddingTop": "0px",
+        "paddingBottom": "0px",
+        "paddingLeft": "0px",
+        "paddingRight": "0px",
+        "gap": "normal",
+        "top": "auto",
+        "bottom": "auto",
+        "left": "auto",
+        "right": "auto",
+        "position": "static",
+        "transform": "none",
+        "fontFeatureSettings": "normal"
+      },
+      "caixaNestaComposicaoPx": {
+        "x": 80,
+        "y": 902,
+        "largura": 920,
+        "altura": 258
+      }
+    },
+    "lead": {
+      "estiloEfetivo": {
+        "fontFamily": "Manrope",
+        "fontSize": "32px",
+        "fontWeight": "500",
+        "fontStyle": "normal",
+        "lineHeight": "40px",
+        "letterSpacing": "normal",
+        "textTransform": "none",
+        "textAlign": "start",
+        "color": "rgb(255, 255, 255)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "backgroundImage": "none",
+        "borderRadius": "0px",
+        "paddingTop": "0px",
+        "paddingBottom": "0px",
+        "paddingLeft": "0px",
+        "paddingRight": "0px",
+        "gap": "normal",
+        "top": "auto",
+        "bottom": "auto",
+        "left": "auto",
+        "right": "auto",
+        "position": "static",
+        "transform": "none",
+        "fontFeatureSettings": "normal"
+      },
+      "caixaNestaComposicaoPx": {
+        "x": 80,
+        "y": 1180,
+        "largura": 920,
+        "altura": 80
+      }
+    },
+    "credito": {
+      "estiloEfetivo": {
+        "fontFamily": "Manrope",
+        "fontSize": "16px",
+        "fontWeight": "500",
+        "fontStyle": "normal",
+        "lineHeight": "19.2px",
+        "letterSpacing": "normal",
+        "textTransform": "none",
+        "textAlign": "start",
+        "color": "rgb(255, 255, 255)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "backgroundImage": "none",
+        "borderRadius": "0px",
+        "paddingTop": "0px",
+        "paddingBottom": "0px",
+        "paddingLeft": "0px",
+        "paddingRight": "0px",
+        "gap": "normal",
+        "top": "1355px",
+        "bottom": "65.8125px",
+        "left": "849.672px",
+        "right": "65px",
+        "position": "absolute",
+        "transform": "none",
+        "fontFeatureSettings": "normal"
+      },
+      "caixaNestaComposicaoPx": {
+        "x": 849.671875,
+        "y": 1355,
+        "largura": 165.328125,
+        "altura": 19.1875
+      }
+    },
+    "editorial": {
+      "estiloEfetivo": {
+        "fontFamily": "Times",
+        "fontSize": "16px",
+        "fontWeight": "400",
+        "fontStyle": "normal",
+        "lineHeight": "normal",
+        "letterSpacing": "normal",
+        "textTransform": "none",
+        "textAlign": "start",
+        "color": "rgb(255, 255, 255)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "backgroundImage": "none",
+        "borderRadius": "0px",
+        "paddingTop": "0px",
+        "paddingBottom": "0px",
+        "paddingLeft": "0px",
+        "paddingRight": "0px",
+        "gap": "20px",
+        "top": "829.5px",
+        "bottom": "180px",
+        "left": "80px",
+        "right": "80px",
+        "position": "absolute",
+        "transform": "none",
+        "fontFeatureSettings": "normal"
+      },
+      "caixaNestaComposicaoPx": {
+        "x": 80,
+        "y": 829.5,
+        "largura": 920,
+        "altura": 430.5
+      }
+    }
+  },
+  "regrasDaMarca": [
+    "Chapéu Archivo Expanded ExtraBold 30 px; padding superior 11 px e inferior 7 px para ajuste óptico",
+    "Chamada PT Sans Narrow Bold; 86 px nesta referência, tamanho variável",
+    "Lead Manrope Medium 32 px; crédito Manrope Medium 16 px",
+    "Logo e textos alinhados em x=80 px; largura útil 920 px",
+    "Logo com 290 px de largura, centro vertical y=1364,5 na faixa entre y=1337 e y=1392",
+    "Faixas editáveis em assets/faixas.svg; cores estimadas da referência",
+    "Degradê com extensão multiplicada por 1,25 e base em y=1337"
+  ],
+  "conteudoDeReferencia": {
+    "chapeu": "CULTURA E ENCONTRO",
+    "chamada": "Espaço em Belém recebefeira de cultura e gastronomiacom entrada gratuita",
+    "lead": "Programação gratuita reúne artistas, cozinheiras e coletivos para celebrar os sabores e a produção cultural da Amazônia",
+    "credito": "Foto: Nome da Pessoa"
+  },
+  "notaTamanhos": "Valores observados na referência não são limites universais; limites e prioridades estão em regrasDaMarca",
+  "aprovacao": "Visual aprovado na conversa; auditoria documental em 2026-10-30",
+  "geometriaConferida": {
+    "margensLateraisPx": {
+      "esquerda": 80,
+      "direita": 80
+    },
+    "larguraUtilPx": 920,
+    "distanciasEfetivasEntreCaixasPx": {
+      "hatToHeadline": 20,
+      "headlineToLead": 20,
+      "editorialBottomToCard": 180
+    },
+    "chamadaTamanhoPxNestaComposicao": 86,
+    "referenciasLogoCredito": {
+      ".logo": {
+        "x": 80,
+        "y": 1346.59375,
+        "w": 290,
+        "h": 35.8125,
+        "right": 370,
+        "bottom": 1382.40625
+      },
+      ".credit": {
+        "x": 849.671875,
+        "y": 1355,
+        "w": 165.328125,
+        "h": 19.1875,
+        "right": 1015,
+        "bottom": 1374.1875
+      }
+    },
+    "degradeEfetivo": "linear-gradient(rgba(0, 0, 0, 0) 602.625px, rgb(0, 0, 0) 1337px)",
+    "limiteVisivelFotografiaY": 1337,
+    "fonteMedidas": "biblioteca-local/auditoria/conferencia-detalhada/casa-ninja-amazonia/com-lead/medidas.json"
+  },
+  "notaEspacamentos": "Distâncias efetivas entre caixas já incluem deslocamentos do chapéu, padding e margem; não confundir com gap nominal do flex"
+}

@@ -1,0 +1,250 @@
+{
+  "marca": "estudantes",
+  "variante": "com-lead",
+  "status": "aprovado",
+  "chapeu": "MÚSICA PARA TODO MUNDO",
+  "chamada": "Festival gratuito leva música independente às praças da cidade",
+  "lead": "Com shows gratuitos, oficinas e rodas de conversa, evento reúne artistas de várias regiões e transforma as praças da cidade em espaços de encontro e celebração musical",
+  "degrade": {
+    "offsetAcimaChapeuPx": 80,
+    "opacidadeNaBase": 1,
+    "baseY": 1440
+  },
+  "ajustes": {
+    "chapeuDeslocamentoYPx": -10,
+    "creditoAlinhamento": "centro",
+    "chamadaLinhas": 2,
+    "chamadaLarguraUtilPx": 920
+  },
+  "aprovadoEm": "2026-10-30",
+  "chamadaTamanhoPxNestaComposicao": 94,
+  "chamadaTamanhoMaxPx": 116,
+  "nota": "Duas linhas na composição com lead aprovada; ajustar tamanho e quebras conforme o conteúdo",
+  "formato": {
+    "largura": 1080,
+    "altura": 1440
+  },
+  "fichaTecnica": "ficha-tecnica.json",
+  "regrasComuns": "biblioteca-local/regras-comuns.json",
+  "tokensObservados": {
+    "chapeu": {
+      "estiloEfetivo": {
+        "fontFamily": "Archivo",
+        "fontSize": "35px",
+        "fontWeight": "900",
+        "fontStyle": "normal",
+        "lineHeight": "36.75px",
+        "letterSpacing": "normal",
+        "textTransform": "uppercase",
+        "textAlign": "start",
+        "color": "rgb(0, 0, 0)",
+        "backgroundColor": "rgb(255, 70, 233)",
+        "backgroundImage": "none",
+        "borderRadius": "4px",
+        "paddingTop": "9px",
+        "paddingBottom": "9px",
+        "paddingLeft": "16px",
+        "paddingRight": "16px",
+        "gap": "normal",
+        "top": "-10px",
+        "bottom": "10px",
+        "left": "0px",
+        "right": "0px",
+        "position": "relative",
+        "transform": "none",
+        "fontFeatureSettings": "normal"
+      },
+      "caixaNestaComposicaoPx": {
+        "x": 196.140625,
+        "y": 937.25,
+        "largura": 687.703125,
+        "altura": 54.75
+      }
+    },
+    "chamada": {
+      "estiloEfetivo": {
+        "fontFamily": "Balboa",
+        "fontSize": "94px",
+        "fontWeight": "400",
+        "fontStyle": "normal",
+        "lineHeight": "94px",
+        "letterSpacing": "-0.94px",
+        "textTransform": "uppercase",
+        "textAlign": "center",
+        "color": "rgb(255, 255, 255)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "backgroundImage": "none",
+        "borderRadius": "0px",
+        "paddingTop": "0px",
+        "paddingBottom": "0px",
+        "paddingLeft": "0px",
+        "paddingRight": "0px",
+        "gap": "normal",
+        "top": "auto",
+        "bottom": "auto",
+        "left": "auto",
+        "right": "auto",
+        "position": "static",
+        "transform": "none",
+        "fontFeatureSettings": "normal"
+      },
+      "caixaNestaComposicaoPx": {
+        "x": 80,
+        "y": 1022,
+        "largura": 920,
+        "altura": 188
+      }
+    },
+    "lead": {
+      "estiloEfetivo": {
+        "fontFamily": "TestManrope",
+        "fontSize": "32px",
+        "fontWeight": "500",
+        "fontStyle": "normal",
+        "lineHeight": "40px",
+        "letterSpacing": "normal",
+        "textTransform": "none",
+        "textAlign": "center",
+        "color": "rgb(255, 255, 255)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "backgroundImage": "none",
+        "borderRadius": "0px",
+        "paddingTop": "0px",
+        "paddingBottom": "0px",
+        "paddingLeft": "0px",
+        "paddingRight": "0px",
+        "gap": "normal",
+        "top": "auto",
+        "bottom": "auto",
+        "left": "auto",
+        "right": "auto",
+        "position": "static",
+        "transform": "none",
+        "fontFeatureSettings": "normal"
+      },
+      "caixaNestaComposicaoPx": {
+        "x": 80,
+        "y": 1230,
+        "largura": 920,
+        "altura": 120
+      }
+    },
+    "credito": {
+      "estiloEfetivo": {
+        "fontFamily": "Manrope",
+        "fontSize": "16px",
+        "fontWeight": "500",
+        "fontStyle": "normal",
+        "lineHeight": "16px",
+        "letterSpacing": "normal",
+        "textTransform": "none",
+        "textAlign": "center",
+        "color": "rgb(255, 255, 255)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "backgroundImage": "none",
+        "borderRadius": "0px",
+        "paddingTop": "0px",
+        "paddingBottom": "0px",
+        "paddingLeft": "0px",
+        "paddingRight": "0px",
+        "gap": "normal",
+        "top": "1408px",
+        "bottom": "16px",
+        "left": "540px",
+        "right": "374.672px",
+        "position": "absolute",
+        "transform": "matrix(1, 0, 0, 1, -82.6641, 0)",
+        "fontFeatureSettings": "normal"
+      },
+      "caixaNestaComposicaoPx": {
+        "x": 457.3359375,
+        "y": 1408,
+        "largura": 165.328125,
+        "altura": 16
+      }
+    },
+    "editorial": {
+      "estiloEfetivo": {
+        "fontFamily": "Times",
+        "fontSize": "16px",
+        "fontWeight": "400",
+        "fontStyle": "normal",
+        "lineHeight": "normal",
+        "letterSpacing": "normal",
+        "textTransform": "none",
+        "textAlign": "start",
+        "color": "rgb(255, 255, 255)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "backgroundImage": "none",
+        "borderRadius": "0px",
+        "paddingTop": "0px",
+        "paddingBottom": "0px",
+        "paddingLeft": "0px",
+        "paddingRight": "0px",
+        "gap": "20px",
+        "top": "947.25px",
+        "bottom": "90px",
+        "left": "80px",
+        "right": "80px",
+        "position": "absolute",
+        "transform": "none",
+        "fontFeatureSettings": "normal"
+      },
+      "caixaNestaComposicaoPx": {
+        "x": 80,
+        "y": 947.25,
+        "largura": 920,
+        "altura": 402.75
+      }
+    }
+  },
+  "regrasDaMarca": [
+    "Chapéu Archivo Expanded Black, 35 px, raio 4 px e deslocamento vertical -10 px",
+    "Chamada Balboa Condensed, tracking -1%, máximo 116 px",
+    "Nesta referência: sem lead 116 px/3 linhas; com lead 94 px/2 linhas",
+    "Crédito centralizado; margens laterais 80 px"
+  ],
+  "conteudoDeReferencia": {
+    "chapeu": "MÚSICA PARA TODO MUNDO",
+    "chamada": "FESTIVAL GRATUITO LEVA MÚSICAINDEPENDENTE ÀS PRAÇAS DA CIDADE",
+    "lead": "Com shows gratuitos, oficinas e rodas de conversa, evento reúne artistas de várias regiões e transforma as praças da cidade em espaços de encontro e celebração musical",
+    "credito": "Foto: Nome da Pessoa"
+  },
+  "notaTamanhos": "Valores observados na referência não são limites universais; limites e prioridades estão em regrasDaMarca",
+  "aprovacao": "Visual aprovado na conversa; auditoria documental em 2026-10-30",
+  "geometriaConferida": {
+    "margensLateraisPx": {
+      "esquerda": 80,
+      "direita": 80
+    },
+    "larguraUtilPx": 920,
+    "distanciasEfetivasEntreCaixasPx": {
+      "hatToHeadline": 30,
+      "headlineToLead": 20,
+      "editorialBottomToCard": 90
+    },
+    "chamadaTamanhoPxNestaComposicao": 94,
+    "referenciasLogoCredito": {
+      ".signature": {
+        "x": 460,
+        "y": 50,
+        "w": 160,
+        "h": 54.390625,
+        "right": 620,
+        "bottom": 104.390625
+      },
+      ".credit": {
+        "x": 457.3359375,
+        "y": 1408,
+        "w": 165.328125,
+        "h": 16,
+        "right": 622.6640625,
+        "bottom": 1424
+      }
+    },
+    "degradeEfetivo": "linear-gradient(rgba(0, 0, 0, 0) 857.25px, rgb(0, 0, 0) 1440px)",
+    "limiteVisivelFotografiaY": 1440,
+    "fonteMedidas": "biblioteca-local/auditoria/conferencia-detalhada/estudantes/com-lead/medidas.json"
+  },
+  "notaEspacamentos": "Distâncias efetivas entre caixas já incluem deslocamentos do chapéu, padding e margem; não confundir com gap nominal do flex"
+}

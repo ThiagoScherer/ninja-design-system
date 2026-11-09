@@ -1,0 +1,36 @@
+{
+  "status": "aprovado",
+  "referencia": "ninja/sem-lead",
+  "linhas": [
+    "GOVERNO FEDERAL CRIA",
+    "FORÇA-TAREFA PARA",
+    "APURAR AMEAÇAS CONTRA",
+    "INDÍGENAS EM MS"
+  ],
+  "chamadaTamanhoPx": 78,
+  "chapeuTamanhoPx": 37.4,
+  "degrade": {
+    "adaptavel": true,
+    "offsetAcimaChapeuPx": 80,
+    "opacidadeSuperior": 0,
+    "opacidadeInferior": 1,
+    "base": "Limite inferior efetivo da fotografia",
+    "baseYNestaComposicao": 1280
+  },
+  "regraLinhas": "Priorizar quatro linhas; cinco somente quando quatro exigir fonte pequena demais, evitando linhas órfãs",
+  "marca": "Mídia NINJA",
+  "modelo": "Card de notícia",
+  "variante": "sem-lead",
+  "formato": {
+    "largura": 1080,
+    "altura": 1440
+  },
+  "aprovacao": "Confirmada pelo usuário nesta conversa",
+  "margensLateraisPx": 50,
+  "chamada": {
+    "tamanhoPxNestaComposicao": 78,
+    "tamanhoVariavel": true,
+    "linhasPreferidas": 4,
+    "regra": "Priorizar quatro linhas, equilibrar as quebras e preservar grupos de sentido; evitar finais curtos isolados"
+  }
+}

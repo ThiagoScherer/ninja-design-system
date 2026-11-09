@@ -1,0 +1,86 @@
+{
+  "dimensao": [
+    1080,
+    1440
+  ],
+  "marcas": {
+    "foda": {
+      "marca": "FODA",
+      "variantes": {
+        "sem-lead": "modelos/foda/sem-lead/modelo.html",
+        "com-lead": "modelos/foda/com-lead/modelo.html"
+      }
+    },
+    "estudantes": {
+      "marca": "Estudantes NINJA",
+      "variantes": {
+        "sem-lead": "modelos/estudantes/sem-lead/modelo.html",
+        "com-lead": "modelos/estudantes/com-lead/modelo.html"
+      },
+      "cores": {
+        "laranja": "#ff753c",
+        "ciano": "#17ffeb",
+        "amarelo": "#eff440",
+        "rosa": "#ff46e9"
+      }
+    },
+    "cine-ninja": {
+      "marca": "cine.ninja",
+      "variantes": {
+        "sem-lead": "modelos/cine-ninja/sem-lead/modelo.html",
+        "com-lead": "modelos/cine-ninja/com-lead/modelo.html"
+      }
+    },
+    "ella": {
+      "marca": "ELLA",
+      "variantes": {
+        "sem-lead": "modelos/ella/sem-lead/modelo.html",
+        "com-lead": "modelos/ella/com-lead/modelo.html"
+      }
+    },
+    "som": {
+      "marca": "SOM",
+      "variantes": {
+        "sem-lead": "modelos/som/sem-lead/modelo.html",
+        "com-lead": "modelos/som/com-lead/modelo.html"
+      }
+    },
+    "casa-ninja-amazonia": {
+      "marca": "Casa NINJA Amazônia",
+      "variantes": {
+        "sem-lead": "modelos/casa-ninja-amazonia/sem-lead/modelo.html",
+        "com-lead": "modelos/casa-ninja-amazonia/com-lead/modelo.html"
+      }
+    },
+    "ninja": {
+      "marca": "Mídia NINJA",
+      "variantes": {
+        "sem-lead": "modelos/ninja/sem-lead/modelo.html",
+        "com-lead": "modelos/ninja/com-lead/modelo.html"
+      }
+    },
+    "climax": {
+      "marca": "Clímax",
+      "variantes": {
+        "sem-lead": "modelos/climax/sem-lead/modelo.html",
+        "com-lead": "modelos/climax/com-lead/modelo.html"
+      },
+      "cores": {
+        "laranja": "#ff5732",
+        "roxo": "#6b2fa0",
+        "verde": "#009941"
+      }
+    },
+    "minas-ninja": {
+      "marca": "Minas NINJA",
+      "variantes": {
+        "sem-lead": "modelos/minas-ninja/sem-lead/modelo.html",
+        "com-lead": "modelos/minas-ninja/com-lead/modelo.html"
+      },
+      "cores": {
+        "verde": "#67743d",
+        "laranja": "#d6532a"
+      }
+    }
+  }
+}
