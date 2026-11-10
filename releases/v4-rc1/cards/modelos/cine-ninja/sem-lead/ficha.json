@@ -1,0 +1,222 @@
+{
+  "marca": "cine-ninja",
+  "variante": "sem-lead",
+  "status": "aprovado",
+  "chapeu": "MÚSICA PARA TODO MUNDO",
+  "chamada": "Festival gratuito leva música independente às praças da cidade",
+  "lead": null,
+  "degrade": {
+    "ativo": false,
+    "regra": "cine.ninja não usa degradê; boxes pretos garantem contraste do texto"
+  },
+  "painelDourado": {
+    "cor": "#c7ac6f",
+    "inicio": "Metade da segunda linha da chamada",
+    "fim": "Base do card",
+    "camadas": "Foto, degradê, painel dourado, boxes pretos, texto"
+  },
+  "alinhamentoEsquerdoPx": 50,
+  "aprovadoEm": "2026-10-30",
+  "chamadaTamanhoPxNestaComposicao": 63,
+  "chamadaBoxes": {
+    "umPorLinha": true,
+    "paddingVerticalPx": 10,
+    "paddingHorizontalPx": 14,
+    "sobreposicaoPx": 15,
+    "raioPx": 8
+  },
+  "formato": {
+    "largura": 1080,
+    "altura": 1440
+  },
+  "fichaTecnica": "ficha-tecnica.json",
+  "regrasComuns": "biblioteca-local/regras-comuns.json",
+  "tokensObservados": {
+    "chapeu": {
+      "estiloEfetivo": {
+        "fontFamily": "Druk",
+        "fontSize": "28px",
+        "fontWeight": "400",
+        "fontStyle": "normal",
+        "lineHeight": "32.2px",
+        "letterSpacing": "normal",
+        "textTransform": "none",
+        "textAlign": "start",
+        "color": "rgb(0, 0, 0)",
+        "backgroundColor": "rgb(255, 255, 255)",
+        "backgroundImage": "none",
+        "borderRadius": "8px",
+        "paddingTop": "11px",
+        "paddingBottom": "15px",
+        "paddingLeft": "14px",
+        "paddingRight": "14px",
+        "gap": "normal",
+        "top": "auto",
+        "bottom": "auto",
+        "left": "auto",
+        "right": "auto",
+        "position": "static",
+        "transform": "none",
+        "fontFeatureSettings": "normal"
+      },
+      "caixaNestaComposicaoPx": {
+        "x": 50,
+        "y": 988.265625,
+        "largura": 572.078125,
+        "altura": 58.1875
+      }
+    },
+    "chamada": {
+      "estiloEfetivo": {
+        "fontFamily": "Soulmaze",
+        "fontSize": "63px",
+        "fontWeight": "400",
+        "fontStyle": "normal",
+        "lineHeight": "65.52px",
+        "letterSpacing": "normal",
+        "textTransform": "none",
+        "textAlign": "start",
+        "color": "rgb(255, 255, 255)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "backgroundImage": "none",
+        "borderRadius": "0px",
+        "paddingTop": "0px",
+        "paddingBottom": "0px",
+        "paddingLeft": "0px",
+        "paddingRight": "0px",
+        "gap": "normal",
+        "top": "auto",
+        "bottom": "auto",
+        "left": "auto",
+        "right": "auto",
+        "position": "static",
+        "transform": "none",
+        "fontFeatureSettings": "normal"
+      },
+      "caixaNestaComposicaoPx": {
+        "x": 50,
+        "y": 1058.453125,
+        "largura": 980,
+        "altura": 226.546875
+      }
+    },
+    "credito": {
+      "estiloEfetivo": {
+        "fontFamily": "Druk",
+        "fontSize": "14px",
+        "fontWeight": "400",
+        "fontStyle": "normal",
+        "lineHeight": "14px",
+        "letterSpacing": "normal",
+        "textTransform": "none",
+        "textAlign": "start",
+        "color": "rgb(0, 0, 0)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "backgroundImage": "none",
+        "borderRadius": "0px",
+        "paddingTop": "0px",
+        "paddingBottom": "0px",
+        "paddingLeft": "0px",
+        "paddingRight": "0px",
+        "gap": "normal",
+        "top": "1398px",
+        "bottom": "28px",
+        "left": "825.312px",
+        "right": "50px",
+        "position": "absolute",
+        "transform": "none",
+        "fontFeatureSettings": "normal"
+      },
+      "caixaNestaComposicaoPx": {
+        "x": 825.3125,
+        "y": 1398,
+        "largura": 204.6875,
+        "altura": 14
+      }
+    },
+    "editorial": {
+      "estiloEfetivo": {
+        "fontFamily": "Times",
+        "fontSize": "16px",
+        "fontWeight": "400",
+        "fontStyle": "normal",
+        "lineHeight": "normal",
+        "letterSpacing": "normal",
+        "textTransform": "none",
+        "textAlign": "start",
+        "color": "rgb(0, 0, 0)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "backgroundImage": "none",
+        "borderRadius": "0px",
+        "paddingTop": "0px",
+        "paddingBottom": "0px",
+        "paddingLeft": "0px",
+        "paddingRight": "0px",
+        "gap": "12px",
+        "top": "988.266px",
+        "bottom": "155px",
+        "left": "50px",
+        "right": "50px",
+        "position": "absolute",
+        "transform": "none",
+        "fontFeatureSettings": "normal"
+      },
+      "caixaNestaComposicaoPx": {
+        "x": 50,
+        "y": 988.265625,
+        "largura": 980,
+        "altura": 296.734375
+      }
+    }
+  },
+  "regrasDaMarca": [
+    "Chapéu Druk Text Wide Cyr Medium; chamada MADE Soulmaze",
+    "Um box preto por linha, acompanhando o texto, na chamada e no lead",
+    "Padding vertical 10 px, horizontal 14 px, raio 8 px e sobreposição 15 px dos boxes",
+    "Painel dourado #c7ac6f começa na metade da segunda linha da chamada",
+    "Alinhamento esquerdo dos boxes e do logo: 50 px",
+    "Lead Manrope Medium 32 px; não aplicar display:block genérico aos boxes"
+  ],
+  "conteudoDeReferencia": {
+    "chapeu": "MÚSICA PARA TODO MUNDO",
+    "chamada": "FESTIVAL GRATUITO LEVAMÚSICA INDEPENDENTEÀS PRAÇAS DA CIDADE",
+    "credito": "Foto: Nome da Pessoa"
+  },
+  "notaTamanhos": "Valores observados na referência não são limites universais; limites e prioridades estão em regrasDaMarca",
+  "aprovacao": "Visual aprovado na conversa; auditoria documental em 2026-10-30",
+  "geometriaConferida": {
+    "margensLateraisPx": {
+      "esquerda": 50,
+      "direita": 50
+    },
+    "larguraUtilPx": 980,
+    "distanciasEfetivasEntreCaixasPx": {
+      "hatToHeadline": 12,
+      "headlineToLead": null,
+      "editorialBottomToCard": 155
+    },
+    "chamadaTamanhoPxNestaComposicao": 63,
+    "referenciasLogoCredito": {
+      ".logo": {
+        "x": 50,
+        "y": 1324,
+        "w": 90,
+        "h": 90,
+        "right": 140,
+        "bottom": 1414
+      },
+      ".credit": {
+        "x": 825.3125,
+        "y": 1398,
+        "w": 204.6875,
+        "h": 14,
+        "right": 1030,
+        "bottom": 1412
+      }
+    },
+    "degradeEfetivo": "linear-gradient(rgba(0, 0, 0, 0) 908.266px, rgb(0, 0, 0) 1290px)",
+    "limiteVisivelFotografiaY": 1171.71875,
+    "fonteMedidas": "biblioteca-local/auditoria/conferencia-detalhada/cine-ninja/sem-lead/medidas.json"
+  },
+  "notaEspacamentos": "Distâncias efetivas entre caixas já incluem deslocamentos do chapéu, padding e margem; não confundir com gap nominal do flex"
+}

@@ -1,24 +1,15 @@
 # NINJA Design System
 
-## Versão ativa: V4 RC1
+Versão ativa: **V4 RC2 — 4.0.0-rc.2**
 
-Esta é a biblioteca gráfica operacional para agentes e equipe criarem materiais de notícia. Comece em [v4/LEIA-PRIMEIRO.md](v4/LEIA-PRIMEIRO.md).
+Comece em [v4/LEIA-PRIMEIRO.md](v4/LEIA-PRIMEIRO.md). O manifesto raiz e `ATIVO.json` identificam a mesma versão ativa
 
-A V4 concentra as regras transversais, a centralização óptica dos chapéus, o registro dos templates e um snapshot autônomo dos modelos de card. V1, V2 e V3 permanecem apenas como histórico.
+## Escopo disponível
 
-## Modelos disponíveis nesta versão
+- Nove marcas de cards de notícia com modelos e recursos próprios: Mídia NINJA, FODA, Estudantes NINJA, cine.ninja, ELLA, SOM, Casa NINJA Amazônia, Clímax e Minas NINJA
+- Três fichas de Reels estáticos: Mídia NINJA, FODA e Estudantes NINJA. Sem renderizador MP4 incluído
+- Frente de vídeo do YouTube: contrato de compatibilidade e registro das composições relatadas pelo Gian, com pendências explícitas
 
-- Mídia NINJA — card de notícia
-- Mídia NINJA — notícia Reels
-- FODA — card de notícia
-- FODA — Reels
-- Estudantes NINJA — card de notícia
-- Estudantes NINJA — Reels
-- cine.ninja — card de notícia
-- ELLA — card de notícia
-- SOM — card de notícia
-- Casa NINJA Amazônia — card de notícia
-- Clímax — card de notícia
-- Minas NINJA — card de notícia
+Para cards, V1–V3 são histórico. Para vídeo, a dependência legada é declarada exclusivamente em [v4/video/contrato-integracao.json](v4/video/contrato-integracao.json)
 
-Os nove cards têm modelos e recursos no pacote. Os três Reels estão registrados com suas especificações; a automação MP4 permanece em consolidação.
+Leia [as mudanças da RC2](v4/CHANGELOG-RC2.md) e [o tratamento das sete issues](v4/ISSUES-RC2.md). O ajuste aprovado do SOM é exclusivo do card com lead

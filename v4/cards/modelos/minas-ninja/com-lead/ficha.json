@@ -93,7 +93,8 @@
     },
     "degradeEfetivo": "linear-gradient(rgba(0, 0, 0, 0) 789.703px, rgb(0, 0, 0) 1180px)",
     "limiteVisivelFotografiaY": 1180,
-    "fonteMedidas": "biblioteca-local/auditoria/conferencia-detalhada/minas-ninja/com-lead/medidas.json"
+    "fonteMedidas": "tokensObservados e geometriaConferida nesta ficha; origem histórica local"
   },
-  "notaEspacamentos": "Distâncias efetivas entre caixas já incluem deslocamentos do chapéu, padding e margem; não confundir com gap nominal do flex"
+  "notaEspacamentos": "Distâncias efetivas entre caixas já incluem deslocamentos do chapéu, padding e margem; não confundir com gap nominal do flex",
+  "regrasComuns": "../../../../regras-comuns.json"
 }

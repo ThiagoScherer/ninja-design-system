@@ -21,7 +21,7 @@
     "raioPx": 40,
     "paddingHorizontalPx": 20,
     "paddingVerticalPx": 10,
-    "distanciaChamadaPx": 22
+    "distanciaChamadaPx": 22.71875
   },
   "chamada": {
     "entrelinha": 1.05,
@@ -35,7 +35,7 @@
       "tamanhoMaxPx": 96
     }
   },
-  "foto": "assets/foto-show.png",
+  "foto": "../../../recursos/b2a0bca87ad378f860453e88.png",
   "conteudoFicticio": true,
   "regras": [
     "Não usar ponto final ao término dos blocos",
@@ -85,16 +85,16 @@
     "peso": 400,
     "tamanhoPx": 32,
     "entrelinha": 1.25,
-    "distanciaChamadaPx": 20,
+    "distanciaChamadaPx": 19.3125,
     "cor": "#FFFFFF",
     "alinhamento": "esquerda",
     "texto": "Com shows gratuitos, oficinas e rodas de conversa, evento reúne artistas de várias regiões e transforma as praças da cidade em espaços de encontro e celebração musical",
     "larguraUtilPx": 992,
     "quebra": "Automática na largura útil, com revisão visual"
   },
-  "aprovadoEm": "2026-10-30",
+  "aprovadoEm": "2026-11-09",
   "fichaTecnica": "ficha-tecnica.json",
-  "regrasComuns": "biblioteca-local/regras-comuns.json",
+  "regrasComuns": "../../../../regras-comuns.json",
   "tokensObservados": {
     "chapeu": {
       "estiloEfetivo": {
@@ -125,7 +125,7 @@
       },
       "caixaNestaComposicaoPx": {
         "x": 44,
-        "y": 784.421875,
+        "y": 784.390625,
         "largura": 522.171875,
         "altura": 51.1875
       }
@@ -159,7 +159,7 @@
       },
       "caixaNestaComposicaoPx": {
         "x": 44,
-        "y": 857.609375,
+        "y": 858.296875,
         "largura": 992,
         "altura": 302.390625
       }
@@ -251,7 +251,7 @@
         "paddingLeft": "0px",
         "paddingRight": "0px",
         "gap": "normal",
-        "top": "784.422px",
+        "top": "784.391px",
         "bottom": "140px",
         "left": "44px",
         "right": "44px",
@@ -261,14 +261,14 @@
       },
       "caixaNestaComposicaoPx": {
         "x": 44,
-        "y": 784.421875,
+        "y": 784.390625,
         "largura": 992,
-        "altura": 515.578125
+        "altura": 515.609375
       }
     }
   },
   "regrasDaMarca": [
-    "Chapéu Archivo Expanded ExtraBold 26 px, raio 40 px, distância até chamada 22 px",
+    "Chapéu Archivo Expanded ExtraBold 26 px, raio 40 px, distância até chamada 22,71875 px",
     "Chamada Archivo ExtraCondensed Black: máximo 96 px; priorizar 3 linhas, depois 2, usar 4 apenas quando necessário",
     "Lead MuseoModerno Regular 32 px; crédito MuseoModerno Medium 16 px",
     "Crédito branco por padrão; preto sobre fundo local muito claro (avaliação visual, detecção automática ainda ausente)",
@@ -281,7 +281,7 @@
     "credito": "Foto: Nome da Pessoa"
   },
   "notaTamanhos": "Valores observados na referência não são limites universais; limites e prioridades estão em regrasDaMarca",
-  "aprovacao": "Visual aprovado na conversa; auditoria documental em 2026-10-30",
+  "aprovacao": "Espaçamentos aprovados no card Festival Saravá V3; V4 RC2",
   "geometriaConferida": {
     "margensLateraisPx": {
       "esquerda": 44,
@@ -289,8 +289,8 @@
     },
     "larguraUtilPx": 992,
     "distanciasEfetivasEntreCaixasPx": {
-      "hatToHeadline": 22,
-      "headlineToLead": 20,
+      "hatToHeadline": 22.71875,
+      "headlineToLead": 19.3125,
       "editorialBottomToCard": 140
     },
     "chamadaTamanhoPxNestaComposicao": 96,
@@ -312,9 +312,16 @@
         "bottom": 59.1875
       }
     },
-    "degradeEfetivo": "linear-gradient(rgba(0, 0, 0, 0) 704.422px, rgb(0, 0, 0) 1365px)",
+    "degradeEfetivo": "linear-gradient(rgba(0, 0, 0, 0) 704.391px, rgb(0, 0, 0) 1365px)",
     "limiteVisivelFotografiaY": 1365,
-    "fonteMedidas": "biblioteca-local/auditoria/conferencia-detalhada/som/com-lead/medidas.json"
+    "fonteMedidas": "ficha-tecnica.json"
   },
-  "notaEspacamentos": "Distâncias efetivas entre caixas já incluem deslocamentos do chapéu, padding e margem; não confundir com gap nominal do flex"
+  "notaEspacamentos": "Distâncias efetivas entre caixas já incluem deslocamentos do chapéu, padding e margem; não confundir com gap nominal do flex",
+  "revisaoRC2": {
+    "referencia": "../../../referencias/som-sarava-v3/modelo.html",
+    "escopo": "SOM com lead",
+    "metodo": "Medir distâncias efetivas entre caixas na V3 aprovada; aplicar no fluxo, sem coordenadas fixas",
+    "nota": "Os deslocamentos de 8 + 12 px foram aplicados à referência do Felipe em 960 × 1280; não devem ser somados aos gaps antigos da ficha",
+    "dataAprovacao": "2026-11-09"
+  }
 }

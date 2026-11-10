@@ -1,0 +1,63 @@
+{
+  "status": "aprovado",
+  "referencia": "ninja-reels/sem-lead",
+  "linhas": [
+    "GOVERNO FEDERAL",
+    "CRIA FORÇA-TAREFA PARA",
+    "APURAR AMEAÇAS CONTRA",
+    "INDÍGENAS EM MS"
+  ],
+  "chamadaTamanhoPx": 75.6,
+  "chapeuTamanhoPx": 44.85,
+  "degrade": {
+    "adaptavel": true,
+    "offsetAcimaChapeuPx": 80,
+    "opacidadeSuperior": 0,
+    "opacidadeInferior": 1,
+    "base": "Limite inferior efetivo da fotografia",
+    "baseYNestaComposicao": 1580
+  },
+  "regraLinhas": "Quatro linhas com o maior tamanho que caiba nos 940px úteis",
+  "marca": "Mídia NINJA",
+  "modelo": "Notícia Reels",
+  "variante": "sem-lead",
+  "formato": {
+    "largura": 1080,
+    "altura": 1920
+  },
+  "aprovacao": "Confirmada pelo usuário nesta conversa",
+  "margensLateraisPx": 70,
+  "chamada": {
+    "tamanhoPxNestaComposicao": 75.6,
+    "tamanhoVariavel": true,
+    "linhasPreferidas": 4,
+    "regra": "Priorizar quatro linhas, equilibrar as quebras e preservar grupos de sentido; evitar finais curtos isolados",
+    "tamanhoMinPx": 64,
+    "tamanhoMaxPx": 170,
+    "minimoUso": "Textos muito longos"
+  },
+  "areaSegura": {
+    "x": 0,
+    "y": 240,
+    "largura": 1080,
+    "altura": 1440
+  },
+  "logo": {
+    "larguraPx": 72,
+    "altura": "Automática, proporcional ao arquivo SVG",
+    "alinhamento": "Centro horizontal",
+    "baseY": 1630,
+    "distanciaBaseAreaSeguraPx": 50
+  },
+  "statusDistribuicao": "ficha-de-referencia-estatica",
+  "geradorMP4Incluido": false,
+  "renderizadorCardsCompativel": false,
+  "regraComposicao": "Número de linhas desta amostra é referência histórica; compor para preencher a área útil com equilíbrio, respeitando limites próprios",
+  "chapeuCaixa": {
+    "cor": "#FFFFFF",
+    "borderRadiusPx": 0,
+    "alinhamento": "centralizado",
+    "fonte": "TipoNinja",
+    "centralizacaoVertical": "óptica"
+  }
+}

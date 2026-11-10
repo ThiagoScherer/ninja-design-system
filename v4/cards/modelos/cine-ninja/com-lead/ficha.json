@@ -38,7 +38,7 @@
     "altura": 1440
   },
   "fichaTecnica": "ficha-tecnica.json",
-  "regrasComuns": "biblioteca-local/regras-comuns.json",
+  "regrasComuns": "../../../../regras-comuns.json",
   "tokensObservados": {
     "chapeu": {
       "estiloEfetivo": {
@@ -259,7 +259,7 @@
     },
     "degradeEfetivo": "linear-gradient(rgba(0, 0, 0, 0) 746.266px, rgb(0, 0, 0) 1290px)",
     "limiteVisivelFotografiaY": 1009.71875,
-    "fonteMedidas": "biblioteca-local/auditoria/conferencia-detalhada/cine-ninja/com-lead/medidas.json"
+    "fonteMedidas": "ficha-tecnica.json"
   },
   "notaEspacamentos": "Distâncias efetivas entre caixas já incluem deslocamentos do chapéu, padding e margem; não confundir com gap nominal do flex"
 }

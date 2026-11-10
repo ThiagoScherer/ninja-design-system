@@ -1,0 +1,174 @@
+{
+  "status": "implementacao-relatada-pelo-Gian-na-issue-1",
+  "maquinaVersaoRelatada": "1.3.1",
+  "origem": "relatos/issue-1.md",
+  "total": 23,
+  "perfis": [
+    "16x9",
+    "9x16"
+  ],
+  "composicoes": [
+    {
+      "nome": "Chamada central",
+      "grupo": "abrir",
+      "estado": "implementada-na-maquina-segundo-relato",
+      "validacaoIndependenteRC2": false
+    },
+    {
+      "nome": "Pergunta-gancho",
+      "grupo": "abrir",
+      "estado": "implementada-na-maquina-segundo-relato",
+      "validacaoIndependenteRC2": false
+    },
+    {
+      "nome": "Manchete de outro veículo",
+      "grupo": "abrir",
+      "estado": "implementada-na-maquina-segundo-relato",
+      "validacaoIndependenteRC2": false
+    },
+    {
+      "nome": "Marcador de capítulo",
+      "grupo": "abrir",
+      "estado": "implementada-na-maquina-segundo-relato",
+      "validacaoIndependenteRC2": false
+    },
+    {
+      "nome": "Etiqueta de tema/série",
+      "grupo": "abrir",
+      "estado": "implementada-na-maquina-segundo-relato",
+      "validacaoIndependenteRC2": false
+    },
+    {
+      "nome": "Palavra-conceito",
+      "grupo": "abrir",
+      "estado": "implementada-na-maquina-segundo-relato",
+      "validacaoIndependenteRC2": false
+    },
+    {
+      "nome": "Tarja de nome e cargo",
+      "grupo": "situar",
+      "estado": "implementada-na-maquina-segundo-relato",
+      "validacaoIndependenteRC2": false
+    },
+    {
+      "nome": "Localização",
+      "grupo": "situar",
+      "estado": "implementada-na-maquina-segundo-relato",
+      "validacaoIndependenteRC2": false
+    },
+    {
+      "nome": "Linha do tempo",
+      "grupo": "situar",
+      "estado": "implementada-na-maquina-segundo-relato",
+      "validacaoIndependenteRC2": false
+    },
+    {
+      "nome": "Documento com grifo",
+      "grupo": "provar",
+      "estado": "implementada-na-maquina-segundo-relato",
+      "validacaoIndependenteRC2": false
+    },
+    {
+      "nome": "Post de rede social",
+      "grupo": "provar",
+      "estado": "implementada-na-maquina-segundo-relato",
+      "validacaoIndependenteRC2": false
+    },
+    {
+      "nome": "Áudio obtido",
+      "grupo": "provar",
+      "estado": "implementada-na-maquina-segundo-relato",
+      "validacaoIndependenteRC2": false
+    },
+    {
+      "nome": "Print/gravação de tela",
+      "grupo": "provar",
+      "estado": "implementada-na-maquina-segundo-relato",
+      "validacaoIndependenteRC2": false
+    },
+    {
+      "nome": "Tela dividida e grid",
+      "grupo": "provar",
+      "estado": "implementada-na-maquina-segundo-relato",
+      "validacaoIndependenteRC2": false
+    },
+    {
+      "nome": "Número em destaque",
+      "grupo": "explicar",
+      "estado": "implementada-na-maquina-segundo-relato",
+      "validacaoIndependenteRC2": false
+    },
+    {
+      "nome": "Número sobre o vídeo",
+      "grupo": "explicar",
+      "estado": "implementada-na-maquina-segundo-relato",
+      "validacaoIndependenteRC2": false
+    },
+    {
+      "nome": "Sistema de gráficos",
+      "grupo": "explicar",
+      "estado": "implementada-na-maquina-segundo-relato",
+      "validacaoIndependenteRC2": false
+    },
+    {
+      "nome": "Comparação",
+      "grupo": "explicar",
+      "estado": "implementada-na-maquina-segundo-relato",
+      "validacaoIndependenteRC2": false
+    },
+    {
+      "nome": "O que se sabe/não se sabe",
+      "grupo": "explicar",
+      "estado": "implementada-na-maquina-segundo-relato",
+      "validacaoIndependenteRC2": false
+    },
+    {
+      "nome": "Selo de checagem",
+      "grupo": "explicar",
+      "estado": "implementada-na-maquina-segundo-relato",
+      "validacaoIndependenteRC2": false
+    },
+    {
+      "nome": "Citação",
+      "grupo": "citar",
+      "estado": "implementada-na-maquina-segundo-relato",
+      "validacaoIndependenteRC2": false
+    },
+    {
+      "nome": "Crédito",
+      "grupo": "citar",
+      "estado": "implementada-na-maquina-segundo-relato",
+      "validacaoIndependenteRC2": false
+    },
+    {
+      "nome": "Cartão final de ponte",
+      "grupo": "fechar",
+      "estado": "implementada-na-maquina-segundo-relato",
+      "validacaoIndependenteRC2": false
+    }
+  ],
+  "componentes": [
+    "chapéu",
+    "caixa de texto",
+    "contraste",
+    "grifo",
+    "cartão",
+    "mídia",
+    "identificação",
+    "crédito"
+  ],
+  "testesRelatados": 453,
+  "testesExecutadosNestaRC": false,
+  "saidasRelatadas": {
+    "semMidia": "MOV ProRes 4444 com transparência",
+    "comMidia": "MP4 H.264 16 Mbps",
+    "fps": 30
+  },
+  "foraDoRegistro": {
+    "Transições": "em espera",
+    "Fundos": "em espera",
+    "Legenda": "Premiere",
+    "CTA": "removido",
+    "Pacote 360": "orquestração; thumbnail não gerada pela Máquina"
+  }
+}

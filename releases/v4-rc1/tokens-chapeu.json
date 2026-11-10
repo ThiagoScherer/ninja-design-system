@@ -1,0 +1,68 @@
+{
+  "schema": "ninja-design-system/v4/chapeu",
+  "version": "4.0.0-rc.1",
+  "universal": {
+    "opticalVerticalCentering": true,
+    "tolerancePx": 1,
+    "virtualArea": true,
+    "recalculationTriggers": [
+      "content",
+      "font-loaded",
+      "font-size",
+      "line-break",
+      "container-size"
+    ]
+  },
+  "templates": {
+    "ninja": {
+      "treatment": "pill-branca",
+      "center": "optical"
+    },
+    "ninja-reels": {
+      "treatment": "pill-branca-centralizada",
+      "center": "optical"
+    },
+    "foda": {
+      "treatment": "faixa-amarela",
+      "center": "optical"
+    },
+    "foda-reels": {
+      "treatment": "faixa-amarela",
+      "center": "optical"
+    },
+    "estudantes": {
+      "treatment": "faixa-magenta",
+      "center": "optical"
+    },
+    "estudantes-reels": {
+      "treatment": "faixa-magenta",
+      "center": "optical"
+    },
+    "cine-ninja": {
+      "treatment": "box-branco",
+      "center": "optical"
+    },
+    "ella": {
+      "treatment": "sem-box-visivel",
+      "center": "optical",
+      "hierarchy": "maior-que-chamada"
+    },
+    "som": {
+      "treatment": "pill-branca",
+      "center": "optical"
+    },
+    "casa-ninja-amazonia": {
+      "treatment": "pill-vermelha",
+      "center": "optical"
+    },
+    "climax": {
+      "treatment": "faixa-colorida-com-mascara-de-barras-vetoriais",
+      "center": "optical",
+      "preserveOrnament": true
+    },
+    "minas-ninja": {
+      "treatment": "retangulo-verde",
+      "center": "optical"
+    }
+  }
+}

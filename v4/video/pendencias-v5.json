@@ -1,0 +1,77 @@
+{
+  "status": "em-validacao",
+  "autorizacao": "Thiago autorizou RC2 com compatibilidade e pendências explícitas; aprovação visual futura",
+  "movimento": {
+    "fonte": "relatos/issue-4.md",
+    "politica": "Preservar implementação local existente; tempos e curvas relatados não viram tokens globais nesta RC"
+  },
+  "variantes": {
+    "fonte": "relatos/issue-5.md",
+    "politica": "Manter locais identificadas; não promover a padrão"
+  },
+  "estados": {
+    "status": "em-validacao",
+    "fonte": "relatos/issue-5.md",
+    "coresLocaisRelatadas": {
+      "ao-vivo": "#E8202A",
+      "falso": "#E8202A",
+      "verdadeiro": "#2BD35A"
+    },
+    "semCorDefinida": [
+      "enganoso",
+      "sem-provas"
+    ],
+    "usoComoDestaque": false
+  },
+  "tipografia": {
+    "fonte": "relatos/issue-3.md",
+    "tamanhosLocais16x9_9x16": {
+      "chapeu": [
+        40,
+        38
+      ],
+      "chamada": [
+        112,
+        104
+      ],
+      "titulo": [
+        112,
+        104
+      ],
+      "tituloTarja": [
+        96,
+        84
+      ]
+    },
+    "apoio": {
+      "fonte": "Manrope",
+      "tamanho": 40,
+      "entrelinha": 1.3
+    },
+    "mini": {
+      "fonte": "Manrope",
+      "tamanho": 20,
+      "trackingEm": 0.06
+    },
+    "glifos": {
+      "pendentes": [
+        "%",
+        "º",
+        "ª",
+        "°"
+      ],
+      "fallbackLocalRelatado": "Manrope Medium para % e º",
+      "politica": "Identificar fallback e validar visualmente; não redesenhar nem trocar fonte global nesta RC"
+    }
+  },
+  "perfis": {
+    "fontes": [
+      "relatos/issue-6.md"
+    ],
+    "faixaLegendaGeral": "pendente; só tarja tem regra local D4",
+    "oclusaoInterfacesPlataformas": "pendente de medição e validação; não inventar números universais",
+    "thumbnail": "Sistematização na V5; sem gerador da Máquina aprovado",
+    "outrasMarcas": "Sequência de expansão depende de decisão editorial",
+    "transicoesEFundos": "em espera"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "version": "4.0.0-rc.2",
+  "data": "2026-11-10",
+  "modelosRenderizados": 18,
+  "fontesUsadasCarregadas": true,
+  "imagensCarregadas": true,
+  "errosJavaScript": 0,
+  "som": {
+    "sem-lead": {
+      "chapeuChamada": 22,
+      "chamadaLead": null
+    },
+    "com-lead": {
+      "chapeuChamada": 22.71875,
+      "chamadaLead": 19.3125
+    }
+  },
+  "limites": "Verificação técnica e revisão visual SOM; suíte da Máquina não executada; decisões visuais de vídeo em validação"
+}

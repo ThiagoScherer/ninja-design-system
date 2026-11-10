@@ -1,23 +1,10 @@
 {
   "nome": "NINJA Design System",
-  "versao": "1.0.0",
-  "contrato": "0.1.0",
-  "status": "conferencia_local_concluida",
-  "marca": "ninja",
-  "templates": [
-    "noticia_ninja_card",
-    "noticia_ninja_reels",
-    "noticia_ninja_thumbnail"
-  ],
-  "exemplos": [
-    "card-sem-lead",
-    "card-com-lead",
-    "reels",
-    "thumbnail-1",
-    "thumbnail-2",
-    "thumbnail-3"
-  ],
-  "data": "2026-11-02",
-  "entrada_agentes": "GUIA-AGENTES.md",
-  "relatorio": "RELATORIO-CONFERENCIA.md"
+  "versao": "4.0.0-rc.2",
+  "status": "release-candidate",
+  "data": "2026-11-10",
+  "entrada_agentes": "v4/LEIA-PRIMEIRO.md",
+  "release": "v4/manifesto.json",
+  "referenciaAtiva": "ATIVO.json",
+  "historico": "Arquivos V1 na raiz, V2 e V3 são históricos; exceção de vídeo explicitada no contrato V4"
 }

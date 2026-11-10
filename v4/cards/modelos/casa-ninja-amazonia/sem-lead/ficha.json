@@ -56,7 +56,7 @@
     "capitalizacao": "Frase, sem caps lock"
   },
   "fichaTecnica": "ficha-tecnica.json",
-  "regrasComuns": "biblioteca-local/regras-comuns.json",
+  "regrasComuns": "../../../../regras-comuns.json",
   "tokensObservados": {
     "chapeu": {
       "estiloEfetivo": {
@@ -243,7 +243,7 @@
     },
     "degradeEfetivo": "linear-gradient(rgba(0, 0, 0, 0) 727.625px, rgb(0, 0, 0) 1337px)",
     "limiteVisivelFotografiaY": 1337,
-    "fonteMedidas": "biblioteca-local/auditoria/conferencia-detalhada/casa-ninja-amazonia/sem-lead/medidas.json"
+    "fonteMedidas": "ficha-tecnica.json"
   },
   "notaEspacamentos": "Distâncias efetivas entre caixas já incluem deslocamentos do chapéu, padding e margem; não confundir com gap nominal do flex"
 }

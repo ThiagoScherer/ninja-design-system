@@ -1,25 +1,12 @@
-# V4 — ponto de entrada
+# V4 RC2 — ponto de entrada
 
-## Objetivo
+1. Confirmar `../ATIVO.json` e `manifesto.json`: versão `4.0.0-rc.2`
+2. Conferir o pacote: `python3 ferramentas/conferir-pacote.py`
+3. Ler `regras-comuns.json` e `tokens-chapeu.json`
+4. Para card, ler `cards/catalogo.json`, o `modelo.html`, a `ficha.json` e sua `ficha-tecnica.json`, quando indicada
+5. Para Reels estático, ler `reels/registro.json`; o renderizador de cards não exporta Reels
+6. Para vídeo da Máquina, ler `video/contrato-integracao.json`; a dependência legada declarada é a única exceção à política de versões
 
-Criar cards de notícia mantendo fidelidade a cada marca e uma lógica de composição compartilhada.
+Cada template define seus próprios valores. Preencher a área editorial com equilíbrio; número de linhas é consequência. Carregar fontes antes de medir, não transportar quebras entre templates e revisar visualmente. Não usar ponto final ao término dos blocos; preservar pontuação interna e sinais ? e !
 
-## Ordem de leitura
-
-1. `regras-comuns.json`
-2. `tokens-chapeu.json`
-3. `cards/README.md`
-4. A `ficha.json` do template e variante escolhidos
-
-## Regras que prevalecem
-
-- O template decide seus próprios valores: fonte, tamanho, margens, assinatura, caixas e grafismos
-- A chamada deve preencher bem a área editorial útil; número de linhas é resultado, não ponto de partida
-- Avalie e ajuste tamanho, quebras e equilíbrio visual antes de exportar
-- Não reaproveite quebras manuais de outro template
-- Chapéus sempre têm centralização óptica dentro de sua área virtual, após o carregamento da fonte
-- Não usar ponto final no chapéu, chamada, lead ou crédito
-
-## Sucesso de instalação
-
-Ao instalar esta versão, responda: `NINJA Design System V4 RC1 ativo` e liste os 12 templates disponíveis no README raiz.
+Ao concluir, informar `NINJA Design System V4 RC2 ativo` e listar o escopo instalado com precisão: cards, fichas estáticas de Reels e/ou contrato de vídeo. Não afirmar suporte a MP4, thumbnail ou marcas de vídeo sem implementação validada

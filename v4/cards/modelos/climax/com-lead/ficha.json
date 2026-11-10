@@ -101,7 +101,8 @@
     },
     "degradeEfetivo": "linear-gradient(rgba(0, 0, 0, 0) 753.688px, rgb(0, 0, 0) 1220px)",
     "limiteVisivelFotografiaY": 1220,
-    "fonteMedidas": "biblioteca-local/auditoria/conferencia-detalhada/climax/com-lead/medidas.json"
+    "fonteMedidas": "tokensObservados e geometriaConferida nesta ficha; origem histórica local"
   },
-  "notaEspacamentos": "Distâncias efetivas entre caixas já incluem deslocamentos do chapéu, padding e margem; não confundir com gap nominal do flex"
+  "notaEspacamentos": "Distâncias efetivas entre caixas já incluem deslocamentos do chapéu, padding e margem; não confundir com gap nominal do flex",
+  "regrasComuns": "../../../../regras-comuns.json"
 }

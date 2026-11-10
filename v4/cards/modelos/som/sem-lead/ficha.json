@@ -35,7 +35,7 @@
       "tamanhoMaxPx": 96
     }
   },
-  "foto": "assets/foto-show.png",
+  "foto": "../../../recursos/b2a0bca87ad378f860453e88.png",
   "conteudoFicticio": true,
   "regras": [
     "Não usar ponto final ao término dos blocos",
@@ -94,7 +94,7 @@
     "presente": false
   },
   "fichaTecnica": "ficha-tecnica.json",
-  "regrasComuns": "biblioteca-local/regras-comuns.json",
+  "regrasComuns": "../../../../regras-comuns.json",
   "tokensObservados": {
     "chapeu": {
       "estiloEfetivo": {
@@ -279,7 +279,7 @@
     },
     "degradeEfetivo": "linear-gradient(rgba(0, 0, 0, 0) 844.422px, rgb(0, 0, 0) 1365px)",
     "limiteVisivelFotografiaY": 1365,
-    "fonteMedidas": "biblioteca-local/auditoria/conferencia-detalhada/som/sem-lead/medidas.json"
+    "fonteMedidas": "ficha-tecnica.json"
   },
   "notaEspacamentos": "Distâncias efetivas entre caixas já incluem deslocamentos do chapéu, padding e margem; não confundir com gap nominal do flex"
 }

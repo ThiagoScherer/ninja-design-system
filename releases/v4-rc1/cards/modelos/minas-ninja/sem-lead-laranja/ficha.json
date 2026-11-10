@@ -1,0 +1,65 @@
+{
+  "marca": "Minas NINJA",
+  "status": "aprovado",
+  "variante": "sem-lead",
+  "formato": {
+    "largura": 1080,
+    "altura": 1440
+  },
+  "margens": {
+    "conteudoPx": 60,
+    "guiaExternaEstimadaPx": 40,
+    "origem": "Estimativa das guias e alinhamentos no print"
+  },
+  "fontes": {
+    "chapeu": "Neutronic Narrow Semibold",
+    "chamada": "Neutronic Narrow Extrabold",
+    "lead": "Neutronic Narrow Semibold",
+    "credito": "Manrope Medium"
+  },
+  "coresEstimadas": {
+    "chapeuEIcone": "#d6532a",
+    "chamada": "#efe5bb",
+    "credito": "#647434",
+    "fundo": "#000000"
+  },
+  "degrade": {
+    "offsetAcimaChapeuPx": 80,
+    "base": "Limite inferior da foto, y=1180 nesta composição",
+    "opacidadeBase": 1
+  },
+  "conteudo": {
+    "chapeu": "MEMÓRIA, CULTURA E COMUNICAÇÃO",
+    "chamada": "Festeja Tradição Mineira amplifica vozes quilombolas e indígenas com oficinas de comunicação em Minas",
+    "credito": "Foto: Minas NINJA"
+  },
+  "fonteNoticia": "https://midianinja.org/quem-conta-a-historia-de-minas-projeto-festeja-tradicao-mineira-fortalece-as-voz-das-comunidades-quilombolas-e-indigenas-do-estado/",
+  "logos": {
+    "usoNoCard": "../assets/icone-laranja.svg",
+    "completoGuardado": "../assets/logo-completo.svg",
+    "iconeOriginal": "../assets/logo-icone.svg"
+  },
+  "chamada": {
+    "linhasReferencia": [
+      "FESTEJA TRADIÇÃO MINEIRA",
+      "AMPLIFICA VOZES QUILOMBOLAS",
+      "E INDÍGENAS COM OFICINAS",
+      "DE COMUNICAÇÃO EM MINAS"
+    ],
+    "tamanhoVariavel": true,
+    "tamanhoPxNestaComposicao": 68
+  },
+  "chapeu": {
+    "paddingTopoPx": 7,
+    "paddingInferiorPx": 3,
+    "ajusteOptico": "Texto deslocado 3px para baixo mantendo altura do retângulo"
+  },
+  "corVariante": "laranja",
+  "origemCores": "Extraídas do arquivo Minas NINJA - 2026.png",
+  "aprovacao": "Aprovado pelo usuário nesta conversa",
+  "coresAprovadas": [
+    "verde",
+    "laranja"
+  ],
+  "aprovacaoCombinacoesCorLead": "Aprovadas pelo usuário em todas as combinações com e sem lead"
+}

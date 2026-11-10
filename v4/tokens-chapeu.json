@@ -1,6 +1,6 @@
 {
   "schema": "ninja-design-system/v4/chapeu",
-  "version": "4.0.0-rc.1",
+  "version": "4.0.0-rc.2",
   "universal": {
     "opticalVerticalCentering": true,
     "tolerancePx": 1,
@@ -15,12 +15,14 @@
   },
   "templates": {
     "ninja": {
-      "treatment": "pill-branca",
-      "center": "optical"
+      "treatment": "caixa-branca-retangular",
+      "center": "optical",
+      "borderRadiusPx": 0
     },
     "ninja-reels": {
-      "treatment": "pill-branca-centralizada",
-      "center": "optical"
+      "treatment": "caixa-branca-retangular-centralizada",
+      "center": "optical",
+      "borderRadiusPx": 0
     },
     "foda": {
       "treatment": "faixa-amarela",

@@ -1,6 +1,6 @@
 {
   "schema": "ninja-design-system/v4/regras-comuns",
-  "version": "4.0.0-rc.1",
+  "version": "4.0.0-rc.2",
   "composition": {
     "universalPrinciple": "Preencher de forma equilibrada a área editorial útil do template. Não fixar tamanho de fonte ou número de linhas de forma transversal.",
     "workflow": [

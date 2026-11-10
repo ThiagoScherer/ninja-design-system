@@ -32,3 +32,4 @@ No caso 06, o ajuste aprovado conservou o corpo e o número de linhas da opção
 > REÚNE HISTÓRIAS DE  
 > MIGRANTES EM  
 > SÃO PAULO
+

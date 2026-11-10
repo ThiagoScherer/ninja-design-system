@@ -32,5 +32,7 @@
     "tamanhoVariavel": true,
     "linhasPreferidas": 4,
     "regra": "Priorizar quatro linhas, equilibrar as quebras e preservar grupos de sentido; evitar finais curtos isolados"
-  }
+  },
+  "fichaTecnica": "ficha-tecnica.json",
+  "regrasComuns": "../../../../regras-comuns.json"
 }

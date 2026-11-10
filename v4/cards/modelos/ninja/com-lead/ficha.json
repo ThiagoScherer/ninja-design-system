@@ -2,14 +2,13 @@
   "marca": "Mídia NINJA",
   "status": "aprovado",
   "variante": "com-lead",
-  "origemHistorica": "/Users/thiago/.codex/visualizations/2026/10/29/01a189be-848d-7a43-85fa-040cdf3b96f2/card-noticia-teste",
   "nota": "Referência histórica preservada, anterior ao teste de degradê adaptável; dimensões efetivas serão registradas em ficha-tecnica.json",
   "formato": {
     "largura": 1080,
     "altura": 1440
   },
   "fichaTecnica": "ficha-tecnica.json",
-  "regrasComuns": "biblioteca-local/regras-comuns.json",
+  "regrasComuns": "../../../../regras-comuns.json",
   "tokensObservados": {
     "chapeu": {
       "estiloEfetivo": {
@@ -185,7 +184,7 @@
   "regrasDaMarca": [
     "Chapéu e chamada TipoNinja Regular com alternativos OpenType desativados",
     "Margens laterais 50 px; chapéu 34 px e tracking +2%",
-    "Chamada variável; priorizar 4 linhas a 5 quando possível sem reduzir demais a legibilidade",
+    "Chamada variável: comparar tamanhos e quebras para preencher a área editorial; número de linhas resulta do conteúdo, da fonte e dos limites do template",
     "Lead Manrope Medium 32 px, entrelinha 125%; distância chapéu/chamada e chamada/lead de 20 px",
     "Logo à direita e crédito à esquerda no rodapé",
     "Referências históricas preservadas; degradê fixo y=500 a y=1200 ainda precisa ser conciliado com a regra adaptável",

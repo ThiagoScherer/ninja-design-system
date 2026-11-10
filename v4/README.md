@@ -1,11 +1,7 @@
-# NINJA Design System V4 RC1
+# NINJA Design System V4 RC2
 
-Pacote operacional de cards de notícia. A V4 foi organizada para agentes: contém regras comuns, tokens de chapéu e snapshot autônomo de modelos, fichas e recursos.
+Entrada: `LEIA-PRIMEIRO.md`. Cards: `cards/catalogo.json`. Reels estáticos: `reels/registro.json`. Vídeo YouTube: `video/contrato-integracao.json`
 
-- [Leia primeiro](LEIA-PRIMEIRO.md)
-- [Como instalar ou atualizar com agente](INSTALAR-ATUALIZAR-COM-AGENTE.md)
-- [Modelos de card](cards/README.md)
-- [Regras comuns](regras-comuns.json)
-- [Tokens de chapéu](tokens-chapeu.json)
+Esta candidata incorpora o SOM com lead aprovado e as correções de compatibilidade e organização relatadas pelo Gian. Aprovações visuais pendentes estão identificadas para a V5 em `video/pendencias-v5.json`
 
-**Regra de versão:** use apenas a V4 na operação. V1–V3 são histórico e não devem ser mescladas a esta base.
+Verificação do pacote: `python3 ferramentas/conferir-pacote.py`. Os hashes em `arquivos.sha256.json` são relativos a esta pasta, cobrem todos os arquivos distribuídos em `v4/` exceto o próprio manifesto de hashes e não incluem V1–V3

@@ -61,5 +61,6 @@
     "verde",
     "laranja"
   ],
-  "aprovacaoCombinacoesCorLead": "Aprovadas pelo usuário em todas as combinações com e sem lead"
+  "aprovacaoCombinacoesCorLead": "Aprovadas pelo usuário em todas as combinações com e sem lead",
+  "regrasComuns": "../../../../regras-comuns.json"
 }

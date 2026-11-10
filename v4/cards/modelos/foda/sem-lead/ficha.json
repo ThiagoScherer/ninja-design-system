@@ -21,7 +21,7 @@
     "altura": 1440
   },
   "fichaTecnica": "ficha-tecnica.json",
-  "regrasComuns": "biblioteca-local/regras-comuns.json",
+  "regrasComuns": "../../../../regras-comuns.json",
   "tokensObservados": {
     "chapeu": {
       "estiloEfetivo": {
@@ -212,7 +212,7 @@
     },
     "degradeEfetivo": "linear-gradient(rgba(0, 0, 0, 0) 941.859px, rgb(0, 0, 0) 1440px)",
     "limiteVisivelFotografiaY": 1440,
-    "fonteMedidas": "biblioteca-local/auditoria/conferencia-detalhada/foda/sem-lead/medidas.json"
+    "fonteMedidas": "ficha-tecnica.json"
   },
   "notaEspacamentos": "Distâncias efetivas entre caixas já incluem deslocamentos do chapéu, padding e margem; não confundir com gap nominal do flex"
 }
