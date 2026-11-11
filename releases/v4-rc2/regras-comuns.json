@@ -1,0 +1,32 @@
+{
+  "schema": "ninja-design-system/v4/regras-comuns",
+  "version": "4.0.0-rc.2",
+  "composition": {
+    "universalPrinciple": "Preencher de forma equilibrada a área editorial útil do template. Não fixar tamanho de fonte ou número de linhas de forma transversal.",
+    "workflow": [
+      "medir largura útil e espaço editorial",
+      "testar tamanho e quebras com a fonte do template",
+      "preservar grupos de sentido quando isso não criar vazios gráficos relevantes",
+      "preferir mancha gráfica equilibrada",
+      "revisar visualmente antes de exportar"
+    ],
+    "fallback": "Se a chamada não couber, reduza gradualmente dentro dos limites do template; só então aumente linhas ou reduza o texto editorial"
+  },
+  "text": {
+    "finalPeriod": "forbidden",
+    "allowedPunctuation": "Pontuação interna, ? e ! quando fizerem parte do conteúdo",
+    "manualBreaks": "Não transportar quebras entre templates"
+  },
+  "imageGradient": "O degradê começa em 100% no limite inferior real da fotografia e termina em 0% aproximadamente 80px acima do chapéu; sua duração adapta-se ao bloco editorial, salvo exceção definida pelo template",
+  "hat": {
+    "positioning": "A área virtual do chapéu define o alinhamento. Centralizar o ink box visível do texto no centro vertical dessa área, tolerância máxima de 1px.",
+    "recalculateOn": [
+      "mudança de conteúdo",
+      "fonte carregada",
+      "mudança de tamanho",
+      "mudança de quebra",
+      "mudança de largura ou altura do bloco"
+    ],
+    "inheritance": "Ornamentos, faixas, pills e máscaras pertencem ao template e não podem ser substituídos por uma caixa genérica"
+  }
+}

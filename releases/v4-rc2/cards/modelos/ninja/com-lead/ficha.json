@@ -1,0 +1,208 @@
+{
+  "marca": "Mídia NINJA",
+  "status": "aprovado",
+  "variante": "com-lead",
+  "nota": "Referência histórica preservada, anterior ao teste de degradê adaptável; dimensões efetivas serão registradas em ficha-tecnica.json",
+  "formato": {
+    "largura": 1080,
+    "altura": 1440
+  },
+  "fichaTecnica": "ficha-tecnica.json",
+  "regrasComuns": "../../../../regras-comuns.json",
+  "tokensObservados": {
+    "chapeu": {
+      "estiloEfetivo": {
+        "fontFamily": "TipoNinja",
+        "fontSize": "28px",
+        "fontWeight": "400",
+        "fontStyle": "normal",
+        "lineHeight": "32.2px",
+        "letterSpacing": "0.56px",
+        "textTransform": "none",
+        "textAlign": "start",
+        "color": "rgb(0, 0, 0)",
+        "backgroundColor": "rgb(255, 255, 255)",
+        "backgroundImage": "none",
+        "borderRadius": "0px",
+        "paddingTop": "9px",
+        "paddingBottom": "9px",
+        "paddingLeft": "15px",
+        "paddingRight": "15px",
+        "gap": "normal",
+        "top": "auto",
+        "bottom": "auto",
+        "left": "auto",
+        "right": "auto",
+        "position": "static",
+        "transform": "none",
+        "fontFeatureSettings": "\"calt\" 0, \"clig\" 0, \"cswh\" 0, \"dlig\" 0, \"hlig\" 0, \"liga\" 0, \"salt\" 0, \"ss01\" 0, \"ss02\" 0, \"ss03\" 0, \"ss04\" 0, \"ss05\" 0, \"ss06\" 0, \"ss07\" 0, \"ss08\" 0, \"ss09\" 0, \"ss10\" 0, \"ss11\" 0, \"ss12\" 0, \"ss13\" 0, \"ss14\" 0, \"ss15\" 0, \"ss16\" 0, \"ss17\" 0, \"ss18\" 0, \"ss19\" 0, \"ss20\" 0, \"swsh\" 0, \"titl\" 0"
+      },
+      "caixaNestaComposicaoPx": {
+        "x": 50,
+        "y": 869.8125,
+        "largura": 214.96875,
+        "altura": 50.1875
+      }
+    },
+    "chamada": {
+      "estiloEfetivo": {
+        "fontFamily": "TipoNinja",
+        "fontSize": "90px",
+        "fontWeight": "400",
+        "fontStyle": "normal",
+        "lineHeight": "90px",
+        "letterSpacing": "normal",
+        "textTransform": "none",
+        "textAlign": "start",
+        "color": "rgb(255, 255, 255)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "backgroundImage": "none",
+        "borderRadius": "0px",
+        "paddingTop": "0px",
+        "paddingBottom": "0px",
+        "paddingLeft": "0px",
+        "paddingRight": "0px",
+        "gap": "normal",
+        "top": "auto",
+        "bottom": "auto",
+        "left": "auto",
+        "right": "auto",
+        "position": "static",
+        "transform": "none",
+        "fontFeatureSettings": "\"calt\" 0, \"clig\" 0, \"cswh\" 0, \"dlig\" 0, \"hlig\" 0, \"liga\" 0, \"salt\" 0, \"ss01\" 0, \"ss02\" 0, \"ss03\" 0, \"ss04\" 0, \"ss05\" 0, \"ss06\" 0, \"ss07\" 0, \"ss08\" 0, \"ss09\" 0, \"ss10\" 0, \"ss11\" 0, \"ss12\" 0, \"ss13\" 0, \"ss14\" 0, \"ss15\" 0, \"ss16\" 0, \"ss17\" 0, \"ss18\" 0, \"ss19\" 0, \"ss20\" 0, \"swsh\" 0, \"titl\" 0"
+      },
+      "caixaNestaComposicaoPx": {
+        "x": 50,
+        "y": 940,
+        "largura": 864.09375,
+        "altura": 270
+      }
+    },
+    "lead": {
+      "estiloEfetivo": {
+        "fontFamily": "Manrope",
+        "fontSize": "32px",
+        "fontWeight": "500",
+        "fontStyle": "normal",
+        "lineHeight": "40px",
+        "letterSpacing": "normal",
+        "textTransform": "none",
+        "textAlign": "start",
+        "color": "rgb(255, 255, 255)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "backgroundImage": "none",
+        "borderRadius": "0px",
+        "paddingTop": "0px",
+        "paddingBottom": "0px",
+        "paddingLeft": "0px",
+        "paddingRight": "0px",
+        "gap": "normal",
+        "top": "auto",
+        "bottom": "auto",
+        "left": "auto",
+        "right": "auto",
+        "position": "static",
+        "transform": "none",
+        "fontFeatureSettings": "normal"
+      },
+      "caixaNestaComposicaoPx": {
+        "x": 50,
+        "y": 1230,
+        "largura": 683.078125,
+        "altura": 80
+      }
+    },
+    "credito": {
+      "estiloEfetivo": {
+        "fontFamily": "Manrope",
+        "fontSize": "16px",
+        "fontWeight": "500",
+        "fontStyle": "normal",
+        "lineHeight": "16px",
+        "letterSpacing": "normal",
+        "textTransform": "none",
+        "textAlign": "start",
+        "color": "rgb(255, 255, 255)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "backgroundImage": "none",
+        "borderRadius": "0px",
+        "paddingTop": "0px",
+        "paddingBottom": "0px",
+        "paddingLeft": "0px",
+        "paddingRight": "0px",
+        "gap": "normal",
+        "top": "1374px",
+        "bottom": "50px",
+        "left": "50px",
+        "right": "838.109px",
+        "position": "absolute",
+        "transform": "none",
+        "fontFeatureSettings": "normal"
+      },
+      "caixaNestaComposicaoPx": {
+        "x": 50,
+        "y": 1374,
+        "largura": 191.890625,
+        "altura": 16
+      }
+    },
+    "editorial": {
+      "estiloEfetivo": {
+        "fontFamily": "Times",
+        "fontSize": "16px",
+        "fontWeight": "400",
+        "fontStyle": "normal",
+        "lineHeight": "normal",
+        "letterSpacing": "normal",
+        "textTransform": "none",
+        "textAlign": "start",
+        "color": "rgb(255, 255, 255)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "backgroundImage": "none",
+        "borderRadius": "0px",
+        "paddingTop": "0px",
+        "paddingBottom": "0px",
+        "paddingLeft": "0px",
+        "paddingRight": "0px",
+        "gap": "20px",
+        "top": "869.812px",
+        "bottom": "130px",
+        "left": "50px",
+        "right": "50px",
+        "position": "absolute",
+        "transform": "none",
+        "fontFeatureSettings": "normal"
+      },
+      "caixaNestaComposicaoPx": {
+        "x": 50,
+        "y": 869.8125,
+        "largura": 980,
+        "altura": 440.1875
+      }
+    }
+  },
+  "regrasDaMarca": [
+    "Chapéu e chamada TipoNinja Regular com alternativos OpenType desativados",
+    "Margens laterais 50 px; chapéu 34 px e tracking +2%",
+    "Chamada variável: comparar tamanhos e quebras para preencher a área editorial; número de linhas resulta do conteúdo, da fonte e dos limites do template",
+    "Lead Manrope Medium 32 px, entrelinha 125%; distância chapéu/chamada e chamada/lead de 20 px",
+    "Logo à direita e crédito à esquerda no rodapé",
+    "Referências históricas preservadas; degradê fixo y=500 a y=1200 ainda precisa ser conciliado com a regra adaptável",
+    "Uma referência com lead contém ponto final herdado: remover na produção, conforme regra comum"
+  ],
+  "conteudoDeReferencia": {
+    "chapeu": "CULTURA VIVA",
+    "chamada": "HAVANA RECEBEFESTIVAL GRATUITODE ARTE E MEMÓRIA",
+    "lead": "Programação reúne música, cinema e oficinasem espaços públicos da cidade.",
+    "credito": "FOTO: CLIVE KIM / PEXELS"
+  },
+  "notaTamanhos": "Valores observados na referência não são limites universais; limites e prioridades estão em regrasDaMarca",
+  "aprovacao": "Visual aprovado na conversa; auditoria documental em 2026-10-30",
+  "notaEspacamentos": "Distâncias efetivas entre caixas já incluem deslocamentos do chapéu, padding e margem; não confundir com gap nominal do flex",
+  "degrade": {
+    "adaptavel": true,
+    "offsetAcimaChapeuPx": 80,
+    "base": "Limite inferior da fotografia"
+  },
+  "chapeuTamanhoPx": 37.4
+}

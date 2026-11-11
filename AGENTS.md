@@ -1,14 +1,7 @@
-# NINJA Design System — instruções ativas
+# NINJA Design System — entrada operacional
 
-Use exclusivamente a V4: comece por `v4/LEIA-PRIMEIRO.md`.
+Quando receber o link deste repositório com “Use este Design System para fazer meus cards”, execute o fluxo de `INICIAR.md`. Esse pedido autoriza preparar o DS no projeto escolhido para produzir cards; não autoriza mudar a visibilidade do repositório, compartilhar fontes ou publicar materiais
 
-- Para cards, não combine regras, caminhos ou valores de V1, V2 ou V3 com a V4
-- A V4 é a fonte operacional para cards de notícia
-- Leia o modelo e sua ficha antes de compor; cada template define seus próprios valores de tipografia, margens, assinatura, caixas e grafismos
-- O princípio comum é preencher com equilíbrio a área editorial útil. A quantidade de linhas é consequência do template e do conteúdo, não uma regra universal
-- Nenhum chapéu, chamada ou lead termina com ponto final. Preserve pontuação interna, interrogação e exclamação
+Leia `ATIVO.json`; instale a versão indicada integralmente, sem misturar templates de releases anteriores. Leia a ficha da marca e gere com o renderizador distribuído. Compare tamanho e quebras para ocupar bem a área editorial, preserve as margens e revise visualmente antes de entregar. Não usar ponto final ao término de chapéu, chamada, lead ou crédito; preservar pontuação interna e sinais ? e !
 
-
-## Vídeo YouTube
-
-Ler `v4/video/contrato-integracao.json`. A RC2 mantém o contrato legado de vídeo explicitamente identificado na V4, com aplicação apenas das regras comuns compatíveis. A dependência é declarada, não uma autorização para misturar versões livremente
+Para vídeo da Máquina, a referência continua em `v4/video/contrato-integracao.json`. A V5 desta rodada cobre cards 1080 × 1440, não Reels animados ou thumbnails

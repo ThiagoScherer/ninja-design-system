@@ -1,0 +1,122 @@
+{
+  "version": "5.0.0-rc.1",
+  "date": "2026-11-11",
+  "status": "validacao-local-concluida",
+  "freshInstall": {
+    "isolatedDependencies": true,
+    "systemChrome": true,
+    "automaticChromiumInstall": true,
+    "cardsGenerated": [
+      "ninja/com-lead",
+      "ninja/sem-lead"
+    ]
+  },
+  "cards": [
+    {
+      "case": "curta-com-lead",
+      "ok": true,
+      "gaps": {
+        "hatToHeadline": 20,
+        "headlineToLead": 20,
+        "editorialBottomToCard": 130
+      },
+      "fontsLoaded": true
+    },
+    {
+      "case": "media-com-lead",
+      "ok": true,
+      "gaps": {
+        "hatToHeadline": 20,
+        "headlineToLead": 20,
+        "editorialBottomToCard": 130
+      },
+      "fontsLoaded": true
+    },
+    {
+      "case": "longa-com-lead",
+      "ok": true,
+      "gaps": {
+        "hatToHeadline": 20,
+        "headlineToLead": 20,
+        "editorialBottomToCard": 130
+      },
+      "fontsLoaded": true
+    },
+    {
+      "case": "curta-sem-lead",
+      "ok": true,
+      "gaps": {
+        "hatToHeadline": 20,
+        "headlineToLead": null,
+        "editorialBottomToCard": 130
+      },
+      "fontsLoaded": true
+    },
+    {
+      "case": "media-sem-lead",
+      "ok": true,
+      "gaps": {
+        "hatToHeadline": 20,
+        "headlineToLead": null,
+        "editorialBottomToCard": 130
+      },
+      "fontsLoaded": true
+    },
+    {
+      "case": "longa-sem-lead",
+      "ok": true,
+      "gaps": {
+        "hatToHeadline": 20,
+        "headlineToLead": null,
+        "editorialBottomToCard": 130
+      },
+      "fontsLoaded": true
+    },
+    {
+      "case": "todos-os-modelos",
+      "count": 18,
+      "ok": true
+    }
+  ],
+  "updateAndRecovery": [
+    {
+      "case": "repetir-instalacao",
+      "ok": true
+    },
+    {
+      "case": "pacote-corrompido-recusa-e-preserva-lock",
+      "ok": true
+    },
+    {
+      "case": "falha-no-autoteste-nao-desativa-versao-anterior",
+      "ok": true
+    },
+    {
+      "case": "atualizacao-completa-e-backup",
+      "ok": true
+    },
+    {
+      "case": "retorno-ao-pacote-candidato-pelo-instalador",
+      "ok": true
+    },
+    {
+      "case": "exportacao-recusa-pacote-local-alterado",
+      "ok": true
+    }
+  ],
+  "approvedReferences": {
+    "editorialPixelsMatch": true,
+    "note": "Nas seis referências, diferenças detectadas somente na área da assinatura em cinco casos; texto e espaçamento coincidem. Uma referência é idêntica integralmente"
+  },
+  "limits": [
+    "Teste local em macOS; Windows e Linux não certificados nesta rodada",
+    "Instalação iniciada de snapshot local completo; acesso GitHub privado depende da conexão autorizada do agente consumidor",
+    "Teste com um segundo agente sem contexto ainda não executado",
+    "A composição mantém revisão de tamanho e quebras pelo agente; não há algoritmo universal de diagramação",
+    "Thumbnails adiadas para V6; vídeo fora do escopo desta V5"
+  ],
+  "projectInstructions": {
+    "existingInstructionsPreserved": true,
+    "duplicateBlocksAvoided": true
+  }
+}

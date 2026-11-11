@@ -1,0 +1,253 @@
+{
+  "marca": "foda",
+  "variante": "com-lead",
+  "status": "aprovado",
+  "chapeu": "MÚSICA PARA TODO MUNDO",
+  "chamada": "Festival gratuito leva música independente às praças da cidade",
+  "lead": "Com shows gratuitos, oficinas e rodas de conversa, evento reúne artistas de várias regiões e transforma as praças da cidade em espaços de encontro e celebração musical",
+  "degrade": {
+    "offsetAcimaChapeuPx": 80,
+    "opacidadeNaBase": 1,
+    "baseY": 1440
+  },
+  "ajustes": {
+    "chapeuDeslocamentoYPx": -4,
+    "chapeuTamanhoPx": 31.05,
+    "creditoTamanhoPx": 16.8
+  },
+  "aprovadoEm": "2026-10-30",
+  "formato": {
+    "largura": 1080,
+    "altura": 1440
+  },
+  "fichaTecnica": "ficha-tecnica.json",
+  "regrasComuns": "../../../../regras-comuns.json",
+  "tokensObservados": {
+    "chapeu": {
+      "estiloEfetivo": {
+        "fontFamily": "Obviously",
+        "fontSize": "31.05px",
+        "fontWeight": "900",
+        "fontStyle": "italic",
+        "lineHeight": "34.155px",
+        "letterSpacing": "normal",
+        "textTransform": "none",
+        "textAlign": "start",
+        "color": "rgb(0, 0, 0)",
+        "backgroundColor": "rgb(237, 255, 0)",
+        "backgroundImage": "none",
+        "borderRadius": "6px",
+        "paddingTop": "14px",
+        "paddingBottom": "6px",
+        "paddingLeft": "14px",
+        "paddingRight": "14px",
+        "gap": "normal",
+        "top": "-4px",
+        "bottom": "4px",
+        "left": "0px",
+        "right": "0px",
+        "position": "relative",
+        "transform": "none",
+        "fontFeatureSettings": "normal"
+      },
+      "caixaNestaComposicaoPx": {
+        "x": 50,
+        "y": 881.859375,
+        "largura": 522.765625,
+        "altura": 54.140625
+      }
+    },
+    "chamada": {
+      "estiloEfetivo": {
+        "fontFamily": "Obviously",
+        "fontSize": "70px",
+        "fontWeight": "900",
+        "fontStyle": "italic",
+        "lineHeight": "70px",
+        "letterSpacing": "-0.7px",
+        "textTransform": "none",
+        "textAlign": "start",
+        "color": "rgb(255, 255, 255)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "backgroundImage": "none",
+        "borderRadius": "0px",
+        "paddingTop": "0px",
+        "paddingBottom": "0px",
+        "paddingLeft": "0px",
+        "paddingRight": "0px",
+        "gap": "normal",
+        "top": "auto",
+        "bottom": "auto",
+        "left": "auto",
+        "right": "auto",
+        "position": "static",
+        "transform": "none",
+        "fontFeatureSettings": "normal"
+      },
+      "caixaNestaComposicaoPx": {
+        "x": 50,
+        "y": 960,
+        "largura": 980,
+        "altura": 210
+      }
+    },
+    "lead": {
+      "estiloEfetivo": {
+        "fontFamily": "TestManrope",
+        "fontSize": "32px",
+        "fontWeight": "500",
+        "fontStyle": "normal",
+        "lineHeight": "40px",
+        "letterSpacing": "normal",
+        "textTransform": "none",
+        "textAlign": "left",
+        "color": "rgb(255, 255, 255)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "backgroundImage": "none",
+        "borderRadius": "0px",
+        "paddingTop": "0px",
+        "paddingBottom": "0px",
+        "paddingLeft": "0px",
+        "paddingRight": "0px",
+        "gap": "normal",
+        "top": "auto",
+        "bottom": "auto",
+        "left": "auto",
+        "right": "auto",
+        "position": "static",
+        "transform": "none",
+        "fontFeatureSettings": "normal"
+      },
+      "caixaNestaComposicaoPx": {
+        "x": 50,
+        "y": 1190,
+        "largura": 980,
+        "altura": 120
+      }
+    },
+    "credito": {
+      "estiloEfetivo": {
+        "fontFamily": "Manrope",
+        "fontSize": "16.8px",
+        "fontWeight": "500",
+        "fontStyle": "normal",
+        "lineHeight": "16.8px",
+        "letterSpacing": "normal",
+        "textTransform": "none",
+        "textAlign": "start",
+        "color": "rgb(237, 255, 0)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "backgroundImage": "none",
+        "borderRadius": "0px",
+        "paddingTop": "0px",
+        "paddingBottom": "0px",
+        "paddingLeft": "0px",
+        "paddingRight": "0px",
+        "gap": "normal",
+        "top": "1398.2px",
+        "bottom": "25px",
+        "left": "20px",
+        "right": "886.5px",
+        "position": "absolute",
+        "transform": "none",
+        "fontFeatureSettings": "normal"
+      },
+      "caixaNestaComposicaoPx": {
+        "x": 20,
+        "y": 1398.203125,
+        "largura": 173.5,
+        "altura": 16.796875
+      }
+    },
+    "editorial": {
+      "estiloEfetivo": {
+        "fontFamily": "Times",
+        "fontSize": "16px",
+        "fontWeight": "400",
+        "fontStyle": "normal",
+        "lineHeight": "normal",
+        "letterSpacing": "normal",
+        "textTransform": "none",
+        "textAlign": "start",
+        "color": "rgb(255, 255, 255)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "backgroundImage": "none",
+        "borderRadius": "0px",
+        "paddingTop": "0px",
+        "paddingBottom": "0px",
+        "paddingLeft": "0px",
+        "paddingRight": "0px",
+        "gap": "20px",
+        "top": "885.859px",
+        "bottom": "130px",
+        "left": "50px",
+        "right": "50px",
+        "position": "absolute",
+        "transform": "none",
+        "fontFeatureSettings": "normal"
+      },
+      "caixaNestaComposicaoPx": {
+        "x": 50,
+        "y": 885.859375,
+        "largura": 980,
+        "altura": 424.140625
+      }
+    }
+  },
+  "regrasDaMarca": [
+    "Chapéu Obviously Black Italic, 31,05 px, deslocamento vertical -4 px",
+    "Crédito Manrope Medium, 16,8 px",
+    "Chamada variável; 70 px nesta referência, não um máximo universal"
+  ],
+  "conteudoDeReferencia": {
+    "chapeu": "MÚSICA PARA TODO MUNDO",
+    "chamada": "FESTIVAL GRATUITO LEVAMÚSICA INDEPENDENTEÀS PRAÇAS DA CIDADE",
+    "lead": "Com shows gratuitos, oficinas e rodas de conversa, evento reúne artistas de várias regiões e transforma as praças da cidade em espaços de encontro e celebração musical",
+    "credito": "Foto: Nome da Pessoa"
+  },
+  "notaTamanhos": "Valores observados na referência não são limites universais; limites e prioridades estão em regrasDaMarca",
+  "aprovacao": "Visual aprovado na conversa; auditoria documental em 2026-10-30",
+  "geometriaConferida": {
+    "margensLateraisPx": {
+      "esquerda": 50,
+      "direita": 50
+    },
+    "larguraUtilPx": 980,
+    "distanciasEfetivasEntreCaixasPx": {
+      "hatToHeadline": 24,
+      "headlineToLead": 20,
+      "editorialBottomToCard": 130
+    },
+    "chamadaTamanhoPxNestaComposicao": 70,
+    "referenciasLogoCredito": {
+      ".logo": {
+        "x": 480,
+        "y": 1370.4375,
+        "w": 120,
+        "h": 41.5625,
+        "right": 600,
+        "bottom": 1412
+      },
+      ".bolt": {
+        "x": 1001,
+        "y": 1344.90625,
+        "w": 55,
+        "h": 71.09375,
+        "right": 1056,
+        "bottom": 1416
+      },
+      ".credit": {
+        "x": 20,
+        "y": 1398.203125,
+        "w": 173.5,
+        "h": 16.796875,
+        "right": 193.5,
+        "bottom": 1415
+      }
+    },
+    "degradeEfetivo": "linear-gradient(rgba(0, 0, 0, 0) 801.859px, rgb(0, 0, 0) 1440px)",
+    "limiteVisivelFotografiaY": 1440,
+    "fonteMedidas": "ficha-tecnica.json"
+  },
+  "notaEspacamentos": "Distâncias efetivas entre caixas já incluem deslocamentos do chapéu, padding e margem; não confundir com gap nominal do flex"
+}

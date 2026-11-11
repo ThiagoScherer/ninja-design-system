@@ -1,0 +1,47 @@
+{
+  "marca": "Estudantes NINJA",
+  "status": "aprovado",
+  "variante": "sem-lead",
+  "origemCard": "../cards/modelos/estudantes/sem-lead/ficha.json",
+  "formato": {
+    "largura": 1080,
+    "altura": 1920
+  },
+  "areaSegura": {
+    "x": 0,
+    "y": 240,
+    "largura": 1080,
+    "altura": 1440
+  },
+  "margensLateraisPx": 80,
+  "baseEditorialY": 1550,
+  "assinaturaBaseY": 1630,
+  "creditoForaAreaSegura": true,
+  "fonteChamadaInicialPx": 133.4,
+  "fonteChapeuInicialPx": 42,
+  "nota": "Proposta; valores de tamanho ajustados à identidade e conteúdo. Não substitui os cards aprovados.",
+  "chamada": {
+    "tamanhoPx": 117.392,
+    "linhas": [
+      "FESTIVAL GRATUITO LEVA",
+      "MÚSICA INDEPENDENTE",
+      "ÀS PRAÇAS DA CIDADE"
+    ]
+  },
+  "chapeuTamanhoPx": 33.6,
+  "ajusteUsuario": {
+    "reducaoFontesPercentual": 20,
+    "preservarQuebras": true,
+    "preservarMargens": true,
+    "baseAssinaturaY": 1630,
+    "reducaoLogoPercentual": 15,
+    "aumentoPosteriorChamadaPercentual": 10
+  },
+  "logoLarguraPx": 153,
+  "modelo": "Notícia Reels",
+  "aprovacao": "Confirmada pelo usuário após ajuste da chamada",
+  "statusDistribuicao": "ficha-de-referencia-estatica",
+  "geradorMP4Incluido": false,
+  "renderizadorCardsCompativel": false,
+  "regraComposicao": "Número de linhas desta amostra é referência histórica; compor para preencher a área útil com equilíbrio, respeitando limites próprios"
+}

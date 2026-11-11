@@ -1,0 +1,109 @@
+{
+  "marca": "Clímax",
+  "status": "aprovado",
+  "variante": "com-lead",
+  "formato": {
+    "largura": 1080,
+    "altura": 1440
+  },
+  "margensLateraisPx": 40,
+  "fontes": {
+    "chamada": "Anton Regular",
+    "chapeu": "Montserrat ExtraBold 800",
+    "credito": "Montserrat Medium 500"
+  },
+  "chapeu": {
+    "tamanhoPx": 38,
+    "caixa": "Retângulo verde com grafismo lateral SVG",
+    "peso": 800
+  },
+  "chamada": {
+    "tamanhoVariavel": true,
+    "capitalizacao": "Frase",
+    "entrelinha": 1.13,
+    "tamanhoPxNestaComposicao": 76
+  },
+  "credito": {
+    "tamanhoPx": 16,
+    "texto": "Foto: Reprodução / Mídia NINJA",
+    "autoriaIndividual": "Não informada na página consultada"
+  },
+  "degrade": {
+    "baseY": 1220,
+    "offsetAcimaChapeuPx": 80,
+    "multiplicador": 1,
+    "referenciaBase": "Limite inferior efetivo da fotografia, recalculado pela caixa da imagem",
+    "opacidadeNaBase": 1
+  },
+  "fonteNoticia": "https://midianinja.org/tre-am-nega-transporte-gratuito-para-indigenas-do-vale-do-javari-no-segundo-turno/",
+  "conteudo": {
+    "chapeu": "DIREITO AO VOTO",
+    "chamada": "TRE-AM nega transporte gratuito para indígenas do Vale do Javari votarem no segundo turno",
+    "lead": "Pedido da UNIVAJA abrangia 43 aldeias; decisão cita prazos vencidos, falta de orçamento e dificuldades logísticas para o transporte fluvial"
+  },
+  "lead": {
+    "fonte": "Montserrat Medium",
+    "peso": 500,
+    "tamanhoPx": 32,
+    "entrelinha": 1.25,
+    "distanciaChamadaPx": 32,
+    "texto": "Pedido da UNIVAJA abrangia 43 aldeias; decisão cita prazos vencidos, falta de orçamento e dificuldades logísticas para o transporte fluvial"
+  },
+  "aprovacao": "Aprovado pelo usuário nesta conversa",
+  "grafismoChapeu": {
+    "tipo": "Máscara SVG vetorial em pseudo-elemento CSS",
+    "cor": "var(--accent), compartilhada com a caixa",
+    "largura": "1.105263em",
+    "altura": "calc(100% + 1.3em)",
+    "ancoragem": "À esquerda da caixa, acompanha seu tamanho e posição",
+    "quebraTexto": "Permitida dentro da largura útil; altura do grafismo acompanha a caixa"
+  },
+  "paleta": {
+    "laranja": "#ff5732",
+    "roxo": "#6b2fa0",
+    "verde": "#009941"
+  },
+  "coresAprovadas": [
+    "verde",
+    "laranja",
+    "roxo"
+  ],
+  "aprovacaoCombinacoesCorLead": "Aprovadas pelo usuário em todas as combinações com e sem lead",
+  "geometriaConferida": {
+    "margensLateraisPx": {
+      "esquerda": 40,
+      "direita": 40
+    },
+    "larguraUtilPx": 1000,
+    "distanciasEfetivasEntreCaixasPx": {
+      "hatToHeadline": 32,
+      "headlineToLead": 32,
+      "editorialBottomToCard": 100
+    },
+    "chamadaTamanhoPxNestaComposicao": 76,
+    "referenciasLogoCredito": {
+      ".logo": {
+        "x": 40,
+        "y": 44,
+        "w": 200,
+        "h": 32.640625,
+        "right": 240,
+        "bottom": 76.640625
+      },
+      ".credit": {
+        "x": 40,
+        "y": 1402.8125,
+        "w": 257.78125,
+        "h": 19.1875,
+        "right": 297.78125,
+        "bottom": 1422
+      }
+    },
+    "degradeEfetivo": "linear-gradient(rgba(0, 0, 0, 0) 753.688px, rgb(0, 0, 0) 1220px)",
+    "limiteVisivelFotografiaY": 1220,
+    "fonteMedidas": "tokensObservados e geometriaConferida nesta ficha; origem histórica local"
+  },
+  "notaEspacamentos": "Distâncias efetivas entre caixas já incluem deslocamentos do chapéu, padding e margem; não confundir com gap nominal do flex",
+  "regrasComuns": "../../../../regras-comuns.json",
+  "release": "5.0.0-rc.1"
+}

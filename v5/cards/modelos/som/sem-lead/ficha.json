@@ -1,0 +1,286 @@
+{
+  "marca": "SOM",
+  "status": "aprovado",
+  "formato": {
+    "largura": 1080,
+    "altura": 1440
+  },
+  "corRodape": "#712cfb",
+  "rodape": {
+    "alturaPx": 75,
+    "logoLarguraPx": 94,
+    "logoEsquerdaPx": 44
+  },
+  "margemLateralPx": 44,
+  "fontes": {
+    "chapeu": "Archivo Expanded ExtraBold",
+    "chamada": "Archivo ExtraCondensed Black"
+  },
+  "chapeu": {
+    "tamanhoPx": 26,
+    "raioPx": 40,
+    "paddingHorizontalPx": 20,
+    "paddingVerticalPx": 10,
+    "distanciaChamadaPx": 22
+  },
+  "chamada": {
+    "entrelinha": 1.05,
+    "ajuste": "Ajustar a chamada para ocupar bem a largura útil de 992px e a área inferior, mantendo quebras equilibradas; regra comum a todas as marcas",
+    "tamanhoMaxPx": 96,
+    "linhas": {
+      "preferida": 3,
+      "alternativa": 2,
+      "excepcao": 4,
+      "ajuste": "Reduzir o tamanho da fonte quando necessário para manter três linhas, preservando a legibilidade; recorrer a quatro somente se ainda não couber adequadamente",
+      "tamanhoMaxPx": 96
+    }
+  },
+  "foto": "../../../recursos/b2a0bca87ad378f860453e88.png",
+  "conteudoFicticio": true,
+  "regras": [
+    "Não usar ponto final ao término dos blocos",
+    "Avaliar visualmente equilíbrio das linhas antes de exportar",
+    "Chamada variável até o máximo de 96px, ajustada ao conteúdo e às quebras",
+    "Crédito branco por padrão; trocar para preto se o fundo local for muito claro",
+    "Priorizar três linhas na chamada; duas como alternativa; reduzir a fonte para tentar manter três e evitar quatro, usando quatro apenas quando necessário"
+  ],
+  "credito": "Foto: Nome da Pessoa",
+  "degrade": {
+    "adaptavel": true,
+    "referenciaTransparente": "80px acima do topo da caixa do chapéu",
+    "offsetAcimaChapeuPx": 80,
+    "opacidadeSuperior": 0,
+    "referenciaOpaco": "Topo da faixa roxa do rodapé",
+    "opacidadeInferior": 1,
+    "interpolacao": "linear",
+    "atualizacao": "Recalcular após carregar fontes e sempre que a altura do bloco editorial mudar"
+  },
+  "conteudo": {
+    "chapeu": "MÚSICA PARA TODO MUNDO",
+    "chamada": "Festival gratuito leva música independente às praças da cidade",
+    "linhas": [
+      "FESTIVAL GRATUITO LEVA",
+      "MÚSICA INDEPENDENTE",
+      "ÀS PRAÇAS DA CIDADE"
+    ]
+  },
+  "creditoImagem": {
+    "textoPlaceholder": "Foto: Nome da Pessoa",
+    "corPadrao": "#FFFFFF",
+    "corSobreFundoMuitoClaro": "#000000",
+    "criterio": "Avaliar a luminosidade da região imediatamente atrás do crédito; usar preto quando o fundo for muito claro",
+    "revisao": "Conferir visualmente o contraste antes de exportar",
+    "posicao": {
+      "esquerdaPx": 44,
+      "topoPx": 40
+    },
+    "fonte": "MuseoModerno Medium",
+    "peso": 500,
+    "tamanhoPx": 16
+  },
+  "variante": "sem-lead",
+  "lead": {
+    "opcional": true,
+    "fonte": "MuseoModerno Regular",
+    "peso": 400,
+    "tamanhoPx": 32,
+    "entrelinha": 1.25,
+    "distanciaChamadaPx": 20,
+    "cor": "#FFFFFF",
+    "alinhamento": "esquerda",
+    "texto": "Com shows gratuitos, oficinas e rodas de conversa, evento reúne artistas de várias regiões e transforma as praças da cidade em espaços de encontro e celebração musical",
+    "larguraUtilPx": 992,
+    "quebra": "Automática na largura útil, com revisão visual",
+    "presente": false
+  },
+  "fichaTecnica": "ficha-tecnica.json",
+  "regrasComuns": "../../../../regras-comuns.json",
+  "tokensObservados": {
+    "chapeu": {
+      "estiloEfetivo": {
+        "fontFamily": "ArchivoExpanded",
+        "fontSize": "26px",
+        "fontWeight": "800",
+        "fontStyle": "normal",
+        "lineHeight": "31.2px",
+        "letterSpacing": "normal",
+        "textTransform": "none",
+        "textAlign": "start",
+        "color": "rgb(0, 0, 0)",
+        "backgroundColor": "rgb(255, 255, 255)",
+        "backgroundImage": "none",
+        "borderRadius": "40px",
+        "paddingTop": "10px",
+        "paddingBottom": "10px",
+        "paddingLeft": "20px",
+        "paddingRight": "20px",
+        "gap": "normal",
+        "top": "auto",
+        "bottom": "auto",
+        "left": "auto",
+        "right": "auto",
+        "position": "static",
+        "transform": "none",
+        "fontFeatureSettings": "normal"
+      },
+      "caixaNestaComposicaoPx": {
+        "x": 44,
+        "y": 924.421875,
+        "largura": 522.171875,
+        "altura": 51.1875
+      }
+    },
+    "chamada": {
+      "estiloEfetivo": {
+        "fontFamily": "ArchivoCond",
+        "fontSize": "96px",
+        "fontWeight": "900",
+        "fontStyle": "normal",
+        "lineHeight": "100.8px",
+        "letterSpacing": "normal",
+        "textTransform": "uppercase",
+        "textAlign": "start",
+        "color": "rgb(255, 255, 255)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "backgroundImage": "none",
+        "borderRadius": "0px",
+        "paddingTop": "0px",
+        "paddingBottom": "0px",
+        "paddingLeft": "0px",
+        "paddingRight": "0px",
+        "gap": "normal",
+        "top": "auto",
+        "bottom": "auto",
+        "left": "auto",
+        "right": "auto",
+        "position": "static",
+        "transform": "none",
+        "fontFeatureSettings": "normal"
+      },
+      "caixaNestaComposicaoPx": {
+        "x": 44,
+        "y": 997.609375,
+        "largura": 992,
+        "altura": 302.390625
+      }
+    },
+    "credito": {
+      "estiloEfetivo": {
+        "fontFamily": "MuseoModerno",
+        "fontSize": "16px",
+        "fontWeight": "500",
+        "fontStyle": "normal",
+        "lineHeight": "19.2px",
+        "letterSpacing": "normal",
+        "textTransform": "none",
+        "textAlign": "start",
+        "color": "rgb(255, 255, 255)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "backgroundImage": "none",
+        "borderRadius": "0px",
+        "paddingTop": "0px",
+        "paddingBottom": "0px",
+        "paddingLeft": "0px",
+        "paddingRight": "0px",
+        "gap": "normal",
+        "top": "40px",
+        "bottom": "1380.81px",
+        "left": "44px",
+        "right": "861.047px",
+        "position": "absolute",
+        "transform": "none",
+        "fontFeatureSettings": "normal"
+      },
+      "caixaNestaComposicaoPx": {
+        "x": 44,
+        "y": 40,
+        "largura": 174.953125,
+        "altura": 19.1875
+      }
+    },
+    "editorial": {
+      "estiloEfetivo": {
+        "fontFamily": "Times",
+        "fontSize": "16px",
+        "fontWeight": "400",
+        "fontStyle": "normal",
+        "lineHeight": "normal",
+        "letterSpacing": "normal",
+        "textTransform": "none",
+        "textAlign": "start",
+        "color": "rgb(255, 255, 255)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "backgroundImage": "none",
+        "borderRadius": "0px",
+        "paddingTop": "0px",
+        "paddingBottom": "0px",
+        "paddingLeft": "0px",
+        "paddingRight": "0px",
+        "gap": "normal",
+        "top": "924.422px",
+        "bottom": "140px",
+        "left": "44px",
+        "right": "44px",
+        "position": "absolute",
+        "transform": "none",
+        "fontFeatureSettings": "normal"
+      },
+      "caixaNestaComposicaoPx": {
+        "x": 44,
+        "y": 924.421875,
+        "largura": 992,
+        "altura": 375.578125
+      }
+    }
+  },
+  "regrasDaMarca": [
+    "Chapéu Archivo Expanded ExtraBold 26 px, raio 40 px, distância até chamada 22 px",
+    "Chamada Archivo ExtraCondensed Black: máximo 96 px; priorizar 3 linhas, depois 2, usar 4 apenas quando necessário",
+    "Lead MuseoModerno Regular 32 px; crédito MuseoModerno Medium 16 px",
+    "Crédito branco por padrão; preto sobre fundo local muito claro (avaliação visual, detecção automática ainda ausente)",
+    "Margens laterais 44 px; rodapé #712cfb com 75 px de altura"
+  ],
+  "conteudoDeReferencia": {
+    "chapeu": "MÚSICA PARA TODO MUNDO",
+    "chamada": "FESTIVAL GRATUITO LEVAMÚSICA INDEPENDENTEÀS PRAÇAS DA CIDADE",
+    "credito": "Foto: Nome da Pessoa"
+  },
+  "notaTamanhos": "Valores observados na referência não são limites universais; limites e prioridades estão em regrasDaMarca",
+  "aprovacao": "Visual aprovado na conversa; auditoria documental em 2026-10-30",
+  "geometriaConferida": {
+    "margensLateraisPx": {
+      "esquerda": 44,
+      "direita": 44
+    },
+    "larguraUtilPx": 992,
+    "distanciasEfetivasEntreCaixasPx": {
+      "hatToHeadline": 22,
+      "headlineToLead": null,
+      "editorialBottomToCard": 140
+    },
+    "chamadaTamanhoPxNestaComposicao": 96,
+    "referenciasLogoCredito": {
+      ".logo": {
+        "x": 44,
+        "y": 1390,
+        "w": 94,
+        "h": 25.140625,
+        "right": 138,
+        "bottom": 1415.140625
+      },
+      ".credit": {
+        "x": 44,
+        "y": 40,
+        "w": 174.953125,
+        "h": 19.1875,
+        "right": 218.953125,
+        "bottom": 59.1875
+      }
+    },
+    "degradeEfetivo": "linear-gradient(rgba(0, 0, 0, 0) 844.422px, rgb(0, 0, 0) 1365px)",
+    "limiteVisivelFotografiaY": 1365,
+    "fonteMedidas": "ficha-tecnica.json"
+  },
+  "notaEspacamentos": "Distâncias efetivas entre caixas já incluem deslocamentos do chapéu, padding e margem; não confundir com gap nominal do flex",
+  "release": "5.0.0-rc.1"
+}

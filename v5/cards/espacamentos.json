@@ -1,0 +1,26 @@
+{
+  "schema": "ninja-design-system/card-gaps",
+  "version": "5.0.0-rc.1",
+  "unit": "px",
+  "measurement": "distância entre caixas no formato 1080 × 1440; não equivale ao vazio entre desenhos das letras",
+  "templates": {
+    "ninja/com-lead": {
+      "hatToHeadline": 20,
+      "headlineToLead": 20,
+      "editorialBottomToCard": 130
+    },
+    "ninja/sem-lead": {
+      "hatToHeadline": 20,
+      "editorialBottomToCard": 130
+    },
+    "som/com-lead": {
+      "hatToHeadline": 22.71875,
+      "headlineToLead": 19.3125,
+      "editorialBottomToCard": 140
+    },
+    "som/sem-lead": {
+      "hatToHeadline": 22,
+      "editorialBottomToCard": 140
+    }
+  }
+}

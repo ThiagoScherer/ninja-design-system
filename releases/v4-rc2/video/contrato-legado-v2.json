@@ -1,0 +1,110 @@
+{
+  "versao": "2.0.0",
+  "precedencia": [
+    "decisoes_explicitas_integracao",
+    "regra_especifica_aprovada_do_contexto",
+    "fundamentos_e_perfil",
+    "variante_legada_local_quando_nao_redefinida"
+  ],
+  "perfis": {
+    "video_horizontal": {
+      "largura": 1920,
+      "altura": 1080,
+      "margens": {
+        "topo": 60,
+        "direita": 60,
+        "base": 60,
+        "esquerda": 60
+      }
+    },
+    "reels": {
+      "largura": 1080,
+      "altura": 1920,
+      "area_segura": {
+        "x": 0,
+        "y": 240,
+        "largura": 1080,
+        "altura": 1440
+      },
+      "margens_laterais": 70
+    }
+  },
+  "chapeu_video": {
+    "variantes": [
+      "branco",
+      "destaque"
+    ],
+    "texto": "#000000",
+    "variante_excluida": "caixa_preta_texto_branco",
+    "padding_proprio_preservado": true
+  },
+  "caixa_texto": {
+    "centralizacao_vertical": "optica",
+    "faixas_D8_padding_px": 18,
+    "caixa_unica_D8_padding_px": 38,
+    "aplicacao": "variantes D8; nao sobrescrever padding especifico de outros papeis"
+  },
+  "contraste": {
+    "veu": 0.55,
+    "desfoque": {
+      "raio_px": 24,
+      "veu": 0.35
+    },
+    "degrade": {
+      "opacidade_no_fim_da_foto": 1,
+      "opacidade_no_inicio": 0,
+      "distancia_acima_ancora_px": 80,
+      "ancora": "chapeu; alternativa deve ser declarada pela composicao",
+      "medir_apos_encaixe": true
+    }
+  },
+  "encaixe_noticia": {
+    "linhas_preferidas": 4,
+    "reducao_primeira_tentativa": 0.15,
+    "segunda_tentativa": {
+      "linhas": 5,
+      "restaurar_tamanho_inicial": true
+    },
+    "reducao_posterior": "ate limite do contexto",
+    "reels_minimo_habitual_px": 64,
+    "reels_maximo_habitual_px": 170,
+    "reescrever_texto": false,
+    "validar": [
+      "largura_real",
+      "altura",
+      "equilibrio_visual"
+    ],
+    "outros_papeis": "nao herdam automaticamente politica de noticia"
+  },
+  "motion": {
+    "origem": "maquina_existente",
+    "preservar": [
+      "movimentos",
+      "tempos",
+      "curvas",
+      "escalonamento",
+      "sincronizacao",
+      "entradas",
+      "saidas"
+    ],
+    "permitir": [
+      "adaptar_seletores",
+      "identificadores_unicos",
+      "wrappers",
+      "recalcular_mascaras_pela_geometria_final"
+    ]
+  },
+  "legado": {
+    "politica": "preservar variantes nao redefinidas como locais identificadas",
+    "promover_a_padrao_aprovado": false,
+    "registrar": [
+      "id",
+      "origem",
+      "papel",
+      "perfil",
+      "valores",
+      "versao",
+      "consumidores"
+    ]
+  }
+}

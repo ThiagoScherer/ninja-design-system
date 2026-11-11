@@ -1,0 +1,15 @@
+{
+  "version": "4.0.0-rc.2",
+  "fontesSemPapelAprovado": [
+    "Aktiv",
+    "Microgramma"
+  ],
+  "politica": "Presença no acervo não aprova uso; preservar sem atribuir novo papel",
+  "tipoNinjaGlifosPendentes": [
+    "%",
+    "º",
+    "ª",
+    "°"
+  ],
+  "fallbackVideo": "Local da Máquina, registrado em video/pendencias-v5.json; ainda sem aprovação como fonte de apoio global"
+}

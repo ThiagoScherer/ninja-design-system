@@ -1,0 +1,51 @@
+{
+  "status": "aprovado",
+  "referencia": "ninja/sem-lead",
+  "linhas": [
+    "GOVERNO FEDERAL CRIA",
+    "FORÇA-TAREFA PARA",
+    "APURAR AMEAÇAS CONTRA",
+    "INDÍGENAS EM MS"
+  ],
+  "chamadaTamanhoPx": 78,
+  "chapeuTamanhoPx": 37.4,
+  "degrade": {
+    "adaptavel": true,
+    "offsetAcimaChapeuPx": 80,
+    "opacidadeSuperior": 0,
+    "opacidadeInferior": 1,
+    "base": "Limite inferior efetivo da fotografia",
+    "baseYNestaComposicao": 1280
+  },
+  "regraLinhas": "Priorizar chamadas em 3 linhas, ajustando o tamanho da fonte e as quebras para preencher bem a largura útil e a área editorial inferior",
+  "marca": "Mídia NINJA",
+  "modelo": "Card de notícia",
+  "variante": "sem-lead",
+  "formato": {
+    "largura": 1080,
+    "altura": 1440
+  },
+  "aprovacao": "Confirmada pelo usuário nesta conversa",
+  "margensLateraisPx": 50,
+  "chamada": {
+    "tamanhoPxNestaComposicao": 78,
+    "tamanhoVariavel": true,
+    "linhasPreferidas": 3,
+    "regra": "Priorizar chamadas em 3 linhas, ajustando o tamanho da fonte e as quebras para preencher bem a largura útil e a área editorial inferior; Evitar grandes vazios nas linhas intermediárias; testar trazer palavras da linha seguinte para aproveitar melhor o espaço; O preenchimento e o equilíbrio visual têm prioridade sobre manter expressões ou grupos de sentido na mesma linha; A última linha pode ser mais curta, sem exigir linhas de comprimento igual; Usar outra quantidade de linhas quando o conteúdo exigir"
+  },
+  "fichaTecnica": "ficha-tecnica.json",
+  "regrasComuns": "../../../../regras-comuns.json",
+  "composicaoChamada": {
+    "linhasPreferidas": 3,
+    "regras": [
+      "Priorizar chamadas em 3 linhas, ajustando o tamanho da fonte e as quebras para preencher bem a largura útil e a área editorial inferior",
+      "Evitar grandes vazios nas linhas intermediárias; testar trazer palavras da linha seguinte para aproveitar melhor o espaço",
+      "O preenchimento e o equilíbrio visual têm prioridade sobre manter expressões ou grupos de sentido na mesma linha",
+      "A última linha pode ser mais curta, sem exigir linhas de comprimento igual",
+      "Usar outra quantidade de linhas quando o conteúdo exigir"
+    ],
+    "aprovacao": "2026-11-10",
+    "referencia": "Brasil recebe prêmio climático da sociedade civil na COP31; 3 linhas, 83 px nesta composição, sem tamanho fixo para outros conteúdos"
+  },
+  "release": "5.0.0-rc.1"
+}

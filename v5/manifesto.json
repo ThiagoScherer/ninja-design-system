@@ -1,0 +1,17 @@
+{
+  "schema": "ninja-design-system/release",
+  "version": "5.0.0-rc.1",
+  "status": "release-candidate",
+  "scope": "cards-de-noticia",
+  "brands": 9,
+  "format": [
+    1080,
+    1440
+  ],
+  "entrypoint": "v5/LEIA-PRIMEIRO.md",
+  "integrity": "arquivos.sha256.json",
+  "renderer": "cards/renderizar.cjs",
+  "install": "../instalar.py",
+  "thumbnails": "Adiado para V6",
+  "video": "Contrato da Máquina preservado em v4/video; nenhuma alteração nesta versão"
+}

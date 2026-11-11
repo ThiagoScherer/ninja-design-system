@@ -1,10 +1,9 @@
 {
   "nome": "NINJA Design System",
-  "versao": "4.0.0-rc.2",
+  "versao": "5.0.0-rc.1",
   "status": "release-candidate",
-  "data": "2026-11-10",
-  "entrada_agentes": "v4/LEIA-PRIMEIRO.md",
-  "release": "v4/manifesto.json",
+  "data": "2026-11-11",
+  "entrada_agentes": "v5/LEIA-PRIMEIRO.md",
   "referenciaAtiva": "ATIVO.json",
-  "historico": "Arquivos V1 na raiz, V2 e V3 são históricos; exceção de vídeo explicitada no contrato V4"
+  "escopo": "Cards de notícia; thumbnails planejadas para V6"
 }

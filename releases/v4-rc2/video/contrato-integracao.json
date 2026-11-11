@@ -1,0 +1,42 @@
+{
+  "schema": "ninja-design-system/v4/video",
+  "version": "4.0.0-rc.2",
+  "status": "compatibilidade-com-legado",
+  "escopo": "Vídeo YouTube Mídia NINJA 16x9 e 9x16; não substitui layouts de cards ou Reels estáticos",
+  "responsavelImplementacao": "Gian / Máquina de Vídeos",
+  "responsavelIdentidade": "Thiago / NINJA Design System",
+  "dependenciaLegada": {
+    "origem": "v2/contrato-integracao.json",
+    "snapshotLocal": "contrato-legado-v2.json",
+    "versao": "2.0.0",
+    "politica": "Preservar medidas, movimentos e variantes existentes não redefinidos; não promover variantes locais a padrão global"
+  },
+  "precedencia": [
+    "decisao-explicita-aprovada-para-contexto",
+    "regras-v4-compativeis-listadas",
+    "contrato-legado-v2",
+    "variante-local-identificada"
+  ],
+  "regrasV4Compativeis": {
+    "centralizacaoOpticaChapeu": {
+      "toleranciaPx": 1,
+      "preservarAlturaCaixa": true
+    },
+    "pontuacao": "Sem ponto final terminal nos blocos; manter pontuação interna, ? e !",
+    "fontes": "Carregar antes de medir; não aceitar fallback silencioso",
+    "degrade": "Preservar D5; 0% cerca de 80 px acima da âncora e 100% no limite real da foto"
+  },
+  "divergenciasEmValidacao": {
+    "encaixe": "Na Máquina, manter temporariamente a política V2 (4 linhas, reduzir até 15%, tentar 5); comparar opções de preenchimento em 16x9 e 9x16 antes de migrar",
+    "quebrasEntreFormatos": "Herança 16x9 → 9x16 segue como comportamento legado, não recomendação global; proposta de quebra independente aguarda implementação e validação do Gian",
+    "documento": "Preservar as quebras do documento original"
+  },
+  "naoAplicarAutomaticamente": [
+    "medidas-de-card-em-video",
+    "ajuste-SOM-com-lead-em-video",
+    "cores-semanticas-como-destaque",
+    "novas-animacoes-sem-validacao",
+    "layouts-de-thumbnail-em-video-horizontal"
+  ],
+  "implementacaoNestaRC": "Contrato e documentação; não altera o código da Máquina nem certifica seus testes"
+}

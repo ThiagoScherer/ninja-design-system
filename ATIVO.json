@@ -1,8 +1,13 @@
 {
   "schema": "ninja-design-system/active-release",
-  "activeRelease": "v4",
-  "version": "4.0.0-rc.2",
-  "entrypoint": "v4/LEIA-PRIMEIRO.md",
-  "policy": "Cards: somente V4. Vídeo YouTube: dependência legada explícita em v4/video/contrato-integracao.json; sem misturar versões por suposição",
-  "videoContract": "v4/video/contrato-integracao.json"
+  "activeRelease": "v5",
+  "version": "5.0.0-rc.1",
+  "entrypoint": "v5/LEIA-PRIMEIRO.md",
+  "installer": "instalar.py",
+  "scope": "cards-de-noticia",
+  "visibility": "private",
+  "policy": "Instalar o pacote completo da versão indicada; não misturar templates ou medidas de outras versões",
+  "videoContract": "v4/video/contrato-integracao.json",
+  "thumbnails": "v6-planejada",
+  "integritySha256": "fdeea7539af7c87a07eed1c101cb5c7983f895da6050882436196d613b22f938"
 }

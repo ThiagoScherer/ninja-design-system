@@ -1,0 +1,16 @@
+{
+  "schema": "ninja-design-system/release",
+  "version": "4.0.0-rc.2",
+  "status": "release-candidate",
+  "templatesRegistered": 12,
+  "cardsWithSourceModels": 9,
+  "reelsRegistered": 3,
+  "entrypoint": "v4/LEIA-PRIMEIRO.md",
+  "activePolicy": "Do not merge prior releases into V4 operational work",
+  "date": "2026-11-10",
+  "videoContract": "video/contrato-integracao.json",
+  "reelsRegistry": "reels/registro.json",
+  "changelog": "CHANGELOG-RC2.md",
+  "integrity": "arquivos.sha256.json",
+  "pendingVisualDecisions": "video/pendencias-v5.json"
+}

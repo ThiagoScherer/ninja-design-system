@@ -1,15 +1,17 @@
 # NINJA Design System
 
-Versão ativa: **V4 RC2 — 4.0.0-rc.2**
+## Para começar
 
-Comece em [v4/LEIA-PRIMEIRO.md](v4/LEIA-PRIMEIRO.md). O manifesto raiz e `ATIVO.json` identificam a mesma versão ativa
+Envie este link ao seu agente de IA e escreva:
 
-## Escopo disponível
+> Use este Design System para fazer meus cards
 
-- Nove marcas de cards de notícia com modelos e recursos próprios: Mídia NINJA, FODA, Estudantes NINJA, cine.ninja, ELLA, SOM, Casa NINJA Amazônia, Clímax e Minas NINJA
-- Três fichas de Reels estáticos: Mídia NINJA, FODA e Estudantes NINJA. Sem renderizador MP4 incluído
-- Frente de vídeo do YouTube: contrato de compatibilidade e registro das composições relatadas pelo Gian, com pendências explícitas
+O agente deve instalar ou atualizar o pacote completo e testar a geração antes de avisar que está pronto. O repositório é privado: use uma conta com acesso autorizado
 
-Para cards, V1–V3 são histórico. Para vídeo, a dependência legada é declarada exclusivamente em [v4/video/contrato-integracao.json](v4/video/contrato-integracao.json)
+Versão indicada: **V5 RC1 · cards de notícia**. A RC é uma candidata de teste. Thumbnails ficam para a V6
 
-Leia [as mudanças da RC2](v4/CHANGELOG-RC2.md) e [o tratamento das sete issues](v4/ISSUES-RC2.md). O ajuste aprovado do SOM é exclusivo do card com lead
+## Para o agente
+
+Leia [INICIAR.md](INICIAR.md). Não peça ao colega para executar etapas técnicas que você pode realizar. Não confirme instalação apenas por ter lido este README
+
+[Versão ativa](ATIVO.json) · [Entrada V5](v5/LEIA-PRIMEIRO.md) · [Mudanças](v5/CHANGELOG.md)

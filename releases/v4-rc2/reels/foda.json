@@ -1,0 +1,44 @@
+{
+  "marca": "FODA",
+  "status": "aprovado",
+  "variante": "sem-lead",
+  "origemCard": "../cards/modelos/foda/sem-lead/ficha.json",
+  "formato": {
+    "largura": 1080,
+    "altura": 1920
+  },
+  "areaSegura": {
+    "x": 0,
+    "y": 240,
+    "largura": 1080,
+    "altura": 1440
+  },
+  "margensLateraisPx": 70,
+  "baseEditorialY": 1550,
+  "assinaturaBaseY": 1630,
+  "creditoForaAreaSegura": true,
+  "fonteChamadaInicialPx": 80.5,
+  "fonteChapeuInicialPx": 37.26,
+  "nota": "Proposta; valores de tamanho ajustados à identidade e conteúdo. Não substitui os cards aprovados.",
+  "chamada": {
+    "tamanhoPx": 72.45,
+    "linhas": [
+      "FESTIVAL GRATUITO",
+      "LEVA MÚSICA",
+      "INDEPENDENTE ÀS",
+      "PRAÇAS DA CIDADE"
+    ]
+  },
+  "chapeuTamanhoPx": 33.534,
+  "ajusteUsuario": {
+    "reducaoFontesPercentual": 10,
+    "preservarQuebras": true,
+    "preservarMargens": true,
+    "baseAssinaturaY": 1630
+  },
+  "modelo": "Notícia Reels",
+  "statusDistribuicao": "ficha-de-referencia-estatica",
+  "geradorMP4Incluido": false,
+  "renderizadorCardsCompativel": false,
+  "regraComposicao": "Número de linhas desta amostra é referência histórica; compor para preencher a área útil com equilíbrio, respeitando limites próprios"
+}

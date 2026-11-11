@@ -1,0 +1,100 @@
+{
+  "marca": "Minas NINJA",
+  "status": "aprovado",
+  "variante": "sem-lead",
+  "formato": {
+    "largura": 1080,
+    "altura": 1440
+  },
+  "margens": {
+    "conteudoPx": 60,
+    "guiaExternaEstimadaPx": 40,
+    "origem": "Estimativa das guias e alinhamentos no print"
+  },
+  "fontes": {
+    "chapeu": "Neutronic Narrow Semibold",
+    "chamada": "Neutronic Narrow Extrabold",
+    "lead": "Neutronic Narrow Semibold",
+    "credito": "Manrope Medium"
+  },
+  "coresEstimadas": {
+    "verde": "#67743d",
+    "texto": "#ede5bf",
+    "credito": "#c75c37",
+    "fundo": "#000000"
+  },
+  "degrade": {
+    "offsetAcimaChapeuPx": 80,
+    "base": "Limite inferior da foto, y=1180 nesta composição",
+    "opacidadeBase": 1
+  },
+  "conteudo": {
+    "chapeu": "MEMÓRIA, CULTURA E COMUNICAÇÃO",
+    "chamada": "Festeja Tradição Mineira amplifica vozes quilombolas e indígenas com oficinas de comunicação em Minas",
+    "credito": "Foto: Minas NINJA"
+  },
+  "fonteNoticia": "https://midianinja.org/quem-conta-a-historia-de-minas-projeto-festeja-tradicao-mineira-fortalece-as-voz-das-comunidades-quilombolas-e-indigenas-do-estado/",
+  "logos": {
+    "usoNoCard": "../assets/icone-verde.svg",
+    "completoGuardado": "../assets/logo-completo.svg",
+    "iconeOriginal": "../assets/logo-icone.svg"
+  },
+  "chamada": {
+    "linhasReferencia": [
+      "FESTEJA TRADIÇÃO MINEIRA",
+      "AMPLIFICA VOZES QUILOMBOLAS",
+      "E INDÍGENAS COM OFICINAS",
+      "DE COMUNICAÇÃO EM MINAS"
+    ],
+    "tamanhoVariavel": true,
+    "tamanhoPxNestaComposicao": 68
+  },
+  "chapeu": {
+    "paddingTopoPx": 7,
+    "paddingInferiorPx": 3,
+    "ajusteOptico": "Texto deslocado 3px para baixo mantendo altura do retângulo"
+  },
+  "aprovacao": "Aprovado pelo usuário nesta conversa",
+  "coresAprovadas": [
+    "verde",
+    "laranja"
+  ],
+  "aprovacaoCombinacoesCorLead": "Aprovadas pelo usuário em todas as combinações com e sem lead",
+  "geometriaConferida": {
+    "margensLateraisPx": {
+      "esquerda": 60,
+      "direita": 60
+    },
+    "larguraUtilPx": 960,
+    "distanciasEfetivasEntreCaixasPx": {
+      "hatToHeadline": 16,
+      "headlineToLead": null,
+      "editorialBottomToCard": 135
+    },
+    "chamadaTamanhoPxNestaComposicao": 68,
+    "referenciasLogoCredito": {
+      ".logo": {
+        "x": 930,
+        "y": 1330.09375,
+        "w": 90,
+        "h": 64.90625,
+        "right": 1020,
+        "bottom": 1395
+      },
+      ".credit": {
+        "x": 60,
+        "y": 1375.8125,
+        "w": 133.328125,
+        "h": 19.1875,
+        "right": 193.328125,
+        "bottom": 1395
+      }
+    },
+    "degradeEfetivo": "linear-gradient(rgba(0, 0, 0, 0) 885.203px, rgb(0, 0, 0) 1180px)",
+    "limiteVisivelFotografiaY": 1180,
+    "fonteMedidas": "tokensObservados e geometriaConferida nesta ficha; origem histórica local"
+  },
+  "notaEspacamentos": "Distâncias efetivas entre caixas já incluem deslocamentos do chapéu, padding e margem; não confundir com gap nominal do flex",
+  "regrasComuns": "../../../../regras-comuns.json",
+  "release": "5.0.0-rc.1"
+}

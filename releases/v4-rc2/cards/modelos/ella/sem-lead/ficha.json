@@ -1,0 +1,227 @@
+{
+  "marca": "ella",
+  "variante": "sem-lead",
+  "status": "aprovado",
+  "chapeu": "MÚSICA PARA TODO MUNDO",
+  "chamada": "Festival gratuito leva música independente às praças da cidade",
+  "lead": null,
+  "degrade": {
+    "offsetAcimaChapeuPx": 80,
+    "opacidadeNaBase": 1,
+    "baseY": 1440,
+    "multiplicadorExtensao": 1.25,
+    "calculo": "Base fixa; extensão padrão até 80px acima do chapéu multiplicada por 1.25, estendendo para cima"
+  },
+  "tipografia": {
+    "chamada": {
+      "tamanhoPx": 68.25,
+      "capitalizacao": "Frase, sem caps lock",
+      "entrelinha": 1.12,
+      "letterSpacingEm": -0.02
+    },
+    "chapeu": {
+      "tamanhoPxNesteTeste": 44.6292,
+      "capitalizacao": "Maiúsculas",
+      "regra": "Reduzir fonte quando o chapéu for longo; redução de 20% neste teste"
+    }
+  },
+  "aprovadoEm": "2026-10-30",
+  "credito": {
+    "fonte": "Manrope Medium",
+    "tamanhoPx": 16.8
+  },
+  "formato": {
+    "largura": 1080,
+    "altura": 1440
+  },
+  "fichaTecnica": "ficha-tecnica.json",
+  "regrasComuns": "../../../../regras-comuns.json",
+  "tokensObservados": {
+    "chapeu": {
+      "estiloEfetivo": {
+        "fontFamily": "Boldonse",
+        "fontSize": "44.6292px",
+        "fontWeight": "400",
+        "fontStyle": "normal",
+        "lineHeight": "62.4809px",
+        "letterSpacing": "0.446292px",
+        "textTransform": "uppercase",
+        "textAlign": "center",
+        "color": "rgb(248, 198, 14)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "backgroundImage": "none",
+        "borderRadius": "0px",
+        "paddingTop": "0px",
+        "paddingBottom": "0px",
+        "paddingLeft": "0px",
+        "paddingRight": "0px",
+        "gap": "normal",
+        "top": "auto",
+        "bottom": "auto",
+        "left": "auto",
+        "right": "auto",
+        "position": "static",
+        "transform": "none",
+        "fontFeatureSettings": "normal"
+      },
+      "caixaNestaComposicaoPx": {
+        "x": 161.859375,
+        "y": 1058.65625,
+        "largura": 756.28125,
+        "altura": 62.46875
+      }
+    },
+    "chamada": {
+      "estiloEfetivo": {
+        "fontFamily": "ContrailOne",
+        "fontSize": "68.25px",
+        "fontWeight": "400",
+        "fontStyle": "normal",
+        "lineHeight": "76.44px",
+        "letterSpacing": "-1.365px",
+        "textTransform": "none",
+        "textAlign": "center",
+        "color": "rgb(255, 255, 255)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "backgroundImage": "none",
+        "borderRadius": "0px",
+        "paddingTop": "0px",
+        "paddingBottom": "0px",
+        "paddingLeft": "0px",
+        "paddingRight": "0px",
+        "gap": "normal",
+        "top": "auto",
+        "bottom": "auto",
+        "left": "auto",
+        "right": "auto",
+        "position": "static",
+        "transform": "none",
+        "fontFeatureSettings": "normal"
+      },
+      "caixaNestaComposicaoPx": {
+        "x": 70,
+        "y": 1137.125,
+        "largura": 940,
+        "altura": 152.875
+      }
+    },
+    "credito": {
+      "estiloEfetivo": {
+        "fontFamily": "Manrope",
+        "fontSize": "16.8px",
+        "fontWeight": "500",
+        "fontStyle": "normal",
+        "lineHeight": "16.8px",
+        "letterSpacing": "normal",
+        "textTransform": "none",
+        "textAlign": "start",
+        "color": "rgb(248, 198, 14)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "backgroundImage": "none",
+        "borderRadius": "0px",
+        "paddingTop": "0px",
+        "paddingBottom": "0px",
+        "paddingLeft": "0px",
+        "paddingRight": "0px",
+        "gap": "normal",
+        "top": "1399.2px",
+        "bottom": "24px",
+        "left": "20px",
+        "right": "886.5px",
+        "position": "absolute",
+        "transform": "none",
+        "fontFeatureSettings": "normal"
+      },
+      "caixaNestaComposicaoPx": {
+        "x": 20,
+        "y": 1399.203125,
+        "largura": 173.5,
+        "altura": 16.796875
+      }
+    },
+    "editorial": {
+      "estiloEfetivo": {
+        "fontFamily": "Times",
+        "fontSize": "16px",
+        "fontWeight": "400",
+        "fontStyle": "normal",
+        "lineHeight": "normal",
+        "letterSpacing": "normal",
+        "textTransform": "none",
+        "textAlign": "center",
+        "color": "rgb(255, 255, 255)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "backgroundImage": "none",
+        "borderRadius": "0px",
+        "paddingTop": "0px",
+        "paddingBottom": "0px",
+        "paddingLeft": "0px",
+        "paddingRight": "0px",
+        "gap": "16px",
+        "top": "1058.66px",
+        "bottom": "150px",
+        "left": "70px",
+        "right": "70px",
+        "position": "absolute",
+        "transform": "none",
+        "fontFeatureSettings": "normal"
+      },
+      "caixaNestaComposicaoPx": {
+        "x": 70,
+        "y": 1058.65625,
+        "largura": 940,
+        "altura": 231.34375
+      }
+    }
+  },
+  "regrasDaMarca": [
+    "Chapéu Boldonse em maiúsculas, tracking +1%; reduzir tamanho para chapéus longos",
+    "Referência curta anterior: 55,7865 px; referência longa atual: 44,6292 px (redução de 20%)",
+    "Chamada Contrail One em caixa de frase, tracking -2%, entrelinha 112%",
+    "68,25 px é o tamanho desta referência, não um tamanho obrigatório para qualquer conteúdo",
+    "Lead Manrope Medium 32 px; crédito Manrope Medium 16,8 px",
+    "Degradê com extensão multiplicada por 1,25"
+  ],
+  "conteudoDeReferencia": {
+    "chapeu": "MÚSICA PARA TODO MUNDO",
+    "chamada": "Festival gratuito leva músicaindependente às praças da cidade",
+    "credito": "Foto: Nome da Pessoa"
+  },
+  "notaTamanhos": "Valores observados na referência não são limites universais; limites e prioridades estão em regrasDaMarca",
+  "aprovacao": "Visual aprovado na conversa; auditoria documental em 2026-10-30",
+  "geometriaConferida": {
+    "margensLateraisPx": {
+      "esquerda": 70,
+      "direita": 70
+    },
+    "larguraUtilPx": 940,
+    "distanciasEfetivasEntreCaixasPx": {
+      "hatToHeadline": 16,
+      "headlineToLead": null,
+      "editorialBottomToCard": 150
+    },
+    "chamadaTamanhoPxNestaComposicao": 68.25,
+    "referenciasLogoCredito": {
+      ".logo": {
+        "x": 984,
+        "y": 1342,
+        "w": 72,
+        "h": 74,
+        "right": 1056,
+        "bottom": 1416
+      },
+      ".credit": {
+        "x": 20,
+        "y": 1399.203125,
+        "w": 173.5,
+        "h": 16.796875,
+        "right": 193.5,
+        "bottom": 1416
+      }
+    },
+    "degradeEfetivo": "linear-gradient(rgba(0, 0, 0, 0) 863.32px, rgb(0, 0, 0) 1440px)",
+    "limiteVisivelFotografiaY": 1440,
+    "fonteMedidas": "ficha-tecnica.json"
+  },
+  "notaEspacamentos": "Distâncias efetivas entre caixas já incluem deslocamentos do chapéu, padding e margem; não confundir com gap nominal do flex"
+}
