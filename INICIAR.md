@@ -21,6 +21,20 @@ python3 /caminho/do/repositorio/instalar.py --source /caminho/do/repositorio --p
 
 Sem checkout, um agente com Git autenticado pode executar o instalador obtido do repositório sem `--source`; ele busca a branch principal. Para usar Node/npm/navegador já existentes, o instalador aceita `--node`, `--npm-cli` e `--browser`
 
+## Requisitos do ambiente
+
+- Python 3 com biblioteca padrão e suporte a UTF-8; executar `python3 --version` (ou `python --version` no Windows) e confirmar que o comando inicia o Python
+- Node.js 20+ e npm disponíveis para o agente
+- Acesso ao snapshot completo do GitHub e a `registry.npmjs.org` para instalar as dependências fixadas no lockfile; esta RC usa Playwright 1.62.1
+- Acesso ao download do Chromium pelo Playwright e permissão para iniciar o navegador. Um Chrome local pode ser indicado com `--browser`, mas precisa passar no mesmo autoteste
+- Pasta do projeto com permissão de escrita
+
+No Windows, usar o comando Python disponível (`python` ou `py -3`) no lugar de `python3` quando necessário. O repositório preserva os bytes dos arquivos via `.gitattributes`; não é necessário mudar a configuração global do Git nem definir `PYTHONUTF8=1`. O instalador e o gerador leem os manifests em UTF-8 explicitamente
+
+Uma cópia antiga já convertida para CRLF precisa ser obtida novamente a partir do snapshot corrigido. Não recalcular hashes para aprovar arquivos convertidos. Em instalações existentes, repetir o instalador atualizado também substitui `gerar.py`, mesmo quando a versão e os hashes do pacote visual continuam iguais
+
+Falhas de acesso ao npm e de inicialização do navegador são bloqueios de ambiente: registrar a etapa e o erro, sem trocar a versão do Playwright, desativar verificações ou declarar instalação concluída. A instalação e a geração ainda precisam ser repetidas em Windows real antes de certificar esse ambiente
+
 ## Criar os próximos cards
 
 Ler `.ninja-design-system.lock.json`, a ficha do template instalado e `pacote/cards/README.md`. Preparar `entrada.json` preservando o texto, escolher e conferir as quebras e o corpo com as fontes próprias da marca, e executar:

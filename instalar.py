@@ -61,6 +61,25 @@ def remember(project):
   else:new=old+('\n\n'if old else '')+block+'\n'
   if new!=old:p.write_text(new,encoding='utf-8')
 
+def write_wrapper(state):
+ # Wrapper always verifies the immutable package before creating a new card
+ wrapper='''#!/usr/bin/env python3
+import hashlib,json,os,subprocess,sys
+from pathlib import Path
+state=Path(__file__).resolve().parent
+lock=json.loads((state.parent/".ninja-design-system.lock.json").read_text(encoding="utf-8"))
+manifest=state/"pacote/arquivos.sha256.json"
+if hashlib.sha256(manifest.read_bytes()).hexdigest()!=lock["integritySha256"]:raise SystemExit("Manifesto alterado; atualizar o DS")
+files=json.loads(manifest.read_text(encoding="utf-8"))["files"]
+for name,digest in files.items():
+ p=state/"pacote"/name
+ if not p.is_file() or p.is_symlink() or hashlib.sha256(p.read_bytes()).hexdigest()!=digest:raise SystemExit("Pacote alterado ou incompleto: "+name)
+env=os.environ.copy();env["NODE_PATH"]=str(state/"runtime/node_modules");env["PLAYWRIGHT_BROWSERS_PATH"]=str(state/"runtime/browsers")
+if lock.get("browser"):env["NINJA_CHROME_PATH"]=lock["browser"]
+raise SystemExit(subprocess.call([lock["node"],str(state/"pacote/cards/renderizar.cjs"),*sys.argv[1:]],env=env))
+'''
+ (state/'gerar.py').write_text(wrapper,encoding='utf-8')
+
 def install(args):
  project=Path(args.project).expanduser().resolve();project.mkdir(parents=True,exist_ok=True)
  node=node_command(args)
@@ -89,6 +108,7 @@ def install(args):
     outputs=smoke(installed,node,args.browser or previous.get('browser'))
     previous['checkedAt']=datetime.now(timezone.utc).isoformat();previous['evidencias']=outputs;previous['node']=str(Path(node).resolve());previous['status']='pronto'
     if args.browser:previous['browser']=str(Path(args.browser).resolve())
+    write_wrapper(installed)
     write(lock,previous)
     remember(project)
     return {'status':'pronto','version':active['version'],'atualizacao':'já estava atualizada; integridade e geração conferidas','lock':str(lock)}
@@ -105,23 +125,7 @@ def install(args):
    run(npm+['ci','--ignore-scripts','--no-audit','--no-fund'],cwd=runtime,env=env)
    if not args.browser:run([node,runtime/'node_modules/playwright/cli.js','install','chromium'],cwd=runtime,env=env)
    outputs=smoke(staging,node,args.browser)
-   # Wrapper always verifies the immutable package before creating a new card
-   wrapper='''#!/usr/bin/env python3
-import hashlib,json,os,subprocess,sys
-from pathlib import Path
-state=Path(__file__).resolve().parent
-lock=json.loads((state.parent/".ninja-design-system.lock.json").read_text())
-manifest=state/"pacote/arquivos.sha256.json"
-if hashlib.sha256(manifest.read_bytes()).hexdigest()!=lock["integritySha256"]:raise SystemExit("Manifesto alterado; atualizar o DS")
-files=json.loads(manifest.read_text())["files"]
-for name,digest in files.items():
- p=state/"pacote"/name
- if not p.is_file() or p.is_symlink() or hashlib.sha256(p.read_bytes()).hexdigest()!=digest:raise SystemExit("Pacote alterado ou incompleto: "+name)
-env=os.environ.copy();env["NODE_PATH"]=str(state/"runtime/node_modules");env["PLAYWRIGHT_BROWSERS_PATH"]=str(state/"runtime/browsers")
-if lock.get("browser"):env["NINJA_CHROME_PATH"]=lock["browser"]
-raise SystemExit(subprocess.call([lock["node"],str(state/"pacote/cards/renderizar.cjs"),*sys.argv[1:]],env=env))
-'''
-   (staging/'gerar.py').write_text(wrapper,encoding='utf-8')
+   write_wrapper(staging)
    state={'schema':'ninja-design-system/installation','version':active['version'],'release':release,'status':'pronto','repository':REPO,'sourceCommit':commit,'integritySha256':active['integritySha256'],'node':str(Path(node).resolve()),'browser':str(Path(args.browser).resolve())if args.browser else None,'installedAt':datetime.now(timezone.utc).isoformat(),'evidencias':outputs,'scope':'cards-de-noticia','renderer':'.ninja-design-system/pacote/cards/renderizar.cjs'}
    if installed.exists():
     backup=project/(STATE+'.anterior-'+uuid.uuid4().hex[:8]);installed.rename(backup)
