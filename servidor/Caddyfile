@@ -1,0 +1,3 @@
+{$NINJA_RENDER_DOMAIN} {
+    reverse_proxy render:8080
+}

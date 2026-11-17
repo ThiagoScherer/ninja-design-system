@@ -1,0 +1,13 @@
+{
+  "schema": "ninja-design-system/active-release",
+  "activeRelease": "v5",
+  "version": "5.0.0-rc.2",
+  "entrypoint": "v5/LEIA-PRIMEIRO.md",
+  "installer": "instalar.py",
+  "scope": "cards-de-noticia",
+  "visibility": "private",
+  "policy": "Instalar o pacote completo da versão indicada; não misturar templates ou medidas de outras versões",
+  "videoContract": "v4/video/contrato-integracao.json",
+  "thumbnails": "v6-planejada",
+  "integritySha256": "c32f194e02abc83e04680df6a36e25502ef91bbc4163735edaae7fbd0c41ce85"
+}

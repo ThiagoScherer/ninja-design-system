@@ -1,0 +1,32 @@
+name: ninja-cards
+services:
+  render:
+    build: .
+    init: true
+    restart: unless-stopped
+    shm_size: 256m
+    environment:
+      HOST: 0.0.0.0
+      PORT: "8080"
+      NINJA_RENDER_TOKEN: ${NINJA_RENDER_TOKEN:?Definir segredo no servidor}
+    expose:
+      - "8080"
+    stop_grace_period: 60s
+  caddy:
+    image: caddy:2
+    restart: unless-stopped
+    environment:
+      NINJA_RENDER_DOMAIN: ${NINJA_RENDER_DOMAIN:?Definir dominio dos cards}
+    ports:
+      - "80:80"
+      - "443:443"
+    volumes:
+      - ./Caddyfile:/etc/caddy/Caddyfile:ro
+      - caddy_data:/data
+      - caddy_config:/config
+    depends_on:
+      render:
+        condition: service_healthy
+volumes:
+  caddy_data:
+  caddy_config:

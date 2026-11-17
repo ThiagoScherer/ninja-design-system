@@ -1,0 +1,27 @@
+{
+  "status": "implementado-localmente-nao-hospedado",
+  "tests": 30,
+  "passed": 30,
+  "dsVersion": "5.0.0-rc.2",
+  "checks": [
+    "API REST",
+    "MCP JSON-RPC com imagem inline",
+    "autenticação e limites",
+    "preservação de texto",
+    "integridade do pacote",
+    "isolamento e limpeza",
+    "fila e timeout",
+    "conferência da saída",
+    "sintaxe Node"
+  ],
+  "limits": [
+    "Renderização nas provas de API usa saída controlada: não é teste visual de Chromium",
+    "Docker indisponível: build e execução do contêiner pendentes",
+    "Ainda não há URL online, novo servidor de cards criado ou conexão de IA ativa",
+    "Comparação visual dos seis cards no Linux e card com foto pendentes",
+    "Transporte/autenticação precisam ser validados no cliente de IA escolhido"
+  ],
+  "hostingProposal": "Hetzner, conta existente da equipe; novo servidor exclusivo para cards. Máquina, região e domínio pendentes; nenhum deploy efetuado",
+  "sourcePackageUnchanged": true,
+  "github": "envio autorizado ao repositório privado, em branch separada para revisão em PR de rascunho; sem deploy"
+}

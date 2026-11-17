@@ -1,0 +1,17 @@
+{
+  "name": "ninja-render-server",
+  "version": "0.1.0",
+  "private": true,
+  "engines": {
+    "node": ">=20"
+  },
+  "dependencies": {
+    "playwright": "1.62.1"
+  },
+  "description": "Servidor de renderização com o pacote NINJA DS V5 RC2",
+  "scripts": {
+    "start": "node src/server.cjs",
+    "test": "node --test testes/*.test.cjs",
+    "preparar": "node scripts/preparar.cjs"
+  }
+}
