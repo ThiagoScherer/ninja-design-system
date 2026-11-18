@@ -48,7 +48,7 @@ function openapi(catalog){
  const properties={...schema.properties,marca:{type:'string',enum:Object.keys(catalog.marcas)}};
  return {openapi:'3.1.0',info:{title:'NINJA Design System — renderização',version:'0.1.0'},security:[{bearerAuth:[]}],components:{securitySchemes:{bearerAuth:{type:'http',scheme:'bearer'}},schemas:{Card:{...schema,properties}}},paths:{'/v1/cards':{post:{operationId:'gerarCard',summary:'Gerar um PNG pelo DS V5 RC2',requestBody:{required:true,content:{'application/json':{schema:{$ref:'#/components/schemas/Card'}}}},responses:{200:{description:'PNG base64 e metadados; com Accept image/png, PNG binário',content:{'image/png':{schema:{type:'string',format:'binary'}},'application/json':{schema:{type:'object',required:['pngBase64','metadata'],properties:{pngBase64:{type:'string',contentEncoding:'base64'},metadata:{type:'object'}}}}}},400:{description:'Entrada inválida'},401:{description:'Sem autorização'},413:{description:'Foto ou pedido grande demais'},422:{description:'Composição não passou na verificação'},429:{description:'Fila cheia'},503:{description:'Gerador indisponível'},504:{description:'Tempo excedido'}}}},'/v1/catalog':{get:{operationId:'listarModelos',responses:{200:{description:'Marcas, variantes e regras'}}}},'/v1/templates/{marca}/{variante}':{get:{operationId:'consultarModelo',parameters:[{name:'marca',in:'path',required:true,schema:{type:'string'}},{name:'variante',in:'path',required:true,schema:{type:'string',enum:['com-lead','sem-lead']}}],responses:{200:{description:'Ficha do template'},404:{description:'Template inexistente'}}}}}};
 }
-function createHandler({renderer,token,maxBody=24*1024*1024,allowedOrigins=[],onError=()=>{}}){
+function createHandler({renderer,token,authorizeGithubRender=async()=>false,maxBody=24*1024*1024,allowedOrigins=[],onError=()=>{}}){
  if(typeof token!=='string'||Buffer.byteLength(token)<32)throw new Error('Configure NINJA_RENDER_TOKEN com pelo menos 32 bytes');
  return async(req,res)=>{
   const requestId=crypto.randomUUID();
@@ -56,7 +56,9 @@ function createHandler({renderer,token,maxBody=24*1024*1024,allowedOrigins=[],on
    const pathname=new URL(req.url,'http://localhost').pathname;
    if(req.method==='GET'&&pathname==='/healthz')return output(res,200,{status:'alive'});
    if(req.method==='GET'&&pathname==='/readyz')return output(res,renderer.ready?200:503,{status:renderer.ready?'ready':'starting',dsVersion:renderer.version});
-   if(!authenticated(req.headers.authorization,token))return output(res,401,{error:{code:'UNAUTHORIZED',message:'Acesso não autorizado'}},{'WWW-Authenticate':'Bearer'});
+   const githubRender=req.method==='POST'&&pathname==='/v1/cards/github';
+   const authorized=githubRender?await authorizeGithubRender(req.headers.authorization):authenticated(req.headers.authorization,token);
+   if(!authorized)return output(res,401,{error:{code:'UNAUTHORIZED',message:'Acesso não autorizado'}},{'WWW-Authenticate':'Bearer'});
    if(req.headers.origin&&!allowedOrigins.includes(req.headers.origin))throw new ServiceError(403,'ORIGIN_DENIED','Origem não autorizada');
    if(!renderer.ready)throw new ServiceError(503,'NOT_READY','O serviço ainda está iniciando');
    if(pathname==='/mcp'){
@@ -69,7 +71,7 @@ function createHandler({renderer,token,maxBody=24*1024*1024,allowedOrigins=[],on
    if(req.method==='GET'&&pathname==='/v1/catalog')return output(res,200,{dsVersion:renderer.version,catalogo:renderer.catalog,regras:renderer.rules});
    const match=pathname.match(/^\/v1\/templates\/([^/]+)\/([^/]+)$/);
    if(req.method==='GET'&&match)return output(res,200,await renderer.template(match[1],match[2]));
-   if(req.method==='POST'&&pathname==='/v1/cards'){
+   if(githubRender||(req.method==='POST'&&pathname==='/v1/cards')){
     const {png,metadata}=await renderer.render(await body(req,maxBody));
     if((req.headers.accept||'').includes('image/png'))return output(res,200,png,{'Content-Disposition':'inline; filename="card-ninja.png"','X-DS-Version':renderer.version,'X-PNG-SHA256':metadata.sha256});
     return output(res,200,{pngBase64:png.toString('base64'),metadata});
