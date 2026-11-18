@@ -1,5 +1,11 @@
-node_modules/
 .DS_Store
+node_modules/
+__pycache__/
+*.py[cod]
+*.log
 .env
 .env.*
-*.log
+!.env.example
+/output/
+*.pem
+*.key
