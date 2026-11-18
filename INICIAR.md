@@ -2,19 +2,16 @@
 
 Instruções para o agente que recebeu o link e “Use este Design System para fazer meus cards”
 
-## Via GitHub e Easypanel
+## Pelo renderizador no Easypanel
 
-Se o agente tem acesso autorizado ao repositório privado e pode abrir uma issue, use o renderizador hospedado antes de preparar uma instalação local. O colega faz o pedido na conversa e o agente executa os passos abaixo.
+O repositório é público. O renderizador requer uma conta liberada pela equipe NINJA. Quando a conexão estiver habilitada, adicione o conector remoto `NINJA Render` com a URL `https://ninja-design-system.ngiajr.easypanel.host/mcp` e use **Entrar** para autorizar a conta. No Claude, o caminho é **Personalizar → Conectores → Adicionar → Personalizado → Web**. A disponibilidade do conector no ChatGPT depende do plano e das permissões do workspace.
 
-1. Para um teste, abra uma issue no próprio repositório com título `ninja-render: media-sem-lead` e corpo contendo somente este bloco:
+1. Para um teste, use a [entrada oficial `media-sem-lead`](candidatos/v5-rc2/v5/cards/testes/media-sem-lead.json). Chame `consultar_modelo` para ler a ficha e passe a entrada a `gerar_card`.
+2. Para uma pauta nova, leia a ficha com `consultar_modelo`. Preserve o conteúdo e ajuste as quebras e o tamanho conforme o template. Envie a foto em bytes base64 no campo `imagem`. Para fundo sólido, use `fundo`.
+3. Confira o PNG e os metadados retornados por `gerar_card`. Entregue o PNG na conversa. Se o conector não devolver a imagem, informe em que etapa a geração ou a entrega falhou.
+4. Mantenha pautas, fotos e resultados na conversa e no renderizador autorizado. As issues deste repositório são públicas.
 
-   ```json
-   {"caso":"media-sem-lead"}
-   ```
-
-2. Para uma pauta nova, consulte a ficha da marca em `candidatos/v5-rc2/v5/cards/modelos/`, preserve o conteúdo e prepare a composição. Abra a issue com título começando por `ninja-render:` e um único bloco JSON. Use `card` com os campos do renderizador e, para uma foto publicada no site da Mídia NINJA, `fotoUrl` com o endereço direto. Para fundo sólido, use `card.fundo`. Se o agente já tem os bytes da foto e eles cabem no limite de uma issue, use `card.imagem` com `mimeType` e `base64`.
-3. Aguarde a resposta automática na issue. O comentário devolve um artefato privado com `card.png` e `metadados.json` ou relata a falha. Baixe pelo GitHub autorizado, confira o PNG e entregue-o na conversa. Se o ambiente só consegue abrir o link, entregue o link autenticado do artefato. Os artefatos ficam disponíveis por 3 dias. Confirme a geração somente após receber o resultado.
-4. O render hospedado usa a V5 RC2 do Easypanel. Para ambientes sem autorização para abrir issues, use o instalador abaixo com a versão indicada em `ATIVO.json`.
+Pedido de teste para colar na conversa após conectar: “Use o NINJA Design System deste repositório. Gere o exemplo `media-sem-lead` pelo conector NINJA Render no Easypanel e me entregue o PNG.”
 
 ## Instalação local sem transferir etapas técnicas ao colega
 
@@ -51,4 +48,4 @@ Ao receber novamente o mesmo link e pedido, buscar a indicação atual em `ATIVO
 
 ## Se o ambiente não conseguir
 
-Sem acesso ao repositório privado: solicitar a conexão GitHub autorizada, sem pedir senhas/tokens. Sem execução ou acesso a arquivos: explicar que esse ambiente pode consultar o DS, mas ainda não instalou o gerador. Se houver uma permissão concreta pendente, pedir apenas essa ação. Nunca afirmar instalação, atualização ou teste concluído sem evidências
+Se o renderizador hospedado estiver indisponível e a conversa tiver um ambiente de execução, use o instalador local. Informe quando o PNG tiver sido gerado localmente. Se houver uma permissão pendente, solicite apenas a autorização necessária e mantenha os tokens fora da conversa. Confirme a geração após receber e conferir a imagem.
