@@ -4,7 +4,7 @@ COPY servidor/package.json servidor/package-lock.json ./
 RUN npm ci --ignore-scripts --omit=dev --no-audit --no-fund
 COPY servidor/src ./src
 COPY servidor/release.json ./release.json
-COPY candidatos/v5-rc2/ ./pacote/
+COPY candidatos/v5-rc2/v5/ ./pacote/
 ENV NODE_ENV=production HOST=0.0.0.0 PORT=8080 PLAYWRIGHT_BROWSERS_PATH=/ms-playwright
 USER pwuser
 EXPOSE 8080
