@@ -1,10 +1,10 @@
 FROM mcr.microsoft.com/playwright:v1.62.1-noble
 WORKDIR /app
-COPY package.json package-lock.json ./
+COPY servidor/package.json servidor/package-lock.json ./
 RUN npm ci --ignore-scripts --omit=dev --no-audit --no-fund
-COPY src ./src
-COPY release.json ./release.json
-COPY pacote ./pacote
+COPY servidor/src ./src
+COPY servidor/release.json ./release.json
+COPY candidatos/v5-rc2/ ./pacote/
 ENV NODE_ENV=production HOST=0.0.0.0 PORT=8080 PLAYWRIGHT_BROWSERS_PATH=/ms-playwright
 USER pwuser
 EXPOSE 8080
