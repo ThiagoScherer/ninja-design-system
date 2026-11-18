@@ -12,6 +12,7 @@ permissions:
 jobs:
   render:
     if: >-
+      github.event.repository.private == true &&
       startsWith(github.event.issue.title, 'ninja-render:') &&
       contains(fromJSON('["OWNER","MEMBER","COLLABORATOR"]'), github.event.issue.author_association)
     runs-on: ubuntu-latest

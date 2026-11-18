@@ -5,12 +5,13 @@ const http=require('node:http');
 const {Renderer}=require('./renderer.cjs');
 const {createHandler}=require('./api.cjs');
 const {githubRenderAuthorization}=require('./github-oidc.cjs');
+const {mcpOAuthFromEnv}=require('./mcp-oauth.cjs');
 async function start(){
  const base=path.resolve(__dirname,'..');const release=JSON.parse(await fs.readFile(path.join(base,'release.json'),'utf8'));
  const packageRoot=path.resolve(process.env.NINJA_PACKAGE_ROOT||path.join(base,'pacote'));
  const renderer=new Renderer({packageRoot,expectedHash:release.integritySha256,version:release.dsVersion,nodeModules:process.env.NINJA_NODE_MODULES||path.join(base,'node_modules'),browserPath:process.env.NINJA_BROWSER_PATH});
  // Recusar configuração incompleta antes de abrir o navegador.
- const handler=createHandler({renderer,token:process.env.NINJA_RENDER_TOKEN,authorizeGithubRender:githubRenderAuthorization(),allowedOrigins:(process.env.NINJA_ALLOWED_ORIGINS||'').split(',').filter(Boolean),onError:record=>console.error(JSON.stringify(record))});
+ const handler=createHandler({renderer,token:process.env.NINJA_RENDER_TOKEN,authorizeGithubRender:githubRenderAuthorization(),mcpOAuth:mcpOAuthFromEnv(process.env),allowedOrigins:(process.env.NINJA_ALLOWED_ORIGINS||'').split(',').filter(Boolean),onError:record=>console.error(JSON.stringify(record))});
  const host=process.env.HOST||'127.0.0.1',port=Number(process.env.PORT||8080);
  if(!Number.isInteger(port)||port<1||port>65535)throw new Error('PORT inválida');
  const server=http.createServer(handler);server.requestTimeout=120000;server.headersTimeout=10000;server.timeout=120000;

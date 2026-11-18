@@ -1,6 +1,7 @@
 'use strict';
 const crypto=require('node:crypto');
 const {ServiceError}=require('./renderer.cjs');
+const {protectedResourcePath}=require('./mcp-oauth.cjs');
 const schema={type:'object',additionalProperties:false,required:['chapeu','chamada','linhas','tamanho','credito'],properties:{
  marca:{type:'string',default:'ninja'},chapeu:{type:'string'},chamada:{type:'string'},linhas:{type:'array',minItems:1,maxItems:20,items:{type:'string'}},tamanho:{type:'number',minimum:1,maximum:500},lead:{type:'string'},linhasLead:{type:'array',items:{type:'string'}},credito:{type:'string'},fundo:{type:'string',pattern:'^#[0-9A-Fa-f]{6}$'},foco:{type:'string',description:'Enquadramento: duas porcentagens, por exemplo 50% 25%'},cor:{type:'string'},creditoPreto:{type:'boolean'},imagem:{type:'object',additionalProperties:false,required:['base64','mimeType'],properties:{base64:{type:'string'},mimeType:{type:'string',enum:['image/png','image/jpeg','image/webp']}}}},oneOf:[{required:['imagem']},{required:['fundo']}]};
 function tools(catalog){return[
@@ -48,7 +49,7 @@ function openapi(catalog){
  const properties={...schema.properties,marca:{type:'string',enum:Object.keys(catalog.marcas)}};
  return {openapi:'3.1.0',info:{title:'NINJA Design System — renderização',version:'0.1.0'},security:[{bearerAuth:[]}],components:{securitySchemes:{bearerAuth:{type:'http',scheme:'bearer'}},schemas:{Card:{...schema,properties}}},paths:{'/v1/cards':{post:{operationId:'gerarCard',summary:'Gerar um PNG pelo DS V5 RC2',requestBody:{required:true,content:{'application/json':{schema:{$ref:'#/components/schemas/Card'}}}},responses:{200:{description:'PNG base64 e metadados; com Accept image/png, PNG binário',content:{'image/png':{schema:{type:'string',format:'binary'}},'application/json':{schema:{type:'object',required:['pngBase64','metadata'],properties:{pngBase64:{type:'string',contentEncoding:'base64'},metadata:{type:'object'}}}}}},400:{description:'Entrada inválida'},401:{description:'Sem autorização'},413:{description:'Foto ou pedido grande demais'},422:{description:'Composição não passou na verificação'},429:{description:'Fila cheia'},503:{description:'Gerador indisponível'},504:{description:'Tempo excedido'}}}},'/v1/catalog':{get:{operationId:'listarModelos',responses:{200:{description:'Marcas, variantes e regras'}}}},'/v1/templates/{marca}/{variante}':{get:{operationId:'consultarModelo',parameters:[{name:'marca',in:'path',required:true,schema:{type:'string'}},{name:'variante',in:'path',required:true,schema:{type:'string',enum:['com-lead','sem-lead']}}],responses:{200:{description:'Ficha do template'},404:{description:'Template inexistente'}}}}}};
 }
-function createHandler({renderer,token,authorizeGithubRender=async()=>false,maxBody=24*1024*1024,allowedOrigins=[],onError=()=>{}}){
+function createHandler({renderer,token,authorizeGithubRender=async()=>false,mcpOAuth,maxBody=24*1024*1024,allowedOrigins=[],onError=()=>{}}){
  if(typeof token!=='string'||Buffer.byteLength(token)<32)throw new Error('Configure NINJA_RENDER_TOKEN com pelo menos 32 bytes');
  return async(req,res)=>{
   const requestId=crypto.randomUUID();
@@ -56,9 +57,15 @@ function createHandler({renderer,token,authorizeGithubRender=async()=>false,maxB
    const pathname=new URL(req.url,'http://localhost').pathname;
    if(req.method==='GET'&&pathname==='/healthz')return output(res,200,{status:'alive'});
    if(req.method==='GET'&&pathname==='/readyz')return output(res,renderer.ready?200:503,{status:renderer.ready?'ready':'starting',dsVersion:renderer.version});
+   if(mcpOAuth&&req.method==='GET'&&pathname===protectedResourcePath)return output(res,200,mcpOAuth.metadata,{'Access-Control-Allow-Origin':'*'});
    const githubRender=req.method==='POST'&&pathname==='/v1/cards/github';
-   const authorized=githubRender?await authorizeGithubRender(req.headers.authorization):authenticated(req.headers.authorization,token);
-   if(!authorized)return output(res,401,{error:{code:'UNAUTHORIZED',message:'Acesso não autorizado'}},{'WWW-Authenticate':'Bearer'});
+   const oauth=pathname==='/mcp'?mcpOAuth:undefined;
+   const authorization=req.headers.authorization;
+   const authorized=githubRender?await authorizeGithubRender(authorization):authenticated(authorization,token)||await oauth?.authorize(authorization);
+   if(!authorized){
+    const challenge=oauth&&authorization?`${oauth.challenge}, error="invalid_token"`:oauth?.challenge||'Bearer';
+    return output(res,401,{error:{code:'UNAUTHORIZED',message:'Acesso não autorizado'}},{'WWW-Authenticate':challenge});
+   }
    if(req.headers.origin&&!allowedOrigins.includes(req.headers.origin))throw new ServiceError(403,'ORIGIN_DENIED','Origem não autorizada');
    if(!renderer.ready)throw new ServiceError(503,'NOT_READY','O serviço ainda está iniciando');
    if(pathname==='/mcp'){
