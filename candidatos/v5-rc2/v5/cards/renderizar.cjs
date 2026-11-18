@@ -31,7 +31,8 @@ async function abrir(browser, modelo) {
 }
 
 async function aplicar(page, entrada, foto) {
-  await page.evaluate(async ({entrada, foto}) => {
+  const corrigirAlinhamentoNinja = process.platform === 'linux' && entrada.marca === 'ninja';
+  await page.evaluate(async ({entrada, foto, corrigirAlinhamentoNinja}) => {
     const card = document.querySelector('.card');
     const chamada = card.querySelector('.headline');
     const chapeu = card.querySelector('.hat');
@@ -49,6 +50,20 @@ async function aplicar(page, entrada, foto) {
     chamada.replaceChildren(...entrada.linhas.map(texto => criarLinha(texto, linha)));
     chamada.style.setProperty('font-size', entrada.tamanho + 'px', 'important');
     chapeu.textContent = entrada.chapeu;
+    if (corrigirAlinhamentoNinja) {
+      // Compensa a posição visível da TipoNinja no Linux sem mover as caixas do template.
+      const textoChapeu = document.createElement('span');
+      textoChapeu.textContent = entrada.chapeu;
+      textoChapeu.style.position = 'relative';
+      textoChapeu.style.top = '2px';
+      chapeu.replaceChildren(textoChapeu);
+
+      const ajusteChamada = Math.min(10, Math.round(entrada.tamanho * 0.095));
+      for (const linhaChamada of chamada.children) {
+        linhaChamada.style.position = 'relative';
+        linhaChamada.style.top = ajusteChamada + 'px';
+      }
+    }
     credito.textContent = entrada.credito;
     if (lead && entrada.marca === 'cine-ninja') {
       const exemplo = lead.querySelector('span');
@@ -76,7 +91,7 @@ async function aplicar(page, entrada, foto) {
     await document.fonts.ready;
     await Promise.all(Array.from(document.images, img => img.decode()));
     await new Promise(resolve => requestAnimationFrame(() => requestAnimationFrame(resolve)));
-  }, {entrada, foto});
+  }, {entrada, foto, corrigirAlinhamentoNinja});
 }
 
 async function verificar(page) {

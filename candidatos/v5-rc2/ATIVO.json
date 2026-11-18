@@ -9,5 +9,5 @@
   "policy": "Instalar o pacote completo da versão indicada; não misturar templates ou medidas de outras versões",
   "videoContract": "v4/video/contrato-integracao.json",
   "thumbnails": "v6-planejada",
-  "integritySha256": "c32f194e02abc83e04680df6a36e25502ef91bbc4163735edaae7fbd0c41ce85"
+  "integritySha256": "eca758ede4c8e28b01cd29eebeb98a7a2d2f908c01f82a8efeb29da541c2536a"
 }
