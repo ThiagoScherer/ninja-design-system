@@ -1,0 +1,21 @@
+{
+  "version": "5.0.0-rc.2",
+  "date": "2026-11-17",
+  "status": "candidato-local-geracao-bloqueada-pelo-ambiente",
+  "baseline": "5.0.0-rc.1 / 01988242a8000101dd85c762efefc7a80d6ca796",
+  "regressionTests": 18,
+  "visualPolicy": "Preservar templates, fontes e recursos visuais da RC1; assinatura segue pendência própria",
+  "limits": [
+    "Sem certificação Windows ou Linux nesta rodada",
+    "Validação pela equipe e teste conversacional externo pendentes",
+    "Este candidato não altera o link ativo nem publica release"
+  ],
+  "localChecks": {
+    "npmCiCached": "passou",
+    "rendererBomCrlfInput": "passou-sem-abrir-navegador",
+    "gitAutocrlf": "passou-em-fixture-local",
+    "fullInstallAndSixPngs": "bloqueado-na-abertura-do-navegador",
+    "cleanDownload": "bloqueado-por-DNS",
+    "rc1ToRc2": "recuperacao-e-promocao-testadas-com-falhas-injetadas; geracao-real-pendente"
+  }
+}

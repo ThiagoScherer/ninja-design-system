@@ -1,0 +1,9 @@
+{
+  "nome": "NINJA Design System",
+  "versao": "5.0.0-rc.2",
+  "status": "candidato-local-nao-publicado",
+  "data": "2026-11-17",
+  "entrada_agentes": "v5/LEIA-PRIMEIRO.md",
+  "referenciaAtiva": "ATIVO.json",
+  "escopo": "Cards de notícia; thumbnails planejadas para V6"
+}
