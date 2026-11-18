@@ -1,0 +1,51 @@
+name: Renderizar card NINJA
+
+on:
+  issues:
+    types: [opened]
+
+permissions:
+  contents: read
+  id-token: write
+  issues: write
+
+jobs:
+  render:
+    if: >-
+      startsWith(github.event.issue.title, 'ninja-render:') &&
+      contains(fromJSON('["OWNER","MEMBER","COLLABORATOR"]'), github.event.issue.author_association)
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683
+        with:
+          persist-credentials: false
+      - name: Gerar PNG no Easypanel
+        id: render
+        run: node servidor/scripts/github-render.cjs
+      - name: Guardar PNG e metadados
+        id: artifact
+        uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02
+        with:
+          name: card-ninja-${{ github.event.issue.number }}
+          path: |
+            card.png
+            metadados.json
+          if-no-files-found: error
+          retention-days: 3
+      - name: Devolver resultado
+        if: ${{ !cancelled() }}
+        env:
+          GH_TOKEN: ${{ github.token }}
+          ISSUE: ${{ github.event.issue.number }}
+          ARTIFACT_URL: ${{ steps.artifact.outputs.artifact-url }}
+          ARTIFACT_ID: ${{ steps.artifact.outputs.artifact-id }}
+          RUN_URL: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}
+          RENDER_STATUS: ${{ steps.render.outputs.status }}
+        run: |
+          if [ -n "$ARTIFACT_ID" ]; then
+            printf 'PNG e metadados: %s\n\nID do artefato: %s\n' "$ARTIFACT_URL" "$ARTIFACT_ID"
+          else
+            printf 'Geração bloqueada: %s\n\nExecução: %s\n' "${RENDER_STATUS:-falha na execução}" "$RUN_URL"
+          fi | gh issue comment "$ISSUE" --repo "$GITHUB_REPOSITORY" --body-file -
+          gh issue close "$ISSUE" --repo "$GITHUB_REPOSITORY"
